@@ -24,5 +24,10 @@
 			</div>
 			<!-- end content -->
 		</div> <!-- end of div.body -->
+		<script type="text/javascript" src="http://static.bryanjswift.com/js/ga.js"></script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-4339554-3");
+			pageTracker._trackPageview();
+		</script>
 	</body>
 </html>
