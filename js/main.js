@@ -1,0 +1,43 @@
+String.implement({
+	template: function(props) {
+		var regex = /%(\w+)%/g;
+		var newStr = this.replace(regex,function replacer(mid) {
+			var key = mid.substring(1,mid.length-1);
+			var value = props[key];
+			if (typeof value === 'string') {
+				return props[key];
+			} else {
+				return '';
+			}
+		});
+		return newStr;
+	}
+});
+
+(function() {
+	var body = $('body');
+	portfolio = {
+		INCLUDE_PATH: 'includes/%includeName%.php',
+		request: new Request.HTML({
+			'update': body,
+			'evalScripts': false,
+			'method': 'get'
+		}),
+		tracker: _gat._getTracker("UA-4339554-3")
+	};
+	portfolio.requestSuccess = portfolio.tracker ? portfolio.tracker._trackPageview : $empty;
+	
+	addEvent('domready',function() {
+		portfolio.tracker._initData();
+		portfolio.tracker._trackPageview();
+		$$('#nav a').addEvent('click',function(e) {
+			var evt = new Event(e);
+			evt.stop();
+			var href = this.get('href');
+			var params = { includeName: href.substring(href.indexOf('=') + 1) };
+			var path = portfolio.INCLUDE_PATH.template(params);
+			portfolio.request.removeEvents('onSuccess').addEvent('onSuccess',portfolio.requestSuccess.pass(['/ajax/' + path]));
+			portfolio.request.get(path);
+		});
+	});
+})();

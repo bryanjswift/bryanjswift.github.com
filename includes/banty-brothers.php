@@ -1,0 +1,7 @@
+<div class="project">
+	<h2 class="title fwnormal">Banty Brothers BBQ</h2>
+	<img src="img/Banty-Brothers.png" alt="Banty Brothers BBQ" width="304" height="245" class="proj-img alignright" />
+	<p class="first">Someone I've known for quite a while recently found himself in the position of managing a startup company and found he needed a web presence which lead him to contact me. The budget for the project was small and given the company was about selling roadside barbeque chicken I thought something which looked kind of like a flyer would work fairly well. As a result the design is fairly simply but the pages all validate against W3C, are built with accessibility in mind and work appropriately even with javascript disabled.</p>
+	<p>The calendar page, I think, is the most interesting of the pages. My feeling about it though is influenced in large part because it posed an interesting problem to me because my knowledge of PHP was at the time fairly limited. The information for the calendar is not stored in a database but rather is stored in a plain text file. Similarly the gallery page determines the images by reading from a specified directory for ease of updating rather than requiring work by an administrator.</p>
+	<p>An example of the website is available <a href="http://bryanjswift.com/bantybrothers/" title="Banty Brothers at bryanjswift.com">on my domain</a>.</p>
+</div>
