@@ -5,4 +5,5 @@
 .project img.proj-img { padding: 0; margin: 0 25px; border: 1px solid #ccc; }
 .project p { font-size: 0.875em; padding-left: 1.71428571em; text-align: justify; }
 .project p.first { margin-top: 20px; }
-#footer { padding-top: 1em; }
+#footer { padding: 1em 3.5% 0; text-align: left; }
+#footer a { font-size: 0.750em; }
