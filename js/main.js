@@ -23,21 +23,26 @@ String.implement({
 			'evalScripts': false,
 			'method': 'get'
 		}),
-		tracker: _gat._getTracker("UA-4339554-3")
+		navParents: new Elements(),
+		tracker: _gat._getTracker("UA-4339554-3"),
+		updateProject: function(e) {
+			var evt = new Event(e);
+			evt.stop();
+			portfolio.nav.getElements('li.parent').removeClass('active');
+			var href = this.get('href');
+			this.getParent().addClass('active');
+			var params = { includeName: href.substring(href.indexOf('=') + 1) };
+			var path = portfolio.INCLUDE_PATH.template(params);
+			portfolio.request.removeEvents('onSuccess').addEvent('onSuccess',portfolio.requestSuccess.pass(['/ajax/' + path]));
+			portfolio.request.get(path);
+		}
 	};
 	portfolio.requestSuccess = portfolio.tracker ? portfolio.tracker._trackPageview : $empty;
 	
 	addEvent('domready',function() {
 		portfolio.tracker._initData();
 		portfolio.tracker._trackPageview();
-		$$('#nav a').addEvent('click',function(e) {
-			var evt = new Event(e);
-			evt.stop();
-			var href = this.get('href');
-			var params = { includeName: href.substring(href.indexOf('=') + 1) };
-			var path = portfolio.INCLUDE_PATH.template(params);
-			portfolio.request.removeEvents('onSuccess').addEvent('onSuccess',portfolio.requestSuccess.pass(['/ajax/' + path]));
-			portfolio.request.get(path);
-		});
+		portfolio.nav = $('nav');
+		portfolio.nav.getElements('a').addEvent('click',portfolio.updateProject);
 	});
 })();

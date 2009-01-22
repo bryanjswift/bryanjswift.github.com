@@ -1,5 +1,6 @@
 #body { position: relative; width: 934px; padding-left: 0; padding-right: 0; margin: auto; background: transparent url(fg_site-overlay.png) no-repeat scroll left bottom; height: 491px; }
 .project { margin-top: 28px; }
+.project a { color: #9c9977; }
 .project .title { padding: 58px 0 0 25px; }
 .project img.proj-img { padding: 0; margin: 0 25px; border: 1px solid #ccc; }
 .project p { font-size: 0.875em; padding-left: 1.71428571em; text-align: justify; }

@@ -15,6 +15,7 @@
 				<li class="parent<?php if (!isset($project) || $project == "motorola-b2c") { echo " active"; } ?>"><a href="index.php?project=motorola-b2c" title="Motorola Business to Consumer Redesign">Motorola</a></li>
 				<li class="parent<?php if ($project == "smirnoff-extranet") { echo " active"; } ?>"><a href="index.php?project=smirnoff-extranet" title="Smirnoff Experience Extranet">Smirnoff Extranet</a></li>
 				<li class="parent<?php if ($project == "banty-brothers") { echo " active"; } ?>"><a href="index.php?project=banty-brothers" title="Banty Brothers BBQ">Banty Brothers</a></li>
+				<li class="parent<?php if ($project == "smirnoff-gateway") { echo " active"; } ?>"><a href="index.php?project=smirnoff-gateway" title="Smirnoff Age Gate Redesign">Smirnoff Gateway</a></li>
 			</ul>
 		</div>
 		<div id="body" class="wrap"> <!-- ends in footer.php -->
@@ -36,8 +37,7 @@
 			?>
 			<!-- end content -->
 		</div> <!-- end of div.body -->
-		<script type="text/javascript" src="http://static.bryanjswift.com/js/ga.js"></script>
-		<script type="text/javascript" src="http://static.bryanjswift.com/js/mootools-1.2-core.js"></script>
+		<script type="text/javascript" src="http://static.bryanjswift.com/js/ga.js,mootools-1.2-core.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
