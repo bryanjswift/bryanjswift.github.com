@@ -43,7 +43,7 @@
 		<div id="footer" class="wrap">
 			<p><a href="mailto:bryan@bryanjswift.com" title="Contact Bryan J Swift">Contact Me</a></p>
 		</div>
-		<script type="text/javascript" src="http://static.bryanjswift.com/js/ga.js,mootools-1.2-core.js"></script>
+		<script type="text/javascript" src="http://static.bryanjswift.com/js/ga.js,mootools.portfolio.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
