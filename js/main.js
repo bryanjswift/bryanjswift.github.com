@@ -28,7 +28,7 @@ String.implement({
 		updateProject: function(e) {
 			var evt = new Event(e);
 			evt.stop();
-			portfolio.nav.getElements('li.parent').removeClass('active');
+			portfolio.nav.getChildren().removeClass('active');
 			var href = this.get('href');
 			this.getParent().addClass('active');
 			var params = { includeName: href.substring(href.indexOf('=') + 1) };
