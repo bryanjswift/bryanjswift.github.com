@@ -14,7 +14,7 @@
 			<li>
 				<h3>Motorola</h3>
 				<p>AKQA was commissioned to help Motorola rebrand, rearchitect, redesign and rebuild their global website and with the recently launched redesign my front end work is featured prominently on many of the templates/pages.</p>
-				<p>I created most of the JavaScript classes and components which control many of the interactions between the user and the site and these elements were created with a strong object oriented approach in order to facilitate code re-use on subsequent endeavors with Motorola.
+				<p>I created most of the JavaScript classes and components which control many of the interactions between the user and the site and these elements were created with a strong object oriented approach in order to facilitate code re-use on subsequent endeavors with Motorola.</p>
 			</li>
 			<li>
 				<h3>Smirnoff Gateway</h3>
