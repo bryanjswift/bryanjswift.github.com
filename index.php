@@ -8,15 +8,17 @@
 	<?php flush(); ?>
 	<body>
 		<h1>Selected works of Bryan J Swift</h1>
-		<p>The examples of client work I am showing were completed during my time at <a href="http://akqa.com">AKQA</a>. On these projects I served as the lead front end developer but the designs were produced by the talented members of the AKQA creative department.</p>
+		<p>The examples of client work I am showing were completed during my time at <a href="http://akqa.com">AKQA</a>. On these projects I served as the lead front end developer but the designs were produced by the talented members of the creative department.</p>
 		<h2>Client Work</h2>
 		<ol>
 			<li>
 				<h3>Motorola</h3>
-				<p>AKQA was commissioned to help Motorola rebrand, rearchitect, redesign and rebuild their global website and with the recently launched redesign my front end work is featured prominently on many of the templates.</p>
+				<p>AKQA was commissioned to help Motorola rebrand, rearchitect, redesign and rebuild their global website and with the recently launched redesign my front end work is featured prominently on many of the templates/pages.</p>
+				<p>I created most of the JavaScript classes and components which control many of the interactions between the user and the site and these elements were created with a strong object oriented approach in order to facilitate code re-use on subsequent endeavors with Motorola.
 			</li>
 			<li>
 				<h3>Smirnoff Gateway</h3>
+				<p></p>
 			</li>
 			<li>
 				<h3>Benjamin Moore Extranet</h3>
