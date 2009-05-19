@@ -1,20 +1,19 @@
-String.implement({
-	template: function(props) {
-		var regex = /%(\w+)%/g;
-		var newStr = this.replace(regex,function replacer(mid) {
-			var key = mid.substring(1,mid.length-1);
-			var value = props[key];
-			if (typeof value === 'string') {
-				return props[key];
-			} else {
-				return '';
-			}
-		});
-		return newStr;
-	}
-});
-
 (function() {
+	String.implement({
+		template: function(props) {
+			var regex = /%(\w+)%/g;
+			var newStr = this.replace(regex,function replacer(mid) {
+				var key = mid.substring(1,mid.length-1);
+				var value = props[key];
+				if (typeof value === 'string') {
+					return props[key];
+				} else {
+					return '';
+				}
+			});
+			return newStr;
+		}
+	});
 	var production = location.host === 'portfolio.bryanjswift.com';
 	var body = $('body');
 	portfolio = {
