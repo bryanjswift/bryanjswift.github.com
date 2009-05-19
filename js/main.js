@@ -15,6 +15,7 @@ String.implement({
 });
 
 (function() {
+	var production = location.host === 'portfolio.bryanjswift.com';
 	var body = $('body');
 	portfolio = {
 		INCLUDE_PATH: 'includes/%includeName%.php',
@@ -37,11 +38,11 @@ String.implement({
 			portfolio.request.get(path);
 		}
 	};
-	portfolio.requestSuccess = portfolio.tracker ? portfolio.tracker._trackPageview : $empty;
+	portfolio.requestSuccess = production && portfolio.tracker ? portfolio.tracker._trackPageview : $empty;
 	
 	addEvent('domready',function() {
 		portfolio.tracker._initData();
-		portfolio.tracker._trackPageview();
+		if (production) { portfolio.tracker._trackPageview(); }
 		portfolio.nav = $('nav');
 		portfolio.nav.getElements('a').addEvent('click',portfolio.updateProject);
 	});
