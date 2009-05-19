@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Bryan J Swift's Portfolio</title>
+		<link rel="stylesheet" href="portfolio.css" type="text/css" media="screen" />
 	</head>
 	<?php flush(); ?>
 	<body>
