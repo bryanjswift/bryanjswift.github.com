@@ -18,7 +18,7 @@
 			</li>
 			<li>
 				<h3>Smirnoff Gateway</h3>
-				<p></p>
+				<p>Diageo was having trouble with an abnormally high dropoff rate at the age validation step prior to gaining access to the site.</p>
 			</li>
 			<li>
 				<h3>Benjamin Moore Extranet</h3>
