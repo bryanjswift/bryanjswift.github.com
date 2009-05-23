@@ -1,5 +1,6 @@
+@font-face { font-family: "Delicious"; src: url('fonts/Delicious.ttf'); }
 /* Styles Reset and General Fonts */
-html { font: normal normal normal 10px/1 "Optima", "Myriad Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", arial, sans-serif; }
+html { font: normal normal normal 10px/1 "Delicious", "Optima", "Myriad Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", arial, sans-serif; }
 body { background: #fefefe; font-size: 1.6em; color: #222; }
 body, div, p, h1, h2, h3, ol, ul, li { margin: 0; border: 0; padding: 0; }
 h1, h2, h3 { margin: 0.5em 0; font-family: "Trajan Pro", "Rockwell", "Garamond", "Georgia", serif; font-variant: small-caps; }
