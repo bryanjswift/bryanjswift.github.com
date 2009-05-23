@@ -23,7 +23,9 @@
 				<p>Once the creative department had finished creating an updated look in psd format it was handed off to me for top to bottom implementation. One of the more interesting challenges of this was backporting a number of MooTools plugins (which I had previously written) for use with a legacy version which broke plugin compatibility in a bunch of ways. The most enjoyable part of this project was finally getting to add better keyboard support for the MooTools dropdown replacement script I wrote.</p>
 			</li>
 			<li>
-				<h3>Benjamin Moore Extranet</h3>
+				<h3><a href="http://bryanjswift.com/projects/bm-extranet/index.html" title="Mockup of Benjamin Moore Extranet Site">Benjamin Moore Extranet</a></h3>
+				<p>The extranet project was another piece of work AKQA was commissioned to do, this time for Benjamin Moore. I'm sure by now this site is live, however as it is private all I can link to is the mock-up we delivered to them so they could integrate it with their back-end architecture. I was not as heavily involved in the coding of this project as I was in the Motorola or Smirnoff projects. I was, however, responsible for overseeing the front-end development as well as the bulk of the JavaScript work.</p>
+				<p>I enjoyed this project because it required me to really dive into jQuery whereas much of my other work utilizes the MooTools framework. I'm the type of person who wants to grok a framework or tool and it's best practices before using it heavily and this design and interaction required heavy scripting and the client required jQuery.</p>
 			</li>
 		</ol>
 		<h2>Open Source Work</h2>
