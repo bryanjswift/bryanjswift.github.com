@@ -31,10 +31,14 @@
 		<h2>Open Source Work</h2>
 		<ol>
 			<li>
-				<h3>MooTools Plugins</h3>
+				<h3><a href="http://github.com/bryanjswift/mootools-plugins/tree/master" title="Source of MooTools Plugins on GitHub">MooTools Plugins</a></h3>
+				<p>This is a project I've been working on off and on since mid-June 2008. It started a as a collection of relatively poorly implemented scripts and has evolved into a number of plugins I use on a fairly regular basis for client work. All of the code is released under the MIT license (same as the MooTools source). Currently the documentation and demos are lackluster (or wholly absent) but I've been much more focused on the implementation than on trying to wrap them up for 'release' but with the changes to the way MooTools More is being handled I'm a little more focused on updating the docs and demos.</p>
+				<p>One of my favorite plugins in this collection is Form.Dropdown which is a stylized replacement for a select dropdown. I like this plugin because as it has evolved I've been able to include a considerable amount of keyboard accessibility features making it, in my biased opinion, as or more (in the case of Internet Explorer) usable than the default browser selects.</p>
 			</li>
 			<li>
-				<h3>Vimblog Fork</h3>
+				<h3><a href="http://github.com/bryanjswift/vimblog/tree/master" title="Source of Vimblog on GitHub">Vimblog Fork</a></h3>
+				<p>The inclusion of this project is admittedly odd because it is no where near what I would call complete. However it is one of the few projects of mine which has gotten <a href="http://blog.tquadrado.com/?page_id=146">kudos from another developer</a>. I used this vim plugin as my "I should learn Ruby" project. Prior to working on this I was relatively unfamiliar with Ruby's syntax because I had done nearly no development in the langage.</p>
+				<p>I originally started work on this after discovering TextMate's blogging plugin which I found to be useful for interacting with Wordpress but I was (and continue to) using MacVim as my primary editor so I wanted to be able to replicate the functionality of the TextMate blogging plugin in Vim. I really enjoyed digging into the Ruby language a bit with this project and it served to whet my appetite for more functional languages.</p>
 			</li>
 		</ol>
 		<script type="text/javascript" src="js/main.js"></script>
