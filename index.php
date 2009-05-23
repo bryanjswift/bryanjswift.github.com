@@ -20,7 +20,7 @@
 			<li>
 				<h3><a href="http://smirnoff.com" title="Smirnoff Global Site">Smirnoff Gateway</a></h3>
 				<p>Diageo was having trouble with an abnormally high dropoff rate at the age validation step prior to gaining access to the site and felt the dropoff was related to the Gateway being in Flash. So they asked AKQA to redesign and rebuild it for them.</p>
-				<p>Once the creative department had finished creating an updated look in psd format it was handed off to me for top to bottom implementation. One of the more interesting challenges of this was backporting a number of MooTools plugins (which I had previously written) for use with a legacy version which broke compatibility in a bunch of ways.</p>
+				<p>Once the creative department had finished creating an updated look in psd format it was handed off to me for top to bottom implementation. One of the more interesting challenges of this was backporting a number of MooTools plugins (which I had previously written) for use with a legacy version which broke plugin compatibility in a bunch of ways. The most enjoyable part of this project was finally getting to add better keyboard support for the MooTools dropdown replacement script I wrote.</p>
 			</li>
 			<li>
 				<h3>Benjamin Moore Extranet</h3>
