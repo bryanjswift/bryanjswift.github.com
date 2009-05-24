@@ -18,6 +18,8 @@ html[xmlns] .clearfix { display: block; }
 #title { padding: 0 0 0.5em; }
 .section { border-top: 2px solid #ddd; padding: 0.5em 0 0.5em; }
 .section ol, .section li { position: relative; list-style: none; }
-.section li { float: left; padding: 0 1.5%; width: 30%; }
+.section li { float: left; position: relative; padding: 0 1.5%; width: 30%; }
+.section li img { border: 1px solid #222; max-width: 98%; }
+* html .section li img { -ms-interpolation-mode: bicubic; width: 98%; }
 #opensource ol { margin: 0 auto; width: 66%; }
 #opensource li { padding: 0 2.25%; width: 45.5%; }
