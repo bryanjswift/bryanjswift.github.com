@@ -3,7 +3,7 @@
 html { font: normal normal normal 10px/1.3 "Delicious", "Optima", "Myriad Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", arial, sans-serif; }
 body { background: #fefefe; font-size: 1.6em; color: #222; }
 body, div, p, h1, h2, h3, ol, ul, li { margin: 0; border: 0; padding: 0; }
-h1, h2, h3 { margin: 0.3em 0; font-family: "Trajan Pro", "Rockwell", "Garamond", "Georgia", serif; font-variant: small-caps; }
+h1, h2, h3 { margin: 0.3em 0; font-family: "Trajan Pro", "Garamond", "Georgia", serif; font-variant: small-caps; }
 h1 { font-size: 2.2em; }
 h2 { font-size: 1.7em; }
 h3 { font-size: 1.4em; }
