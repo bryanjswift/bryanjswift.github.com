@@ -24,3 +24,17 @@ html[xmlns] .clearfix { display: block; }
 #opensource ol { margin: 0 auto; width: 66%; }
 #opensource li { padding: 0 2.25%; width: 45.5%; }
 /* Enhanced Layout */
+#client .boxed { margin: 0 0 0 1%; padding: 0; width: 32.5%; }
+#client .boxed:first-child { margin: 0; }
+#client .boxed .edge { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#client .boxed .edge.top { background: url(../img/box/top.gif) left top repeat-x; }
+#client .boxed .edge.right { background: url(../img/box/right.gif) right top repeat-y; }
+#client .boxed .edge.bottom { background: url(../img/box/bottom.gif) left bottom repeat-x; }
+#client .boxed .edge.left { background: url(../img/box/left.gif) left top repeat-y; }
+#client .boxed .corner { position: absolute; width: 13px; height: 13px; z-index: 5; background: url(../img/box/corners.gif) left top no-repeat; }
+#client .boxed .corner.top { top: 0; left: 0; }
+#client .boxed .corner.right { top: 0; right: 0; background-position: -13px 0; }
+#client .boxed .corner.bottom { bottom: 0; right: 0; background-position: -13px -13px; }
+#client .boxed .corner.left { bottom: 0; left: 0; background-position: 0 -13px; }
+#client .boxed .content { position: relative; padding: 13px 17px 12px 13px; }
+#client .boxed .tooltip { position: absolute; top: 0; left: -9999px; }
