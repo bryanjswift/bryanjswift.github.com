@@ -2,7 +2,7 @@
 /* Styles Reset and General Fonts */
 html { font: normal normal normal 10px/1.3 "Delicious", "Optima", "Myriad Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", arial, sans-serif; }
 body { background: #fefefe; font-size: 1.6em; color: #222; }
-body, div, p, h1, h2, h3, ol, ul, li { margin: 0; border: 0; padding: 0; }
+body, div, img, p, h1, h2, h3, ol, ul, li { margin: 0; border: 0; padding: 0; }
 h1, h2, h3 { margin: 0.3em 0; font-family: "Trajan Pro", "Garamond", "Georgia", serif; font-variant: small-caps; }
 h1 { font-size: 2.2em; }
 h2 { font-size: 1.7em; }
@@ -19,7 +19,8 @@ html[xmlns] .clearfix { display: block; }
 .section { border-top: 2px solid #ddd; padding: 0.5em 0 0.5em; }
 .section ol, .section li { position: relative; list-style: none; }
 .section li { float: left; position: relative; padding: 0 1.5%; width: 30%; }
-.section li img { border: 1px solid #222; max-width: 98%; }
+.section li img { max-width: 100%; }
 * html .section li img { -ms-interpolation-mode: bicubic; width: 98%; }
 #opensource ol { margin: 0 auto; width: 66%; }
 #opensource li { padding: 0 2.25%; width: 45.5%; }
+/* Enhanced Layout */
