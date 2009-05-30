@@ -1,5 +1,5 @@
 (function() {
-	var transitionPath = 'css/transitions.css';
+	var transitionPath = 'css/enhanced.css';
 	var Portfolio = new Class({
 		edge: new Element('div',{'class':'edge',html:'&nbsp;'}),
 		corner: new Element('div',{'class':'corner',html:'&nbsp;'}),
