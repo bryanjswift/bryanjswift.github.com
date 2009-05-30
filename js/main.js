@@ -34,7 +34,7 @@
 			var slider = new Form.Slider(wrapper,{
 				onRecalibrateFinish: function(slider) { tooltip.removeClass('recalibrating'); },
 				onRecalibrateStart: function(slider) { tooltip.addClass('recalibrating'); },
-				size:tooltip.getStyle('height').toInt()
+				size:(tooltip.getSize().y - tooltip.getElement('h3').getSize().y)
 			});
 			addEvent('resize',this.recalibrateSlider.bindWithEvent(this,[tooltip,slider]));
 			addEvent('load',this.recalibrateSlider.bindWithEvent(this,[tooltip,slider]));
@@ -48,7 +48,7 @@
 			this.initializeSlider.delay(100,this,[tooltip]);
 		},
 		recalibrateSlider: function(e,tooltip,slider) {
-			slider.options.size = tooltip.getStyle('height').toInt();
+			slider.options.size = (tooltip.getSize().y - tooltip.getElement('h3').getSize().y);
 			slider.recalibrate();
 		},
 		showTooltip: function(e,tooltip) {
