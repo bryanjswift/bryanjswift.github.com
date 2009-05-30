@@ -7,6 +7,9 @@
 		tooltip: new Element('div',{'class':'tooltip'}),
 		initialize: function() {
 			$(document.head).adopt(new Element('link',{href:'css/transitions.css',type:'text/css',rel:'stylesheet'}));
+			addEvent('domready',this.domready.bind(this));
+		},
+		domready: function() {
 			var sides = ['top','right','bottom','left'];
 			var els = $('client').getElements('li');
 			var edges = new Elements(sides.map(function(side) {
@@ -18,21 +21,37 @@
 				li.addClass('boxed');
 				li.adopt(edges.clone(),content.adopt(li.getElement('img')));
 				li.adopt(tooltip.adopt(li.getElements('h3, p')));
-				/**tooltip.addClass('tooltipShow');/**/ /**/this.initializeTooltip(li,content,tooltip);/**/
+				this.initializeTooltip(li,content,tooltip);
 			},this);
+			this.edge = this.corner = this.content = this.tooltip = null;
 		},
-		initializeTooltip: function(li,content,tooltip) {
-			var show = this.showTooltip.pass([tooltip],this);
-			var hide = this.hideTooltip.pass([tooltip],this);
-			var morph = tooltip.addClass('tooltipHide').get('morph',{duration:500,link:'cancel',unit:'%'});
-			morph.set.delay(1,morph,['.tooltipHide']); // delay added because otherwise an error is thrown
-			content.addEvents({mouseenter: show});
-			li.addEvents({mouseleave: hide});
-		},
-		hideTooltip: function(tooltip) {
+		hideTooltip: function(e,tooltip) {
 			tooltip.morph('.tooltipHide');
 		},
-		showTooltip: function(tooltip) {
+		initializeSlider: function(tooltip) {
+			var wrapper = new Element('div',{'class':'wrapper'});
+			tooltip.adopt(wrapper.adopt(tooltip.getElements('p')));
+			var slider = new Form.Slider(wrapper,{
+				onRecalibrateFinish: function(slider) { tooltip.removeClass('recalibrating'); },
+				onRecalibrateStart: function(slider) { tooltip.addClass('recalibrating'); },
+				size:tooltip.getStyle('height').toInt()
+			});
+			addEvent('resize',this.recalibrateSlider.bindWithEvent(this,[tooltip,slider]));
+			addEvent('load',this.recalibrateSlider.bindWithEvent(this,[tooltip,slider]));
+		},
+		initializeTooltip: function(li,content,tooltip) {
+			var show = this.showTooltip.bindWithEvent(this,[tooltip]);
+			var hide = this.hideTooltip.bindWithEvent(this,[tooltip]);
+			var morph = tooltip.get('morph',{duration:500,link:'cancel',unit:'%'})
+					.set({ top: '75%', left: '-8.5%', visibility: 'hidden', opacity: '0' });
+			li.addEvents({mouseenter: show,mouseleave: hide});
+			this.initializeSlider.delay(100,this,[tooltip]);
+		},
+		recalibrateSlider: function(e,tooltip,slider) {
+			slider.options.size = tooltip.getStyle('height').toInt();
+			slider.recalibrate();
+		},
+		showTooltip: function(e,tooltip) {
 			tooltip.morph('.tooltipShow');
 		}
 	});
