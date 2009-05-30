@@ -16,9 +16,10 @@ html[xmlns] .clearfix { display: block; }
 /* Basic Layout */
 #wrap { position: relative; margin: 0 3%; }
 #title { padding: 0 0 0.5em; }
-.section { border-top: 2px solid #ddd; padding: 0.5em 0 0.9em; }
+.section { position: relative; border-top: 2px solid #ddd; padding: 0.5em 0 0.9em; }
 .section ol, .section li { position: relative; list-style: none; }
 .section li { float: left; position: relative; padding: 0 1.5%; width: 30%; }
 .section li img { max-width: 100%; }
+#client { z-index: 2; }
 #opensource ol { margin: 0 auto; width: 66%; }
 #opensource li { padding: 0 2.25%; width: 45.5%; }

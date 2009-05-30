@@ -1,6 +1,6 @@
 /* Enhanced Layout */
-.scrollbarWrapper { position: relative; padding-right: 25px; overflow: hidden; }
-.scrollbar { position: absolute; top: 2.5%; right: 4px; border: 1px solid #222; width: 13px; height: 95%; }
+.scrollbarWrapper { position: relative; z-index: 5; padding-right: 25px; overflow: hidden; }
+.scrollbar { position: absolute; z-index: 5; top: 2.5%; right: 4px; border: 1px solid #222; width: 13px; height: 95%; }
 .scrollbarBack, .scrollbarForward { position: absolute; left: 0; width: 13px; height: 13px; background: #eee; }
 .scrollbarBack { top: 0; border-bottom: 1px solid #222; }
 .scrollbarForward { bottom: 0; border-top: 1px solid #222; }
@@ -12,7 +12,7 @@
 .edge.right { background: url(../img/box/right.gif) right top repeat-y; }
 .edge.bottom { background: url(../img/box/bottom.gif) left bottom repeat-x; }
 .edge.left { background: url(../img/box/left.gif) left top repeat-y; }
-.corner { position: absolute; width: 13px; height: 13px; z-index: 3; background: url(../img/box/corners.gif) left top no-repeat; }
+.corner { position: absolute; width: 13px; height: 13px; z-index: 2; background: url(../img/box/corners.gif) left top no-repeat; }
 .corner.top { top: 0; left: 0; }
 .corner.right { top: 0; right: 0; background-position: -13px 0; }
 .corner.bottom { bottom: 0; right: 0; background-position: -13px -13px; }
@@ -26,7 +26,7 @@ li.boxed { margin: 0 0 0 1%; padding: 0; width: 32.5%; } /* li is necessary in s
 .boxed .tooltip h3 { margin: 0; padding-top: 0.2em; text-align: center; }
 .boxed .tooltip.sliding h3 { padding-right: 20px; }
 .boxed .tooltip p { margin: 0; padding: 0.5em 0 0.2em; }
-.boxed .wrapper { position: relative; }
+.boxed .wrapper { position: relative; z-index: 5; }
 
 .tooltipHide { top: 75%; left: -8.5%; visibility: hidden; opacity: 0; }
 .tooltipShow { top: 70%; left: -8.5%; visibility: visible; opacity: 1; }
