@@ -6,6 +6,15 @@
 		content: new Element('div',{'class':'content'}),
 		tooltip: new Element('div',{'class':'tooltip'}),
 		initialize: function() {
+			if ( // if it isn't a tested browser don't do any of the fancifying
+					(Browser.Engine.gecko && Browser.Engine.version < 18) || // Firefox 2
+					(Browser.Engine.trident && Browser.Engine.version < 6) || // IE6
+					(Browser.Engine.webkit && Browser.Engine.version < 525) || // Safari 3
+					(Browser.Engine.presto && Browser.Engine.version < 960) // Opera 9.6
+			) {
+				this.edge = this.corner = this.content = this.tooltip = null;
+				return;
+			}
 			$(document.head).adopt(new Element('link',{href:'css/transitions.css',type:'text/css',rel:'stylesheet'}));
 			addEvent('domready',this.domready.bind(this));
 		},
@@ -42,6 +51,8 @@
 		initializeTooltip: function(li,content,tooltip) {
 			var show = this.showTooltip.bindWithEvent(this,[tooltip]);
 			var hide = this.hideTooltip.bindWithEvent(this,[tooltip]);
+			// these should be set just by adding the 'tooltipHide' class but FF2 doesn't
+			// redraw properly with the elements hidden
 			var morph = tooltip.get('morph',{duration:500,link:'cancel',unit:'%'})
 					.set({ top: '75%', left: '-8.5%', visibility: 'hidden', opacity: '0' });
 			li.addEvents({mouseenter: show,mouseleave: hide});
