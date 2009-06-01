@@ -20,6 +20,8 @@ html[xmlns] .clearfix { display: block; }
 .section ol, .section li { position: relative; list-style: none; }
 .section li { float: left; position: relative; padding: 0 1.5%; width: 30%; }
 .section li img { max-width: 100%; }
+#personas ul { list-style: none; }
+#personas li { float: left; margin: 0 2em 0 0; width: auto; }
 #client { z-index: 2; }
 #opensource ol { margin: 0 auto; width: 66%; }
 #opensource li { padding: 0 2.25%; width: 45.5%; }

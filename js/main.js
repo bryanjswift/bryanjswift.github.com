@@ -36,6 +36,7 @@
 			$(document.body).addClass('layoutChanged');
 		},
 		hideTooltip: function(e,li,tooltip) {
+			$clear(this.delay);
 			tooltip.get('morph').start('.tooltipHide').chain(
 				li.removeClass.pass(['tipped'],li)
 			);
@@ -52,7 +53,7 @@
 			addEvent('load',this.recalibrateSlider.bindWithEvent(this,[tooltip,slider]));
 		},
 		initializeTooltip: function(li,content,tooltip) {
-			var show = this.showTooltip.bindWithEvent(this,[li,tooltip]);
+			var show = this.showTooltipDelay.bindWithEvent(this,[li,tooltip]);
 			var hide = this.hideTooltip.bindWithEvent(this,[li,tooltip]);
 			// these should be set just by adding the 'tooltipHide' class but FF2 doesn't
 			// redraw properly with the elements hidden
@@ -64,6 +65,10 @@
 		recalibrateSlider: function(e,tooltip,slider) {
 			slider.options.size = (tooltip.getSize().y - tooltip.getElement('h3').getSize().y);
 			slider.recalibrate();
+		},
+		showTooltipDelay: function(e,li,tooltip) {
+			$clear(this.delay);
+			this.delay = this.showTooltip.delay(500,this,[e,li,tooltip]);
 		},
 		showTooltip: function(e,li,tooltip) {
 			li.addClass('tipped');
