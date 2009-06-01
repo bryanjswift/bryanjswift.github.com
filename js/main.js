@@ -12,11 +12,13 @@
 					(Browser.Engine.webkit && Browser.Engine.version < 525) || // Safari 3
 					(Browser.Engine.presto && Browser.Engine.version < 960) // Opera 9.6
 			) {
+				tracker._trackEvent('Layout','Load','Basic');
 				this.edge = this.corner = this.content = this.tooltip = null;
-				return;
+			} else {
+				tracker._trackEvent('Layout','Load','Enhanced');
+				$(document.head).adopt(new Element('link',{href:enhancedPath,type:'text/css',rel:'stylesheet'}));
+				addEvent('domready',this.domready.bind(this));
 			}
-			$(document.head).adopt(new Element('link',{href:enhancedPath,type:'text/css',rel:'stylesheet'}));
-			addEvent('domready',this.domready.bind(this));
 		},
 		domready: function() {
 			var sides = ['top','right','bottom','left'];
@@ -71,6 +73,7 @@
 			this.delay = this.showTooltip.delay(500,this,[e,li,tooltip]);
 		},
 		showTooltip: function(e,li,tooltip) {
+			tracker._trackEvent('Layout','Display','Project Info',li.getElement('h3').get('text'));
 			li.addClass('tipped');
 			tooltip.get('morph').start('.tooltipShow');
 		}
