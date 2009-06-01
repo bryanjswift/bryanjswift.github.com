@@ -5,8 +5,8 @@
 	function trackClick(e,a) {
 		tracker._trackEvent('DOMEvent','Click','Outgoing',a.get('href'));
 	}
-	addEvent('domready',function () { tracker._trackEvent('DOMEvent','Loaded','domready'); });
-	addEvent('load',function() { tracker._trackPageview(); });
+	addEvent('domready',function () { tracker._trackEvent('DOMEvent','Load','domready'); });
+	addEvent('load',function() { tracker._trackPageview(); tracker._trackEvent('DOMEvent','Load','load'); });
 	addEvent('resize',function() { tracker._trackEvent('DOMEvent','Resize'); });
 	$$('a').each(function(a) {
 		a.addEvent('click',trackClick.bindWithEvent(this,[a]));
@@ -14,5 +14,5 @@
 	var oldTrackEvent = tracker._trackEvent;
 	var oldTrackPageview = tracker._trackPageview;
 	tracker._trackEvent = function() { if (tracking) { oldTrackEvent.run(arguments,this); } };
-	tracker._trackPageview = function() { if (tracking) { oldTrackPaveview.run(arguments,this); } };
+	tracker._trackPageview = function() { if (tracking) { oldTrackPageview.run(arguments,this); } };
 })();
