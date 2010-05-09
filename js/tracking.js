@@ -1,5 +1,5 @@
 (function() {
-	var tracking = location.host.match(/^portfolio\.bryanjswift\.com$/);
+	var tracking = location.host.match(/^(portfolio\.bryanjswift\.com)|(bryanjswift\.github\.com)$/);
 	window.tracker = _gat._getTracker("UA-4339554-3");
 	tracker._initData();
 	function trackClick(e,a) {
