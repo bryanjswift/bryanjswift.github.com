@@ -5,25 +5,37 @@
     <title>Bryan J Swift's Resume</title>
   </head>
   <body class="hresume">
+    <!-- vcard for hresume -->
     <address class="vcard">
+      <!-- fn, n for vcard -->
       <h1><span class="fn">Bryan</span> J <span class="n">Swift</span></h1>
       <p class="contact">
+        <!-- tel, type, value for vcard -->
         <span class="tel">
           <span class="type">mobile</span>
           <span class="value">(347) 469-1193</span>
         </span>
+        <!-- email, type, value for vcard -->
         <span class="email">
           <span class="type">work</span>
           <span class="value">bryan@brynjswift.com</span>
         </span>
       </p>
+      <!-- location for vcard -->
+      <p class="location">New York, NY</p>
     </address>
     <h2>Experience</h2>
+    <!-- vcalendar for hresume -->
     <ol id="experience" class="vcalendar">
-      <li class="experience vevent job" id="arc90">
-        <p class="position"><span class="jobtitle">Developer [Contract]</span> at <a href="http://arc90.com" class="company">Arc90</a></p>
+      <!-- vevent for vcalendar; embedded vcard (in vevent) for hresume -->
+      <li class="experience vcard vevent job" id="arc90">
+        <!-- fn, n for vcard; summary, jobtitle, title, company, org for vevent -->
+        <p class="position summary"><span class="fn jobtitle title">Developer [Contract]</span> at <a href="http://arc90.com" class="n company org">Arc90</a></p>
+        <!-- dtstart, dtend for vevent -->
         <p class="dates"><abbr class="dtstart" title="2010-02-08">February 2010</abbr> to <abbr class="dtend" title="2010-05-07">May 2010</abbr></p>
+        <!-- location for vevent -->
         <p class="location">New York, NY</p>
+        <!-- responsibilities for hresume, not in spec -->
         <ul class="responsibilities">
           <li>Produced documentation regarding Knovel client’s existing Java infrastructure and architecture</li>
           <li>Set up infrastructure for Selenium unit tests in order to assist with transition of development from Knovel team to Arc90</li>
