@@ -1,0 +1,7 @@
+body { margin: 0 auto; padding: 0; max-width: 950px; }
+h1, h2 { margin: 0; padding: 0; font-family: "museo-slab-1","museo-slab-2"; }
+p { margin: 0; padding: 0; }
+ol, ul, li { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+address { margin: 0; padding: 0; text-align: center; }
+address .contact { font-family: Georgia; }
+#experience .summary { font-family: "aviano-slab-1","aviano-slab-2",serif; }

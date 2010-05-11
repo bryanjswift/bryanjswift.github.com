@@ -5,7 +5,12 @@
   function trackClick(e,a) {
     tracker._trackEvent('DOMEvent','Click','Outgoing',a.get('href'));
   }
-  addEvent('domready',function () { tracker._trackEvent('DOMEvent','Load','domready'); });
+  addEvent('domready',function () {
+    tracker._trackEvent('DOMEvent','Load','domready');
+    if (Typekit) {
+      try { Typekit.load(); } catch(e) { }
+    }
+  });
   addEvent('load',function() { tracker._trackPageview(); tracker._trackEvent('DOMEvent','Load','load'); });
   addEvent('resize',function() { tracker._trackEvent('DOMEvent','Resize'); });
   $$('a').each(function(a) {
