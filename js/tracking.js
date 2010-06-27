@@ -7,7 +7,7 @@
   }
   addEvent('domready',function () {
     tracker._trackEvent('DOMEvent','Load','domready');
-    if (Typekit) {
+    if (typeof Typekit !== 'undefined') {
       try { Typekit.load(); } catch(e) { }
     }
   });
