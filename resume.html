@@ -29,14 +29,23 @@
     <!-- vcalendar for hresume -->
     <ol id="experience" class="vcalendar">
       <!-- vevent for vcalendar; embedded vcard (in vevent) for hresume -->
-      <li class="experience vcard vevent job" id="arc90">
+      <li class="experience vcard vevent job" id="freelance">
         <!-- fn, n for vcard; summary, jobtitle, title, company, org for vevent -->
-        <h3 class="position summary"><span class="fn jobtitle title">Developer [Contract]</span> at <a href="http://arc90.com" class="n company org">Arc90</a></h3>
+        <h3 class="position summary"><span class="fn jobtitle title"><span class="n company org">Freelance</span> Developer</h3>
         <!-- dtstart, dtend for vevent -->
-        <p class="dates"><abbr class="dtstart" title="2010-02-08">February 2010</abbr> to <abbr class="dtend" title="2010-05-07">May 2010</abbr></p>
+        <p class="dates"><abbr class="dtstart" title="2010-05-07">May 2010</abbr> to <abbr class="dtend" title="Present">Present</abbr></p>
         <!-- location for vevent -->
         <p class="location">New York, NY</p>
         <!-- responsibilities for hresume, not in spec -->
+        <ul class="responsibilities">
+          <li>Developed custom CMS in Scala based on Jackrabbit (JSR-170 and JSR-283) for a project which was later abandoned</li>
+          <li>Developed client side code for mycrysis.com working with a team of PHP Engineers</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job" id="arc90">
+        <h3 class="position summary"><span class="fn jobtitle title">Developer [Contract]</span> at <a href="http://arc90.com" class="n company org">Arc90</a></h3>
+        <p class="dates"><abbr class="dtstart" title="2010-02-08">February 2010</abbr> to <abbr class="dtend" title="2010-05-07">May 2010</abbr></p>
+        <p class="location">New York, NY</p>
         <ul class="responsibilities">
           <li>Consolidated and simplified ant build scripts</li>
           <li>Laid the groundwork for the new build and deploy process for Knovel code</li>
@@ -87,6 +96,14 @@
       <li>Application Servers: Apache, nginx, Tomcat</li>
       <li>UNIX Based OS: Debian, CentOS, Mac OS X</li>
     </ul>
+    <h2>Education</h2>
+    <ol id="education" class="vcalendar">
+      <li class="education vevent">
+        <p class="summary">Bachelor of Science in Physics with Minors in Computer Science and Philosophy from <a class="url" href="http://juniata.edu">Juniata College</a></p>
+        <p class="dates"><abbr class="dtstart" title="2000-08-01">August 2001</abbr> to <abbr class="dtend" title="2004-05-01">May 2004</abbr></p>
+        <p class="location">Huntingdon, Pennsylvania</p>
+      </li>
+    </ol>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.2/mootools-yui-compressed.js"></script>
     <script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/dii7yyf.js"></script>
