@@ -22,7 +22,7 @@
 		},
 		domready: function() {
 			var sides = ['top','right','bottom','left'];
-			var els = $('client').getElements('li');
+			var els = $$('#client li, #freelance li');
 			var edges = new Elements(sides.map(function(side) {
 				return [this.edge.clone().addClass(side),this.corner.clone().addClass(side)];
 			},this).flatten());
