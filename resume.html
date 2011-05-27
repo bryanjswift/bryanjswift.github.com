@@ -29,23 +29,106 @@
     <!-- vcalendar for hresume -->
     <ol id="experience" class="vcalendar">
       <!-- vevent for vcalendar; embedded vcard (in vevent) for hresume -->
-      <li class="experience vcard vevent job" id="freelance">
+      <li class="experience vcard vevent job">
         <!-- fn, n for vcard; summary, jobtitle, title, company, org for vevent -->
-        <h3 class="position summary"><span class="fn jobtitle title"><span class="n company org">Freelance</span> Developer</h3>
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.redroverapp.com">RedRover</a>
+        </h3>
         <!-- dtstart, dtend for vevent -->
-        <p class="dates"><abbr class="dtstart" title="2010-05-07">May 2010</abbr> to <abbr class="dtend" title="Present">Present</abbr></p>
+        <p class="dates"><abbr class="dtstart" title="2011-02-14">February 2011</abbr> to <abbr class="dtend" title="Present">Present</abbr></p>
         <!-- location for vevent -->
         <p class="location">New York, NY</p>
+        <p class="description">RedRover is a social startup focused on enabling people to make plans with friends. They needed someone with a general web skill set to assist with various parts of their consumer facing development.</p>
         <!-- responsibilities for hresume, not in spec -->
         <ul class="responsibilities">
-          <li>Developed custom CMS in Scala based on Jackrabbit (JSR-170 and JSR-283) for a project which was later abandoned</li>
-          <li>Developed client side code for mycrysis.com working with a team of PHP Engineers</li>
+          <li>Wrote embedded HTML pages for the iPhone client</li>
+          <li>Adapt Objective-C templating library to suit RedRover's needs</li>
+          <li>Dug into Ruby code powering the desktop web site to add and update features</li>
+          <li>Took over development of Android client from third-party vendor</li>
+          <li>Mentored a junior developer while doing code reviews and (some) peer programming</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.appinions.com">Appinions</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-10-25">October 2010</abbr> to <abbr class="dtend" title="2011-01-23">January 2011</abbr></p>
+        <p class="location">Yonkers, NY</p>
+        <p class="description">Appinions (formerly Jodange) had a trio of talented computational linguists working on their opinion processing platform but no one to build applications to present the data to the world. I helped build the consumer facing applications or widgets based on the Appinions API.</p>
+        <ul class="responsibilities">
+          <li>Architected and developed a thin aggregation layer on top of what was a straightforward REST API</li>
+          <li>Developed embeddable iframe widgets built on the Appinions API and my aggregation layer to display varying and configurable data sets</li>
+          <li>Wrote Jersey resources and providers to make serving the data easier for embeddable applications</li>
+          <li>Created custom servlets to display a variety of different widget types</li>
+          <li>Ported existing applications connected directly to Solr to use the Appinions API</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.akqa.com">AKQA, Inc. [DC]</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-08-06">August 2010</abbr> to <abbr class="dtend" title="2010-10-17">October 2010</abbr></p>
+        <p class="location">Washington, D.C.</p>
+        <p class="description">I was brought on to supplement the team working on a site for the soon to launch (at the time) Chrome Web Store. The site (<a href="http://embark.delta.com">Delta Embark</a>) was to pull data from web services developed by an external team.</p>
+        <ul class="responsibilities">
+          <li>Designed the REST interface for the outsourced web service development</li>
+          <li>Built out module loading scheme and scripts to handle the processing of a single page web application</li>
+          <li>Created client side local storage code using the local database APIs provided by Google Chrome</li>
+          <li>Implemented custom JavaScript selects and other styled form controls</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.lunadesignnyc.com/">Luna Design, Inc</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-08-06">August 2010</abbr> to <abbr class="dtend" title="2010-10-22">October 2010</abbr></p>
+        <p class="location">New York, NY</p>
+        <p class="description">Luna Design is a small web design studio where I did some work on small, quick to develop sites. Each site had design well specified, I was doing client side execution.</p>
+        <ul class="responsibilities">
+          <li>Developed HTML, CSS and JS for <a href="http://vandaagnyc.com/">Vandaag's site</a></li>
+          <li>Developed HTML, CSS and JS for <a href="http://kinshopnyc.com">Kin Shop's site</a></li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.eurorscg.com/">Euro RSCG</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-07-15">July 2010</abbr> to <abbr class="dtend" title="2010-08-05">August 2010</abbr></p>
+        <p class="location">New York, NY</p>
+        <p class="description">This was a three week gig focused on getting an already implemented site cleaned up for launch because the shop they had outsourced to left it in shambles.</p>
+        <ul class="responsibilities">
+          <li>Took over existing front end code for <a href="http://www.vyvansekids.com/">vyvansekids.com</a></li>
+          <li>Cleaned up CSS and JS implementation in order to fix critical IE6 bugs</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.akqa.com">AKQA, Inc [DC]</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-05-07">May 2010</abbr> to <abbr class="dtend" title="2010-07-14">July 2010</abbr></p>
+        <p class="location">Washington, D.C.</p>
+        <p class="description">Working on the Crysis site was an interesting exercise because I had nearly zero visibility into the Drupal project and as a result had to develop the site in display modules that could largely be put into any page.</p>
+        <ul class="responsibilities">
+          <li>Developed client side code for mycrysis.com as a remote employee working with a team of PHP Engineers</li>
+        </ul>
+      </li>
+      <li class="experience vcard vevent job">
+        <h3 class="position summary">
+          <span class="fn jobtitle title">Developer [Contract]</span> at <a class="n company org" href="http://www.nomimes.com/">No Mimes Media, LLC</a>
+        </h3>
+        <p class="dates"><abbr class="dtstart" title="2010-04-17">April 2010</abbr> to <abbr class="dtend" title="2010-09-02">September 2010</abbr></p>
+        <p class="location">New York, NY</p>
+        <p class="description">Worked with a contract designer to create a useful web site for a budding transmedia company.</p>
+        <ul class="responsibilities">
+          <li>Discussed usability and design with designer and client to come up with an informative and usable design</li>
+          <li>Hand crafted HTML, CSS, and JavaScript to execute on the vision of the designer</li>
         </ul>
       </li>
       <li class="experience vcard vevent job" id="arc90">
         <h3 class="position summary"><span class="fn jobtitle title">Developer [Contract]</span> at <a href="http://arc90.com" class="n company org">Arc90</a></h3>
         <p class="dates"><abbr class="dtstart" title="2010-02-08">February 2010</abbr> to <abbr class="dtend" title="2010-05-07">May 2010</abbr></p>
         <p class="location">New York, NY</p>
+        <p class="description">I was brought on to help revamp the Java platform powering an existing Arc90 client's web site.</p>
         <ul class="responsibilities">
           <li>Consolidated and simplified ant build scripts</li>
           <li>Laid the groundwork for the new build and deploy process for Knovel code</li>
@@ -55,7 +138,7 @@
         </ul>
       </li>
       <li class="experience vcard vevent job" id="akqa">
-        <h3 class="position summary"><span class="fn jobtitle title">Senior Software Engineer</span> at <a href="htt://akqa.com" class="n company org">AKQA</a></h3>
+        <h3 class="position summary"><span class="fn jobtitle title">Senior Software Engineer</span> at <a href="htt://akqa.com" class="n company org">AKQA, INC [NY]</a></h3>
         <p class="dates"><abbr class="dtstart" title="2006-11-20">November 2006</abbr> to <abbr class="dtend" title="2010-01-29">February 2010</abbr></p>
         <p class="location">New York, NY</p>
         <ul class="responsibilities">
