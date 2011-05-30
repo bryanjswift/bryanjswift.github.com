@@ -21,6 +21,8 @@ ol { margin: 0 3.5%; list-style: none; }
 ol li { margin: 1.4em 0 0; }
 ul { margin: 0 0 0 5%; list-style-type: circle; }
 /* Styles */
+#side { float: right; margin: 0 0 2em 7%; width: 36.5%; }
+#side ul { margin: 1.4em 0 0 8%; }
 div.vcard { margin: 0; padding: 0; text-align: center; }
 div.vcard .type, div.vcard .location { display: none; }
 div.vcard span { padding: 0 0.2em; }
@@ -31,15 +33,13 @@ div.vcard span { padding: 0 0.2em; }
 .description { margin: 0 2.5%; }
 .responsibilities { margin-top: 0.1em; margin-right: 20%; }
 .responsibilities li { margin: 0; }
-/*
-#experience { float: left; width: 58%; }
-#skills, #software, #education { clear: right; float: right; margin: 0 0 2em 0; width: 36.5%; }
-*/
-#side { float: right; margin: 0 0 2em 7%; width: 36.5%; }
 #experience h2 { width: 56.4%; }
-#skills ul, #software ul { margin: 1.4em 0 0 8%; }
 @media print {
-  body { max-width: 8in; font-size: 70%; }
+  body { margin: 0; max-width: 8in; font-size: 70%; }
   img { display: none !important; }
   h2 { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; }
+}
+@media screen and (max-width: 640px), screen and (max-device-width: 480px) {
+  #side { float: none; margin: 0; width: auto; }
+  #experience h2 { width: auto; }
 }
