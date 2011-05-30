@@ -1,8 +1,9 @@
 body, div, h1, h2, h3, p, ol, ul, li, abbr, span { margin: 0; border: 0; padding: 0; }
 body {
-  margin: 1em auto 3em 5%; padding: 0; max-width: 750px; color: #1d1916; background: #f4eed9; line-height: 1.3;
+  margin: 1em 5% 3em; padding: 0; color: #1d1916; background: #f4eed9; line-height: 1.3;
   font-family: "katarine-web-1", "katarine-web-2", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 100%;
 }
+body:after { content: ' '; display: block; height: 0; overflow: hidden; visibility: hidden; clear: both; }
 .js body { visibility: hidden; }
 .wf-active body, .wf-inactive body { visibility: visible; }
 a { color: #9c0001; }
@@ -27,11 +28,18 @@ div.vcard span { padding: 0 0.2em; }
 .location { display: inline-block; }
 .dates, .location { margin: 0 0 0.9em; }
 .location:before { content: ' -- ';  }
-.description { clear: both; margin: 0 2.5%; }
+.description { margin: 0 2.5%; }
 .responsibilities { margin-top: 0.1em; margin-right: 20%; }
 .responsibilities li { margin: 0; }
-#skills, #software { margin: 1.4em 0 0 8%; }
+/*
+#experience { float: left; width: 58%; }
+#skills, #software, #education { clear: right; float: right; margin: 0 0 2em 0; width: 36.5%; }
+*/
+#side { float: right; margin: 0 0 2em 7%; width: 36.5%; }
+#experience h2 { width: 56.4%; }
+#skills ul, #software ul { margin: 1.4em 0 0 8%; }
 @media print {
-  body { max-width: 8in; }
-  img { display: none; }
+  body { max-width: 8in; font-size: 70%; }
+  img { display: none !important; }
+  h2 { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; }
 }
