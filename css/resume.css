@@ -39,8 +39,12 @@ div.vcard span { padding: 0 0.2em; }
   img { display: none !important; }
   h2 { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; }
   a { text-decoration: none; color: #1d1916; }
+  .coverletter { padding: 0; margin: 3em 7% 0; }
 }
 @media screen and (max-width: 640px), screen and (max-device-width: 480px) {
   #side { float: none; margin: 0; width: auto; }
   #experience h2 { width: auto; }
 }
+/* Cover letter */
+.coverletter { padding: 1em 0 2em; font-size: 150%; page-break-after:always; }
+.coverletter p { margin-top: 0.75em; margin-bottom: 0.75em; }
