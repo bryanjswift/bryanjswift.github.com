@@ -19,7 +19,8 @@ permalink: /blog/:year/:title/
 source: .
 destination: public
 
-plugins: plugins
+paginate: 3
+plugins: _plugins
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
