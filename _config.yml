@@ -17,7 +17,7 @@ email: bryan.j.swift@gmail.com
 root: /
 permalink: /blog/:year/:title/
 source: .
-destination: public
+destination: _site
 
 paginate: 3
 plugins: _plugins
