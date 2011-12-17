@@ -20,6 +20,7 @@ source: .
 destination: _site
 
 paginate: 3
+exclude: [build, test, demo]
 plugins: _plugins
 code_dir: downloads/code
 category_dir: blog/categories
