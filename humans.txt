@@ -1,0 +1,19 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Writer: Bryan J Swift
+  Site: http://bryanjswift.com
+  Twitter: http://twitter.com/bryanjswift
+  Location: New York, NY
+
+/* THANKS */
+  Names (& URL):
+    - HTML5 Boilerplate (http://html5boilerplate.com)
+    - Mojombo (http://github.com/mojombo/jekyll)
+    - Michael Levin (http://www.kinnetica.com/projects/jekyll-sitemap-generator/)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Software: Jekyll, HTML5 Boilerplate, 
+
