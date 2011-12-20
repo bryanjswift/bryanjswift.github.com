@@ -16,8 +16,8 @@ a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 /* Typography */
-body { font-family: serif; }
-h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: sans-serif; }
+body { font-family: elena-web-basic, serif; }
+h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: proxima-nova-extra-condensed, sans-serif; }
 p { margin: 0.5em 3%; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
