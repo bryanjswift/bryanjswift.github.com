@@ -23,8 +23,4 @@ destination: _site
 paginate: 3
 exclude: [build, test, demo]
 plugins: _plugins
-code_dir: downloads/code
-category_dir: blog/categories
 markdown: rdiscount
-
-titlecase: true       # Converts page and post titles to tilecase
