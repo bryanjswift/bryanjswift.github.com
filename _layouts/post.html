@@ -3,14 +3,15 @@ layout: base
 link: false
 ---
 
+{% assign post = page %}
 <article>
   <header>
-    {% if page.link %}
-    <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h3>
+    {% if post.link %}
+    <h1 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
     {% else %}
-    <h1 class="entry-title">{{ page.title }}</h1>
+    <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
-    <time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate>{{ page.date | date: "<span class='month'>%B</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
   </header>
   <div class="entry-content">{{ content }}</div>
 </article>

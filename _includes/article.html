@@ -2,6 +2,8 @@
   <header>
     {% if index %}
     <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% elsif post.link %}
+    <h1 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
     {% else %}
     <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
