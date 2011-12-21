@@ -71,11 +71,8 @@ td { vertical-align: top; }
 /*** <Primary Styles> ***/
 /** Layout **/
 #container { padding-bottom: 2em; }
-nav ul { position: relative; margin: 0 3%; }
-nav li {
-  display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%;
-  text-align: center;
-}
+.links { position: relative; margin: 0 3%; }
+.links > li { display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%; text-align: center; }
 h1 a { text-decoration: none; }
 /** Modules **/
 /* Archives */
@@ -87,9 +84,9 @@ footer a { text-decoration: none; }
 footer a:before, footer a:after { content: '\2014'; padding: 0 .3em; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
-nav a, nav a:visited { color: #eae7be; }
-nav a:hover, nav a:focus { color: #fff; }
-nav li { border-color: #ccc; background: #0743b1; }
+.links a, .links a:visited { color: #eae7be; }
+.links a:hover, .links a:focus { color: #fff; }
+.links > li { border-color: #ccc; background: #0743b1; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
