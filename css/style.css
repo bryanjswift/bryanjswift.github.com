@@ -64,14 +64,18 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 /*** <Primary Styles> ***/
 /** Layout **/
-nav { }
-nav a, nav a:visited { color: #eae7be; }
-nav a:hover, nav a:focus { color: #fff; }
 nav ul { position: relative; margin: 0 3%; }
 nav li {
-  display: inline-block; border: 1px solid #ccc; padding: 0.5em 0; width: 32%;
-  text-align: center; background: #0743b1;
+  display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%;
+  text-align: center;
 }
+h1 a { text-decoration: none; }
+/** Modules **/
+/** Colors **/
+h1 a, h1 a:visited { color: #000; }
+nav a, nav a:visited { color: #eae7be; }
+nav a:hover, nav a:focus { color: #fff; }
+nav li { border-color: #ccc; background: #0743b1; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
