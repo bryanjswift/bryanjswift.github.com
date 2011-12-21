@@ -75,13 +75,14 @@ td { vertical-align: top; }
 .links > li { display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%; text-align: center; }
 h1 a { text-decoration: none; }
 /** Modules **/
+.pages { margin: 0 3%; }
 /* Archives */
 #blog-archives h3 { margin-bottom: 0; }
 #blog-archives time { margin: 0 3%; font-size: 1.2em; }
 /* Footer */
 footer { padding: 1em 0 0; text-align: center; }
-footer a { text-decoration: none; }
-footer a:before, footer a:after { content: '\2014'; padding: 0 .3em; }
+footer > a { text-decoration: none; }
+footer > a:before, footer > a:after { content: '\2014'; padding: 0 .3em; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
 .links a, .links a:visited { color: #eae7be; }
