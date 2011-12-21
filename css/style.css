@@ -81,8 +81,8 @@ h1 a { text-decoration: none; }
 #blog-archives time { margin: 0 3%; font-size: 1.2em; }
 /* Footer */
 footer { padding: 1em 0 0; text-align: center; }
-footer > a { text-decoration: none; }
-footer > a:before, footer > a:after { content: '\2014'; padding: 0 .3em; }
+footer a { text-decoration: none; }
+footer a:before, footer a:after { content: '\2014'; padding: 0 .3em; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
 .links a, .links a:visited { color: #eae7be; }
