@@ -78,6 +78,10 @@ nav li {
 }
 h1 a { text-decoration: none; }
 /** Modules **/
+/* Archives */
+#blog-archives h3 { margin-bottom: 0; }
+#blog-archives time { margin: 0 3%; font-size: 1.2em; }
+/* Footer */
 footer { padding: 1em 0 0; text-align: center; }
 footer a { text-decoration: none; }
 footer a:before, footer a:after { content: '\2014'; padding: 0 .3em; }
