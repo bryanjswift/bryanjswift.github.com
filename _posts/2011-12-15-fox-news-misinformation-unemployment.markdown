@@ -1,5 +1,5 @@
 ---
-layout: link
+layout: post
 title: Can't Trust Anyone
 date: 2011-12-15 18:31:25
 published: true
