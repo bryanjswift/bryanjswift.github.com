@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 article > header { margin-bottom: 0.6em; }
 article > header > h1 { margin-bottom: 0.15em; }
 article > header > time { margin: 0 3%; }
+article img { float: left; margin: 0 2% 0.1em 0; max-width: 38%; }
 #container { padding-bottom: 2em; }
 .links { position: relative; margin: 0 3%; }
 .links > li { display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%; text-align: center; }
