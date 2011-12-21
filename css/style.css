@@ -5,19 +5,19 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 /** Base **/
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 16px; line-height: 1.231; background: #fff; }
+body { margin: 0; font-size: 16px; line-height: 1.231; background: #fff; text-shadow: none; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #ccc; text-shadow: none; }
 ::selection { background: #ccc; text-shadow: none; }
 /*Links */
-a { color: #00e; text-shadow: none; }
+a { color: #00e; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 /* Typography */
 body { font-family: elena-web-basic, serif; }
-h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: proxima-nova-alt-condensed, sans-serif; text-shadow: none; }
+h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.85em; }
 h3 { font-size: 1.7em; }
