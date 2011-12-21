@@ -10,14 +10,14 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #ccc; text-shadow: none; }
 ::selection { background: #ccc; text-shadow: none; }
 /*Links */
-a { color: #00e; }
+a { color: #00e; text-shadow: none; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 /* Typography */
 body { font-family: elena-web-basic, serif; }
-h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; font-family: proxima-nova-alt-condensed, sans-serif; text-shadow: none; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.85em; }
 h3 { font-size: 1.7em; }
