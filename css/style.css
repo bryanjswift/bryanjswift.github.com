@@ -91,7 +91,8 @@ article > footer { padding: 0; text-align: left; }
 /* Footer */
 footer { padding: 1em 0 0; text-align: center; }
 footer a { text-decoration: none; }
-.archives:before, .archives:after { content: '\2014'; padding: 0 .3em; }
+.decorated { text-align: center; }
+.decorated > a:before, .decorated > a:after { content: '\2014'; padding: 0 .3em; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
 .links a, .links a:visited { color: #eae7be; }
