@@ -72,8 +72,9 @@ td { vertical-align: top; }
 /** Layout **/
 h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 #container { padding-bottom: 2em; }
+.divider { border-style: solid; border-width: 2px 0; }
 .links { position: relative; margin: 0 3%; }
-.links > li { display: inline-block; border: 1px solid; padding: 0.5em 0; width: 32%; text-align: center; }
+.links > li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
 h1 a { text-decoration: none; }
 /* Pagination */
 .pages { margin: 0 3%; }
@@ -98,9 +99,7 @@ footer a { text-decoration: none; }
 .decorated a { text-decoration: none; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
-.links a, .links a:visited { color: #eae7be; }
-.links a:hover, .links a:focus { color: #fff; }
-.links > li { border-color: #ccc; background: #0743b1; }
+.divider { border-color: #ccc; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
