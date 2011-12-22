@@ -6,11 +6,9 @@ subtitle: Archives
 <div id="blog-archives">
   {% for post in site.posts reverse %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-    {% unless year == this_year and month == this_month %}
+    {% unless year == this_year %}
       {% assign year = this_year %}
-      {% assign month = this_month %}
-      <h2>{{ month }} {{ year }}</h2>
+      <h3>{{ year }}</h3>
     {% endunless %}
     {% include archive_article.html %}
   {% endfor %}
