@@ -20,8 +20,10 @@ permalink: /blog/:year/:title/
 source: .
 destination: _site
 
-paginate: 3
-pagination_dir: blog
 exclude: [build, test, demo]
 plugins: _plugins
 markdown: rdiscount
+
+# simulate GitHub Pages
+pygments: true
+safe: true
