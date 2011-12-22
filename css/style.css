@@ -5,14 +5,13 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 /** Base **/
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 16px; line-height: 1.231; background: #fff; }
+body { margin: 0; font-size: 16px; line-height: 1.231; background: #fefefe; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #ccc; text-shadow: none; }
 ::selection { background: #ccc; text-shadow: none; }
 /*Links */
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a, a:visited { color: #06e; }
+a:hover, a:focus { color: #d60000; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 /* Typography */
@@ -74,10 +73,11 @@ h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 #container { padding-bottom: 2em; }
 .divider { border-style: solid; border-width: 2px 0; }
 .links { position: relative; margin: 0 3%; }
-.links > li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
-h1 a { text-decoration: none; }
+.links li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
 /* Pagination */
 .pages { margin: 0 3%; }
+/** Typography **/
+h1 a, .links a { text-decoration: none; }
 /** Modules **/
 /* Article */
 article header { margin-bottom: 0.6em; }
@@ -98,7 +98,8 @@ footer a { text-decoration: none; }
 .decorated:before, .decorated:after { content: '\2014'; padding: 0 .3em; }
 .decorated a { text-decoration: none; }
 /** Colors **/
-h1 a, h1 a:visited { color: #000; }
+h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
 .divider { border-color: #ccc; }
 /*** </Primary Styles> ***/
 /** Helpers **/
