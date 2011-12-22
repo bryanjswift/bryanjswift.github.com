@@ -11,3 +11,5 @@ categories: ['journal']
 Mai and I got up early to decorate the tree and put presents under it after my parents left for my mom's surgery. Mai thought it would be a nice 'welcome home' surprise. She's right but decorating for the holidays has never been fun for me it always feels like a chore.
 
 The last of the presents are wrapped and under the tree, they arrived just a few hours ago. I still don't have anything for my brother though.
+
+The foot/heel pain has steadily but slowly gone down throughout the day. Hopefully taking the drugs again tomorrow will mostly back it off. I did end up taking a couple of Aleve to assist with pain management.
