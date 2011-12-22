@@ -1,14 +1,19 @@
 <article>
   <header>
-    {% if index %}
+    {% if post.link %}
+    <h1 class="entry-title"><a class="external" href="{{ post.link }}">{{ post.title }}</a></h3>
+    {% elsif index %}
     <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h3>
-    {% elsif post.link %}
-    <h1 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
     {% else %}
     <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
     <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
   </header>
-  <div class="entry-content">{{ content }}</div>
+  <div class="clearfix entry-content">{{ content }}</div>
+  {% if index %}
+  <footer>
+    <p><a class="permalink" href="{{ root_url }}{{ post.url }}">&#8766; permalink</a></p>
+  </footer>
+  {% endif %}
 </article>
 
