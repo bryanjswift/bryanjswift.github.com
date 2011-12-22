@@ -79,20 +79,23 @@ h1 a { text-decoration: none; }
 .pages { margin: 0 3%; }
 /** Modules **/
 /* Article */
-article > header { margin-bottom: 0.6em; }
-article > header > h1 { margin-bottom: 0.15em; }
-article > header > time { margin: 0 3%; }
+article header { margin-bottom: 0.6em; }
+article h1 { margin-bottom: 0.15em; }
+article header time { margin: 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
 article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
 /* Archives */
 #blog-archives h3 { margin-bottom: 0; }
-#blog-archives time { margin: 0 3%; font-size: 1.2em; }
+#blog-archives h2 { margin-bottom: 0.375em; }
+.archived h4 { margin: 0.25em 3%; }
+.archived time { position: relative; font-size: 0.75em; color: #333; }
 /* Footer */
 footer { padding: 1em 0 0; text-align: center; }
 footer a { text-decoration: none; }
 .decorated { text-align: center; }
-.decorated > a:before, .decorated > a:after { content: '\2014'; padding: 0 .3em; }
+.decorated:before, .decorated:after { content: '\2014'; padding: 0 .3em; }
+.decorated a { text-decoration: none; }
 /** Colors **/
 h1 a, h1 a:visited { color: #000; }
 .links a, .links a:visited { color: #eae7be; }
