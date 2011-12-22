@@ -9,4 +9,4 @@ published: true
 
 [So. Angry.](http://dl.dropbox.com/u/2855531/merlin2560x1440.jpg)
 
-[via Daring Fireball](http://daringfireball.net/linked/2011/12/14/fox-news)
+via [Daring Fireball](http://daringfireball.net/linked/2011/12/14/fox-news)
