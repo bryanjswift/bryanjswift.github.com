@@ -1,7 +1,6 @@
 ---
 layout: post
 title: iPhone Homescreens
-date: 2011-12-22 12:11:15
 published: false
 categories: []
 ---
