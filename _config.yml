@@ -19,7 +19,7 @@ permalink: /blog/:year/:title/
 source: .
 destination: _site
 
-exclude: [build, test, demo]
+exclude: [build, task, test, demo]
 plugins: _plugins
 markdown: rdiscount
 
