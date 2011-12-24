@@ -5,7 +5,7 @@
 # Change the blog_dir variable below, and you should be set.
 # For maximum win, put in ~/bin/ (and add that to your $PATH)
 #
-# Jon Canady, 2010. 
+# Based on a script by Jon Canady (https://github.com/joncanady/joncanady.com)
 # Covered by the WTFPL: http://sam.zoy.org/wtfpl/
 ###
 
