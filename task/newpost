@@ -61,7 +61,7 @@ puts "Generating post..."
 
 now = Time.now
 date_prefix = now.strftime("%Y-%m-%d")
-postname = ARGV[0].strip.downcase.gsub(/ /, '-')
+postname = ARGV[0].strip.downcase.gsub(/[^a-zA-Z0-9 ]/, '').gsub(/ /, '-')
 categories = options[:categories]
 
 post_dir = options[:draft] ? '_drafts' : '_posts'
