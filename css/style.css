@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 .divider { border-style: solid; border-width: 2px 0; }
 .links { position: relative; margin: 0 3%; }
 .links li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
-.callout { border: 2px solid; padding: 0.5em 2%; }
 /* Pagination */
 .pages { margin: 0 3%; }
 /** Typography **/
@@ -87,6 +86,7 @@ article header time { margin: 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
 article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
+.callout { margin: 0 3%; border: 2px solid; padding: 0.5em 2%; }
 /* Archives */
 #blog-archives h3 { margin-bottom: 0; }
 #blog-archives h2 { margin-bottom: 0.375em; }
