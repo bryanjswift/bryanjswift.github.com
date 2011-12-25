@@ -86,7 +86,7 @@ article header time { margin: 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
 article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
-.callout { margin: 0 3%; border: 2px solid; padding: 0.5em 2%; }
+.callout { margin: 0 3%; border: 2px solid; padding: 0.5em 1%; }
 /* Archives */
 #blog-archives h3 { margin-bottom: 0; }
 #blog-archives h2 { margin-bottom: 0.375em; }
