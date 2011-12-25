@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 .divider { border-style: solid; border-width: 2px 0; }
 .links { position: relative; margin: 0 3%; }
 .links li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
+.callout { border: 2px solid; padding: 0.5em 2%; }
 /* Pagination */
 .pages { margin: 0 3%; }
 /** Typography **/
@@ -100,7 +101,7 @@ footer a { text-decoration: none; }
 /** Colors **/
 h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
-.divider { border-color: #ccc; }
+.divider, .callout { border-color: #ccc; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
