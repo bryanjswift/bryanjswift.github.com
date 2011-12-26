@@ -63,6 +63,8 @@ now = Time.now
 date_prefix = now.strftime("%Y-%m-%d")
 postname = ARGV[0].strip.downcase.gsub(/[^a-zA-Z0-9 ]/, '').gsub(/ /, '-')
 categories = options[:categories]
+published = false
+published = options[:draft] unless categories.include?("journal")
 
 post_dir = options[:draft] ? '_drafts' : '_posts'
 
@@ -73,7 +75,7 @@ header = <<-END
 layout: post
 title: #{ARGV[0]}
 date: #{now.strftime("%Y-%m-%d %H:%M:%S")}
-published: true
+published: #{published}
 categories: #{categories.to_s}
 ---
  
