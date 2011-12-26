@@ -11,6 +11,8 @@
 
 # omit the trailing slash, please
 blog_dir = "/Volumes/Freelance/projects/personal/bryanjswift.github.com"
+# passed to open -a
+editor = "/Applications/iA Writer.app"
 
 require 'optparse'
 
@@ -86,5 +88,5 @@ File.open(post, 'w') do |f|
 end
  
 puts "Opening post..."
-system("open", "-a/Applications/iA Writer.app", post)
+system("open", "-a#{editor}", post)
 exit 0
