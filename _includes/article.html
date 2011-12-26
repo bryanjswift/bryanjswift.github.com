@@ -7,7 +7,7 @@
     {% else %}
     <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
-    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time> - by <span class="author">{{ site.author }}</span>
   </header>
   <div class="clearfix entry-content">{{ content }}</div>
   {% if index %}

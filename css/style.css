@@ -82,7 +82,7 @@ h1 a, .links a { text-decoration: none; }
 /* Article */
 article header { margin-bottom: 0.6em; }
 article h1 { margin-bottom: 0.15em; }
-article header time { margin: 0 3%; }
+article header time { margin: 0 0 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
 article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
