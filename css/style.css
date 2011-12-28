@@ -31,7 +31,7 @@ dfn { font-style: italic; }
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 ins { background: #ff9; color: #000; text-decoration: none; }
 mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre, code, kbd, samp { font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace; font-size: 1em; }
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 q { quotes: none; }
 q:before, q:after { content: ""; content: none; }
@@ -72,8 +72,9 @@ td { vertical-align: top; }
 h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 #container { padding-bottom: 2em; }
 .divider { border-style: solid; border-width: 2px 0; }
-.links { position: relative; margin: 0 3%; }
+.links, .gist { position: relative; margin: 0 3%; }
 .links li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
+pre { margin: 0 3%; border: 1px solid; padding: 0.5em 2%; }
 /* Pagination */
 .pages { margin: 0 3%; }
 /** Typography **/
@@ -102,6 +103,7 @@ footer a { text-decoration: none; }
 h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
 .divider, .callout { border-color: #ccc; }
+pre { border-color: #dedede; background: #f8f8ff; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
