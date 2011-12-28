@@ -1,7 +1,7 @@
 ---
 layout: post
 title: rtorrent Documentation
-date: 2011-12-27 17:23:15
+date: 2011-12-27 20:24:06
 published: true
 categories: []
 ---
@@ -118,3 +118,4 @@ The resources used to put this together are:
 * [grenage.com's rtorrent config](http://grenage.com/rtorrent.html)
 * [Old how to article by K.Mandla](http://kmandla.wordpress.com/2007/05/02/howto-use-rtorrent-like-a-pro/)
 * [example rtorrent.rc in source](http://libtorrent.rakshasa.no/browser/trunk/rtorrent/doc/rtorrent.rc?rev=latest)
+* [rtorrent common tasks](http://libtorrent.rakshasa.no/wiki/RTorrentCommonTasks)
