@@ -12,7 +12,7 @@ The documentation for rtorrent is inadequate and so much of today was spent sear
 
 Part of the key is keeping torrent files from this private tracker separate from any other torrents I download. I'm using the following folder structure with rtorrent and sorting as appropriate.
 
-<script src="https://gist.github.com/1525912.js?file=gistfile1.txt"></script>
+<script src="https://gist.github.com/1525912.js?file=gistfile1.txt" async="async"></script>
 <noscript>
     tracker
     |-- leeching
@@ -24,7 +24,7 @@ Part of the key is keeping torrent files from this private tracker separate from
 
 Downloaded .torrent files go into the `torrents` folder for archival purposes, .torrent files can be put into `rtactive` to be automatically added, in progress downloads go into `leeching`, completed downloads go into `unsorted`. From `unsorted` I am manually moving completed downloads into a directory structure under `sorted` and updating the torrent's base directory in rtorrent.
 
-<script src="https://gist.github.com/1525912.js?file=.rtorrent.rc"></script>
+<script src="https://gist.github.com/1525912.js?file=.rtorrent.rc" async="async"></script>
 <noscript>
     # This is an example resource file for rTorrent. Copy to
     # ~/.rtorrent.rc and enable/modify the options as needed. Remember to
