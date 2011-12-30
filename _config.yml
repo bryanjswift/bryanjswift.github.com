@@ -20,7 +20,7 @@ source: .
 destination: _site
 
 exclude: [_drafts, task, lib, config.ru, CNAME, Gemfile]
-markdown: rdiscount
+markdown: kramdown
 
 # simulate GitHub Pages
 pygments: true
