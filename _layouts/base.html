@@ -10,15 +10,18 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
     <link rel="stylesheet" href="/css/style.css" />
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link rel="author" href="/humans.txt" />
+
     <script type="text/javascript" src="http://use.typekit.com/gtl4dco.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+      document.getElementsByTagName('html')[0].className = '';
+      try { Typekit.load(); } catch(e) { }
+    </script>
   </head>
   <body>
     <div id="container">
