@@ -20,7 +20,6 @@ source: .
 destination: _site
 
 exclude: [_drafts, task, lib, config.ru, CNAME, Gemfile]
-plugins: _plugins
 markdown: rdiscount
 
 # simulate GitHub Pages
