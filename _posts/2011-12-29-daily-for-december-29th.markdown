@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Daily for December 30th, 2011
-date: 2011-12-30 00:16:51
+title: Daily for December 29th, 2011
+date: 2011-12-30 15:05:53
 published: false
 categories: ["journal"]
 ---
