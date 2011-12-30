@@ -19,7 +19,7 @@ permalink: /blog/:year/:title/
 source: .
 destination: _site
 
-exclude: [_drafts, task]
+exclude: [_drafts, task, lib, config.ru, CNAME, Gemfile]
 plugins: _plugins
 markdown: rdiscount
 
