@@ -9,7 +9,7 @@ body { margin: 0; font-size: 16px; line-height: 1.231; background: #fefefe; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #ccc; text-shadow: none; }
 ::selection { background: #ccc; text-shadow: none; }
-noscript { display: none; }
+.noscript { display: none; }
 .no-js noscript { display: block; }
 /*Links */
 a, a:visited { color: #06e; }
