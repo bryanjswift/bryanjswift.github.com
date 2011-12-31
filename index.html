@@ -2,9 +2,9 @@
 layout: base
 ---
 
+{% assign index = true %}
+{% assign show = 3 %}
 <div class="blog-index">
-  {% assign index = true %}
-  {% assign show = 3 %}
   {% for post in site.posts limit: show %}
   {% assign content = post.content %}
       {% include article.html %}
