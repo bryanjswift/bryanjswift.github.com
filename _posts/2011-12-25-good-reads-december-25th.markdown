@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Good Reads December 25th
+title: Good Reads - December 25th
 date: 2011-12-25 23:04:24
 published: true
 categories: []
