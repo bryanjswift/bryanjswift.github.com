@@ -14,6 +14,17 @@
   <footer>
     <p><a class="permalink" href="{{ root_url }}{{ post.url }}">&#8766; permalink</a></p>
   </footer>
+  {% else %}
+  <footer>
+    <nav>
+      {% if post.previous %}
+      <p><a href="{{ post.previous.url }}" class="previous">{{ post.previous.title }}</a></p>
+      {% endif %}
+      {% if post.next %}
+      <p><a href="{{ post.next.url }}" class="next">{{ post.next.title }}</a></p>
+      {% endif %}
+    </nav>
+  </footer>
   {% endif %}
 </article>
 
