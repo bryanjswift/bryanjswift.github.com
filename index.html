@@ -6,8 +6,8 @@ layout: base
 {% assign show = 3 %}
 <div class="blog-index">
   {% for post in site.posts limit: show %}
-  {% assign content = post.content %}
-      {% include article.html %}
+    {% assign content = post.content %}
+    {% include article.html %}
   {% endfor %}
 </div>
 <div id="blog-archives">
