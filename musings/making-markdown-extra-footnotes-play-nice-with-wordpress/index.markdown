@@ -41,7 +41,7 @@ changes I made in order to make this footnote stuff work: you can get the [Wordp
 apply it in order to get this working for yourself. I created the patch using git, so if it proves difficult to apply let me know
 in the comments or via one of the contact methods on [my about page][3] and I'll fix it up lickity split.
 
-[2]: /img/blog/markdown-wordpress-footnotes.patch "Markdown Wordpress Footnots"
+[2]: /assets/img/blog/markdown-wordpress-footnotes.patch "Markdown Wordpress Footnots"
 [3]: http://bryanjswift.com/about/ "About Bryan J Swift"
 
 Now about those weaknesses; the major problem comes about if you want to use the same footnote text a couple of times. I could
