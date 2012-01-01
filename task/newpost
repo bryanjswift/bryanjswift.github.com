@@ -68,7 +68,12 @@ categories = options[:categories]
 published = false
 published = !options[:draft] unless categories.include?("journal")
 
-post_dir = options[:draft] ? '_drafts' : '_posts'
+post_dir = '_posts'
+if options[:draft]
+  post_dir = '_drafts'
+elsif categories.include?("journal")
+  post_dir = 'journal/_posts'
+end
 
 post = "#{blog_dir}/#{post_dir}/#{date_prefix}-#{postname}.#{options[:format]}"
  
