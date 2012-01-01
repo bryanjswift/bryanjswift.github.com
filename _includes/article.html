@@ -16,12 +16,12 @@
   </footer>
   {% else %}
   <footer>
-    <nav>
+    <nav class="clearfix">
       {% if post.previous %}
-      <p><a href="{{ post.previous.url }}" class="previous">{{ post.previous.title }}</a></p>
+      <p class="prev"><a href="{{ post.previous.url }}">{{ post.previous.title }}</a></p>
       {% endif %}
       {% if post.next %}
-      <p><a href="{{ post.next.url }}" class="next">{{ post.next.title }}</a></p>
+      <p class="next"><a href="{{ post.next.url }}">{{ post.next.title }}</a></p>
       {% endif %}
     </nav>
   </footer>
