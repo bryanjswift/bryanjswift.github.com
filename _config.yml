@@ -15,7 +15,7 @@ subscribe_email:
 email: bryan.j.swift@gmail.com
 
 root: /
-permalink: /blog/:category/:year/:title/
+permalink: /blog/:categories/:year/:title/
 source: .
 destination: _site
 
