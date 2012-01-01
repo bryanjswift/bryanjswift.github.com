@@ -10,6 +10,7 @@ layout: base
     {% include article.html %}
   {% endfor %}
 </div>
+{% if site.posts.length > show %}
 <div id="blog-archives">
   <h2 class="divider decorated"><a href="/archives/">Archives</a></h2>
   {% for post in site.posts offset: show %}
@@ -21,4 +22,5 @@ layout: base
     {% include archive_article.html %}
   {% endfor %}
 </div>
+{% endif %}
 
