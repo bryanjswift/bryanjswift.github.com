@@ -3,7 +3,7 @@ layout: post
 title: Check the font-weight Stupid
 date: 2011-12-21 13:35:10
 published: true
-categories: []
+categories: ['none']
 ---
 
 ![font troubles on iOS](/assets/img/blog/2011-12-21-font-trouble.png)

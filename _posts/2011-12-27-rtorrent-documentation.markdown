@@ -3,7 +3,7 @@ layout: post
 title: rtorrent Documentation
 date: 2011-12-28 13:01:36
 published: true
-categories: []
+categories: ['none']
 ---
  
 [rtorrent](http://libtorrent.rakshasa.no) is an awesomely powerful command line BitTorrent (the protocol) client. This little BitTorrent client is important because the tracker I was recently invited to doesn't like the way Transmission reports information.

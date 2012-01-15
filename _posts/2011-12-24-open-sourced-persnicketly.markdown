@@ -3,7 +3,7 @@ layout: post
 title: Open Sourced Persnicketly
 date: 2011-12-24 15:52:05
 published: true
-categories: []
+categories: ['none']
 ---
  
 I just updated the [Persnicketly repository](http://github.com/bryanjswift/persnicketly) on GitHub. Originally it was closed source because it was for a API contest potentially worth money and talking with [Rachel Diesel](http://dieselation.com/), my design partner in the [Persnicketly](http://persnicketly.com) venture we were considering ways to monetize it.

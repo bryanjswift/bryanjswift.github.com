@@ -3,7 +3,7 @@ layout: post
 title: Good Reads - December 31st
 date: 2012-01-01 02:39:02
 published: true
-categories: []
+categories: ['none']
 ---
 
 There was a lot of excellent writing out there for consumption today. Below are some good ones.

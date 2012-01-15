@@ -3,7 +3,7 @@ layout: post
 title: Louis CK and His Special Money
 date: 2011-12-22 16:34:25
 published: true
-categories: []
+categories: ['none']
 link: https://buy.louisck.net/news
 ---
 
