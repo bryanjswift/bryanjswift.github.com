@@ -3,7 +3,7 @@ layout: post
 title: Good Reads - December 23rd
 date: 2011-12-23 22:32:31
 published: true
-categories: ['none']
+categories: []
 ---
  
 I spent a fair amount of time today reading through my (impressive) backlog of articles in [Instapaper](http://instapaper.com) (if you own an iOS device and don't own Instapaper you should check it out, it is wonderful). I'd guess I managed to read out thirty or forty blog posts or articles and I wanted to provide a list of the highlights.

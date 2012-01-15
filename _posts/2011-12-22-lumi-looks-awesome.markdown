@@ -3,7 +3,7 @@ layout: post
 title: This Is Awesome
 date: 2011-12-22 17:04:23
 published: true
-categories: ['none']
+categories: []
 link: http://lumi.co/pages/about
 ---
 

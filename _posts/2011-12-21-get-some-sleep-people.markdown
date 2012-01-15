@@ -3,7 +3,7 @@ layout: post
 title: Get Some Sleep People
 date: 2011-12-21 16:03:05
 published: true
-categories: ['none']
+categories: []
 link: http://hbr.org/2006/10/sleep-deficit-the-performance-killer
 ---
 
