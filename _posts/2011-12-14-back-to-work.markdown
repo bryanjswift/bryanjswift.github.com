@@ -2,8 +2,8 @@
 layout: post
 title: Back To Work
 date: 2011-12-14 02:30
-comments: false
 published: true
+categories: []
 ---
 
 It has been a while since I've put in work and it was grating on me after a couple of weeks back in the US of A. Almost automatically I opened up the source code to [Persnicketly](http://persnicketly.com) and started trying to add [Metrics](http://github.com/codahale/metrics) to it. Adding Metrics had long been on my list of things to do before leaving for Japan and it only seemed natural to pick up there. After a short while of staring at my old Scala code I realized my heart just wasn't in it. The realization was distressing, before leaving I had a long list of improvements and changes I wanted to make to Persnicketly and now I found myself almost entirely without motivation. In addition to the lack of motivation the bullet point of 'implement Metrics' was so broad I didn't have any sense of total scope or progress when I did work.
