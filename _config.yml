@@ -19,7 +19,7 @@ permalink: /blog/:categories/:year/:title/
 source: .
 destination: _site
 
-exclude: [_drafts, task, lib, config.ru, CNAME, Gemfile]
+exclude: [_assets, _drafts, task, lib, config.ru, CNAME, Gemfile]
 markdown: kramdown
 
 # simulate GitHub Pages
