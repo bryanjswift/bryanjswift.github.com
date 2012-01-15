@@ -2,7 +2,7 @@
 layout: post
 title: Daily for December 14th, 2011
 date: 2011-12-15 01:33:06
-published: true
+published: false
 categories: ['journal']
 ---
 
