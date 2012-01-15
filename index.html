@@ -4,13 +4,13 @@ layout: base
 
 {% assign index = true %}
 {% assign show = 3 %}
-<div class="blog-index">
+<section class="blog-index">
   {% for post in site.posts limit: show %}
     {% assign content = post.content %}
     {% include article.html %}
   {% endfor %}
-</div>
-<div id="blog-archives">
+</section>
+<section id="blog-archives">
   <h2 class="divider decorated"><a href="/archives/">Archives</a></h2>
   {% for post in site.posts offset: show %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -20,5 +20,5 @@ layout: base
     {% endunless %}
     {% include archive_article.html %}
   {% endfor %}
-</div>
+</section>
 
