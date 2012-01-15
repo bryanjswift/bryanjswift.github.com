@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Daily for December 19th
+title: Daily for December 19th, 2011
 date: 2011-12-19 10:32:55
-published: false
+published: true
 categories: ['journal']
 ---
 
