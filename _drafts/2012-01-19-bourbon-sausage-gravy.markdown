@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bourbon Sausage Gravy
-date: 2012-01-19 00:04:22
+date: 2012-01-19 00:10:31
 published: false
 categories: ["recipe"]
 ---
@@ -30,5 +30,7 @@ In a large skillet over medium-low heat:
 1. Slowly add one cup of milk until it begins to thicken
 1. Repeat 2 times until all milk is used
 1. Add the last of the bourbon and stir it together
+
+Reposted from [old blog](/etc/bourbon-sausage-gravy/)
 
 Summarized from [Accidental Hedonist](http://www.accidentalhedonist.com/index.php/2007/09/24/bourbon_sausage_gravy_and_biscuits)
