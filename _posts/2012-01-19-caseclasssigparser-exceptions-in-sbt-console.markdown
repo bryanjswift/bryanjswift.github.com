@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CaseClassSigParser Exceptions in SBT Console
-date: 2012-01-19 00:13:06
+date: 2012-01-19 00:24:52
 published: true
 categories: []
 ---
@@ -10,9 +10,12 @@ When doing something in an [SBT](http://code.google.com/p/simple-build-tool) con
 
 For example in [Persnicketly](http://github.com/bryanjswift/persnicketly):
 
+<script src="https://gist.github.com/1637690.js?file=inClassLoaderExample.scala"></script>
+<div class="noscript" markdown="1">
     val articles = inClassLoader(classOf[com.persnicketly.persistence.Connection$]) {
       ScoredArticleDao.select(from = 60, count = 100)
     }
+</div>
 
 Will successfully load MongoDB configuration from `config.json`, access the db and retrieve articles.
 
