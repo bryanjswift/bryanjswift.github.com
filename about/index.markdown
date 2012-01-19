@@ -1,24 +1,15 @@
 --- 
 layout: page
 title: About Me
-tags: 
-- uncategorized
-status: publish
-type: page
 published: true
-meta: 
-  _edit_lock: "1242783070"
-  _edit_last: "2"
-  _wp_page_template: default
 ---
-<p><strong>Name:</strong> Bryan J Swift</p>
-<p><strong>Location:</strong> Brooklyn, NY</p>
-<p><strong>Occupation:</strong> Software Engineer</p>
-<p><strong>AIM:</strong> bryanjswift</p>
-<p><strong>Email:</strong> <a href="mailto:bryan@bryanjswift.com" title="Email Bryan J Swift">bryan@bryanjswfit.com</a></p>
-<p><strong>Portfolio:</strong> <a href="http://bryanwrit.es/portfolio/" title="Works of Bryan J Swift">bryanwrit.es/portfolio</a></p>
-<p><strong>GitHub:</strong> <a href="http://github.com/bryanjswift" title="Bryan J Swift on GitHub">Open Source Projects on GitHub</a></p>
 
-My job, despite having engineer in the title, is mostly about developing for the web. Lately I've been working primarily with <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and JavaScript but my background is in server side languages most specifically in Java. I've also been working on learning <abbr title="ActionScript">AS</abbr>3, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr>, Scala, and Clojure lately for my own uses and projects.
+Hi there. I'm Bryan. Nice to meet you. No the pleasure is all mine.
 
-I can be reached by <a href="mailto:bryan@bryanjswift.com" title="Email Bryan J Swift">email</a> or on AIM at bryanjswift for questions regarding freelance work, rates, or just general questions.
+I do freelance software development. I am based in New York City. Sometimes freelance means contract work, where I'm essentially a short term employee, and sometimes it means project based work where I build sites or parts of sites for individual clients. The project based work tends to be my favorite because I get to be a lot more involved in the process and I like building things from scratch.
+
+I consider myself a generalist when it comes to my development skills. I have used and am comfortable using a five or six different server-side languages and I have spent several years doing front-end development in HTML, CSS and JavaScript. In interviews I get asked frequently whether I prefer server-side or client-side development and I never have an answer because truthfully I thoroughly enjoy doing both. Both "sides" of web development have unique and thought provoking challenges to overcome and I love the challenges of both.
+
+For the latter half of 2011 I was "out of the game" because I was doing volunteer work for tsunami victims with my girlfriend in the Tohoku prefecture of Japan. Prior to our month of volunteer work I was "taking time off" to work on my pet project, [Persnicketly](http://persnicketly.com). After the voluneering we spent a little over a month and a half traveling around and then spent the holidays with my parents.
+
+Now I'm back and still working on Persnicketly, but I'm also looking for paying work too. I'm easy to get in touch with via [email](bryan.j.swift@gmail.com). My work history is also easy to see, just head over to [my resume](/portfolio/resume.html).
