@@ -3,14 +3,14 @@ layout: post
 title: Fight Hollywood, Fight SOPA
 ogtitle: Fight Hollywood, Fight SOPA
 ogdesc: Big media wants to take money away from Obama, fight back by giving money or spreading the word.
-date: 2012-01-20 03:10:59
+date: 2012-01-20 03:19:47
 published: true
 categories: []
 ---
 
 ### <TL;DR>
 
-> [Obama's reaction](http://www.whitehouse.gov/blog/2012/01/14/obama-administration-responds-we-people-petitions-sopa-and-online-piracy) may have had [a direct, negative impact on his ability to get re-elected](http://www.deadline.com/2012/01/exclusive-hollywood-moguls-stopping-obama-donations-because-of-administrations-piracy-stand/). Hollywood and other media moguls are hitting the Obama administration where it hurts most in the wallet or, as it is termed at election time, in the war chest. It would be terrible if Obama's administration taking a stand on an issue important to us, the community of internet makers, cost them the money to fund a re-election campaign. He did it for us and it would be wonderful if we could help him out by voting with our dollars the same way Hollywood and big media is voting with theirs. [Donate to the Obama campaign](https://donate.barackobama.com/page/outreach/view/2012/antisopa).
+> [Obama's reaction](http://www.whitehouse.gov/blog/2012/01/14/obama-administration-responds-we-people-petitions-sopa-and-online-piracy) to the SOPA/PIPA legislation may have had [a direct, negative impact on his ability to get re-elected](http://www.deadline.com/2012/01/exclusive-hollywood-moguls-stopping-obama-donations-because-of-administrations-piracy-stand/). Hollywood and other media moguls are hitting the Obama administration where it hurts most, in the wallet (or, as it is termed at election time, in the war chest). It would be terrible if getting the Obama administration to take a stand on an issue important to us, the community of internet makers, cost the administration money to fund a re-election campaign. Obama's position was encouraged by our community and it would be wonderful if we could help him out by voting with our dollars the same way Hollywood and big media are voting with theirs. [Donate to the Obama campaign](https://donate.barackobama.com/page/outreach/view/2012/antisopa).
 
 ### </TL;DR>
 
@@ -24,7 +24,7 @@ There was a great deal more to the White Hourse statement and everyone is encour
 
 The combination of these events, as well as the continued phone calls and letters from constituents, had a direct impact on the [supporters of SOPA as tracked by propublica.org](http://projects.propublica.org/sopa/). The impact is well illustrated by [screenshots of propublica.org on the 18th next to the 19th](http://s3.amazonaws.com/propublica/assets/images/sopa-opera-count.png).[^1][^2][^3]
 
-Unfortunately, Obama's reaction may have had [a direct, negative impact on his ability to get re-elected](http://www.deadline.com/2012/01/exclusive-hollywood-moguls-stopping-obama-donations-because-of-administrations-piracy-stand/)[^4]. Hollywood and other media moguls are hitting the Obama administration where it hurts most in the wallet or, as it is termed at election time, in the war chest. It would be terrible if Obama's administration taking a stand on an issue important to us, the community of internet makers, cost them the money to fund a re-election campaign. He did it for us and it would be wonderful if we could help him out by voting with our dollars the same way Hollywood and big media is voting with theirs. [Donate to the Obama campaign](https://donate.barackobama.com/page/outreach/view/2012/antisopa).
+Unfortunately, Obama's reaction may have had [a direct, negative impact on his ability to get re-elected](http://www.deadline.com/2012/01/exclusive-hollywood-moguls-stopping-obama-donations-because-of-administrations-piracy-stand/)[^4]. Hollywood and other media moguls are hitting the Obama administration where it hurts most in the wallet or, as it is termed at election time, in the war chest. It would be terrible if Obama's administration taking a stand on an issue important to us, the community of internet makers, cost them the money to fund a re-election campaign. He did it for us and it would be wonderful if we could help him out by voting with our dollars the same way Hollywood and big media are voting with theirs. [Donate to the Obama campaign](https://donate.barackobama.com/page/outreach/view/2012/antisopa).
 
 [^1]: via [@joestump](http://twitter.com/joestump/statuses/160107054386782209)
 [^2]: via [@jamespoling](http://twitter.com/jamespoling/statuses/160222834893914112)
