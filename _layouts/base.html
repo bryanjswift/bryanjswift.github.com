@@ -16,10 +16,10 @@
     {% if page.ogtitle %}<meta property="og:title" content="{{ page.ogtitle }}" />{% endif %}
     {% if page.ogdesc %}<meta property="og:description" content="{{ page.ogdesc }}" />{% endif %}
     <meta property="og:image" content="http://bryanwrit.es/assets/img/open-graph-icon.png" />
-    <meta property="og:site_name" content="Bryan Writes" />
+    <meta property="og:site_name" content="{{ site.title }}" />
     {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}" />{% endif %}
-    {% if page.ogtitle %}<meta property="og:url" content="{{ site.url }}{{ post.url }}" />{% endif %}
-    <meta property="fb:admins" content="678400723" />
+    {% if page.ogtitle %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
+    {% if page.ogtitle %}<meta property="fb:admins" content="678400723" />{% endif %}
 
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
