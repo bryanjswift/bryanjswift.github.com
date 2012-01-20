@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Fight Hollywood, Fight SOPA
-date: 2012-01-20 00:36:54
+ogtitle: Fight Hollywood, Fight SOPA
+ogdesc: Big media wants to take money away from Obama, fight back by giving money or spreading the word.
+date: 2012-01-20 02:32:19
 published: true
 categories: []
 ---
