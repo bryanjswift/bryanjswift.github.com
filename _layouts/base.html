@@ -12,6 +12,15 @@
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
+    <!-- Facebook stuff -->
+    {% if page.ogtitle %}<meta property="og:title" content="{{ page.ogtitle }}" />{% endif %}
+    {% if page.ogdesc %}<meta property="og:description" content="{{ page.ogdesc }}" />{% endif %}
+    <meta property="og:image" content="http://bryanwrit.es/assets/img/open-graph-icon.png" />
+    <meta property="og:site_name" content="Bryan Writes" />
+    {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}" />{% endif %}
+    {% if page.ogtitle %}<meta property="og:url" content="{{ site.url }}{{ post.url }}" />{% endif %}
+    <meta property="fb:admins" content="678400723" />
+
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
