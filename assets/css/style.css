@@ -26,6 +26,7 @@ h4 { font-size: 1.55em; }
 h5 { font-size: 1.40em; }
 h6 { font-size: 1.25em; }
 p { margin: 0.5em 3%; }
+a[rev=footnote] { padding-left: 2px; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
 blockquote { margin: 1em 40px; }
@@ -39,7 +40,9 @@ q { quotes: none; }
 q:before, q:after { content: ""; content: none; }
 small { font-size: 85%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
+sup:before { content: ' [ '; }
+sup:after { content: ' ] '; }
+sup { top: -0.4em; }
 sub { bottom: -0.25em; }
 /* Lists */
 ul, ol { margin: 1em 3% 1em 0; padding: 0 0 0 40px; }
@@ -104,6 +107,8 @@ footer a { text-decoration: none; }
 .decorated { text-align: center; }
 .decorated:before, .decorated:after { content: '\2014'; padding: 0 .3em; }
 .decorated a { text-decoration: none; }
+/* Footnotes */
+.footnotes p { margin: 0.15em 1%; }
 /** Colors **/
 h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
