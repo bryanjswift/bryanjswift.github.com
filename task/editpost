@@ -19,12 +19,17 @@ require 'optparse'
 optparse = OptionParser.new do |opts|
 
   # banner
-  opts.banner = "Usage: editpost relative/path/to/post.format"
+  opts.banner = "Usage: editpost relative/path/to/YYYY-MM-DD-post.format"
 
   opts.on( '-h', '--help', 'Display this screen' ) do
     puts opts
     exit
   end
+
+  # Would be nice to have an option to leave a post as draft
+  # If not leaving as draft move it to the appropriate directory (_posts or journal/_posts)
+  # Need an option for a journal entry
+  # Should also change file name if the date is different (it probably is)
 
 end
 
@@ -46,7 +51,7 @@ now = "date: #{Time.now.strftime("%Y-%m-%d %H:%M:%S")}"
 
 puts "Updating date to #{now}"
 
-post = "#{blog_dir}/#{file}"
+post = "#{file}"
 text = File.read(post).gsub(/date: \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/, now)
 
 File.open(post, 'w') do |f|
