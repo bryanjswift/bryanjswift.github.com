@@ -1,4 +1,4 @@
-<article>
+<article class="hentry">
   <header>
     {% if post.link %}
     <h1 class="entry-title"><a class="external" href="{{ post.link }}">{{ post.title }}</a></h3>
@@ -7,7 +7,7 @@
     {% else %}
     <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
-    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span>, <span class='year'>%Y</span>"}}</time> - by <span class="author">{{ site.author }}</span>
+    <time class= "updated" datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span>, <span class='year'>%Y</span>"}}</time> - by <span class="byline source-org author vcard"><span class="org fn">{{ site.author }}</span></span>
   </header>
   <div class="clearfix entry-content">{{ content }}</div>
   {% if index %}
