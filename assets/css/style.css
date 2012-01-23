@@ -108,12 +108,14 @@ footer a { text-decoration: none; }
 .decorated:before, .decorated:after { content: '\2014'; padding: 0 .3em; }
 .decorated a { text-decoration: none; }
 /* Footnotes */
+.footnotes { border-style: dashed; border-width: 1px 0 0; padding: 0.5em 0 0.25em; }
 .footnotes p { margin: 0.15em 1%; }
 /** Colors **/
 h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
 .divider, .callout { border-color: #ccc; }
 pre { border-color: #dedede; background: #f8f8ff; }
+.footnotes { border-color: #ccc; }
 /*** </Primary Styles> ***/
 /** Helpers **/
 /* For image replacement */
