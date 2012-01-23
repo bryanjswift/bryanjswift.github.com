@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Shredded Chicken Tacos
-date: 2012-01-18 23:53:44
-published: false
+date: 2012-01-22 19:20:11
+published: true
 categories: ["recipe"]
 ---
  
