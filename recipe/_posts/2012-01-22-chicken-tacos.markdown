@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Shredded Chicken Tacos
-date: 2012-01-22 19:20:11
+date: 2012-01-22 19:38:33
 published: true
 categories: ["recipe"]
 ---
- 
+
+## Ingredients
+
 * 2 - 8 oz. cans tomato sauce
 * 2 t. white distilled vinegar
 * 2 t. minced garlic
@@ -17,6 +19,8 @@ categories: ["recipe"]
 * 2 lbs. bone-in, skin-on chicken breasts (boneless/skinless is fine too)
 * Adobo to taste
 * 1 - 10 oz. pkg corn tortillas, warmed
+
+## Instructions
 
 For  garnishes - onion, 1 lime cut into wedges, chopped cilantro, lettuce, tomatoes, avocados, salsa
 
