@@ -1,0 +1,4 @@
+article iframe.kick-card { position: relative; left: 50%; margin: 0 0 0 -110px; }
+@media only screen and (min-width: 480px) {
+  article iframe.kick-card { float: right; left: auto; margin: 0 0 0.1em 2%; }
+}
