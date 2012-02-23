@@ -3,17 +3,15 @@ layout: base
 ---
 
 {% assign index = true %}
-{% assign show = 3 %}
 <section class="blog-index">
-  {% for post in site.posts limit: show %}
+  {% for post in site.posts limit: site.index.count %}
     {% assign content = post.content %}
-    {% if post.styles %}<link rel="stylesheet" href="{{ post.styles }}" />{% endif %}
     {% include article.html %}
   {% endfor %}
 </section>
 <section id="blog-archives">
   <h2 class="divider decorated"><a href="/archives/">Archives</a></h2>
-  {% for post in site.posts offset: show %}
+  {% for post in site.posts offset: site.index.count %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
       {% assign year = this_year %}
