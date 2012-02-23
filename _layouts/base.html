@@ -22,6 +22,7 @@
     {% if page.ogtitle %}<meta property="fb:admins" content="678400723" />{% endif %}
 
     <link rel="stylesheet" href="/assets/css/style.css" />
+    {% if page.styles %}<link rel="stylesheet" href="{{ page.styles }}" />{% endif %}
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link rel="author" href="/humans.txt" />
