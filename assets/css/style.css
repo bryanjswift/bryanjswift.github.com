@@ -45,7 +45,7 @@ sup:after { content: ' ] '; }
 sup { top: -0.4em; }
 sub { bottom: -0.25em; }
 /* Lists */
-ul, ol { margin: 1em 3% 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 1em 0; padding: 0 0 0 17px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 /* Embedded content */
@@ -77,9 +77,13 @@ td { vertical-align: top; }
 h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 #container { padding-bottom: 2em; }
 .divider { border-style: solid; border-width: 2px 0; }
-.links, .gist { position: relative; margin: 0 3%; }
+.links, .gist { position: relative; }
 .links li { display: inline-block; padding: 0.5em 0; width: 32%; text-align: center; }
 pre { margin: 0 3%; border: 1px solid; padding: 0.25em 0.5em 0.5em; }
+.entry-content { margin: 0 3%; }
+.entry-content p, .entry-content h1, .entry-content h2, .entry-content h3 {
+  margin-right: 0; margin-left: 0;
+}
 /* Pagination */
 .pages { margin: 0 3%; }
 /** Typography **/
@@ -92,7 +96,7 @@ article header time { margin: 0 0 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
 article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
-.callout { margin: 0.5em 3%; border: 2px solid; }
+.callout { margin: 0.5em 0; border: 2px solid; padding: 0 3%; }
 .next { text-align: right; }
 .next a:after { content: '\bb'; padding-left: 5px; }
 .prev a:before { content: '\ab'; padding-right: 5px; }
