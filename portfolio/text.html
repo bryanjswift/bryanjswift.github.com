@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
 		<title>Bryan J Swift's Portfolio</title>
 		<link rel="stylesheet" href="css/portfolio.css" type="text/css" media="screen" />
 		<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="css/portfolioIE.css" /><![endif]-->
@@ -10,7 +10,7 @@
 		<div id="wrap">
 			<div id="title">
 				<h1>Selected works of Bryan J Swift</h1>
-				<p>On the projects I am highlighting from my full-time work at <a href="http://akqa.com/">AKQA</a> I served as the lead web developer working from the designs were produced by the talented members of the creative department there. <a href="text.html">View the text only version</a> of this page, <a href="files/resume.pdf">download my resume</a>, or <a href="http://careers.stackoverflow.com/bryanjswift">view it online</a>.</p>
+				<p>On the projects I am highlighting from my full-time work at <a href="http://akqa.com/">AKQA</a> I served as the lead web developer working from the designs were produced by the talented members of the creative department there. <a href="index.html">View the full version</a> of this page, <a href="files/resume.pdf">download my resume</a>, or <a href="resume.html">view it online</a>.</p>
 			</div>
 			<div id="personas" class="section">
 				<h2>Elsewhere on the Interwebs</h2>
@@ -23,25 +23,25 @@
 				</ul>
 			</div>
 			<div id="freelance" class="section">
-				<h2>Freelance Client Work</h2>
+				<h2>Recent Freelance Work</h2>
 				<ol class="clearfix">
 					<li>
-						<h3><a href="http://mycrysis.com" title="Crysis2 Official Fan Site">MyCrysis</a></h3>
-						<img src="img/mycrysis.png" alt="Homepage of MyCrysis site" />
-						<p>I was contracted by Doug Smith in the Washington, D.C. offices of AKQA to handle the front end development of the Crysis project they had won. I worked from New York with the D.C. based team to translate design PSDs into a functional front end. The client side code I created was made into templates by the Drupal developers in the D.C. office. Once the initial template creation and Drupal configuration was completed I worked directly in the PHP files, editing the template code along with the CSS and JavaScript.</p>
+						<h3>SXSW Twitter App for Momentum</h3>
+						<img src="img/sxsw-twitter.png" alt="Homepage of MyCrysis site" />
+						<p><a href="http://www.linkedin.com/in/amandaschultz">Amanda Schultz</a>, Sr. Integrated Producer at Momentum Worldwide, contacted me to do execute the technical buildout of a social media component for a Jay-Z concert sponsored by American Express to be performed during SXSWi '12. In order to enact the Momentum team's vision I brought on <a href="http://logicalkiko.com/">Alex Nguyen</a> to do the display development while I built the connection to the Twitter Streaming API to store tweets and allow Momentum team members to moderate them.</p>
 					</li>
 					<li>
-						<h3><a href="http://www.suave.com/asktheprofessionals/" title="Suave: Ask the Professionals">Ask the Professionals</a></h3>
-						<img src="img/suave-atp.png" alt="Homepage of Suave: Ask the Professionals" />
-						<p>Amanada Schultz, formerly at Droga5, brought me on board for a couple of weeks to clean up the code and fix some critical bugs on a short timeline just before the delivery to Suave of this site. The bulk of the front end work is not mine but I want to include this project because it highlights my ability to come into a project and quickly be productive fixing show stopper bugs on an unfamiliar code base. The majority of the issues I needed to address were problems getting IE6 to render elements correctly and getting the JavaScript components to behave properly.</p>
+						<h3><a href="https://www.redroverapp.com/" title="RedRover">RedRover</a></h3>
+						<img src="img/redrover.png" alt="Timeline of RedRover" />
+						<p><a href="http://www.linkedin.com/pub/ami-moore/6/61/b7b">Ami Moore</a>, then the produce manager at RedRover, brought me on board with the approval of <a href="http://vineel.com">Vineel Shah</a>, then CTO, to help with the development of the web and Android apps. In addition to working on both Android and web interaces for their service oriented architecture I also spent time working on their iPhone application.</p>
 					</li>
 				</ol>
 			</div>
 			<div id="client" class="section">
-				<h2>Client Work</h2>
+				<h2>Work at AKQA</h2>
 				<ol class="clearfix">
 					<li>
-						<h3><a href="http://bryanjswift.com/projects/bm-extranet/index.html" title="Smirnoff Global Site">Smirnoff Gateway</a></h3>
+						<h3><a href="http://bryanjswift.com/projects/gateway/index.html" title="Smirnoff Global Site">Smirnoff Gateway</a></h3>
 						<img src="img/smirnoff.jpg" alt="Smirnoff Age Gate" />
 						<p>Diageo was having trouble with an abnormally high dropoff rate at the age validation step prior to gaining access to the site and felt the dropoff was related to the Gateway being in Flash. So they asked AKQA to redesign and rebuild it for them.</p>
 						<p>Once the creative department had finished creating an updated look in psd format it was handed off to me for top to bottom implementation. One of the more interesting challenges of this was backporting a number of MooTools plugins (which I had previously written) for use with a legacy version which broke plugin compatibility in a bunch of ways. The most enjoyable part of this project was finally getting to add better keyboard support for the MooTools dropdown replacement script I wrote.</p>
@@ -51,7 +51,7 @@
 						<img src="img/motorola.jpg" alt="Mobile Phones page of Motorola.com USA" />
 						<p>AKQA was commissioned to help Motorola rebrand, rearchitect, redesign and rebuild their global website and with the recently launched redesign my front end work is featured prominently on many of the templates/pages.</p>
 						<p>I created most of the JavaScript classes and components which control the interactions between the user and the site. These elements were created in JavaScript utilizing an object oriented approach in order to facilitate code re-use on subsequent endeavors with Motorola. This project was interesting and exciting in a lot of ways because it pushed me to create lots of flexible UI components many of which replaced standard browser controls without compromising keyboard accessibility.</p>
-						<p>Some of the pages I am most pleased with are the <a href="http://www.motorola.com/consumers/v/index.jsp?vgnextoid=8b871df4f3d89110VgnVCM1000008406b00aRCRD&amp;appInstanceName=default" title="Motorola Phones Browse Page">phones</a>, <a href="http://www.motorola.com/consumers/v/index.jsp?vgnextoid=d44832a609e89110VgnVCM1000008406b00aRCRD&amp;appInstanceName=default" title="Motorola Accessories Browse Page">accessories</a> and the <a href="http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/ch.Mobile-Phones.compare?pMotProductsToCompare=52179_57471_40906&amp;productId=52179&amp;productId=57471&amp;productId=40906" title="Motorola Aura, Motorola Evoke, Motorola Rokr comparison page">product comparison page</a>. As with anything finished work there are some things I would like to change or tweak but all things considered I believe these turned out well.</p>
+						<p>Some of the pages I am most pleased with are the <a href="http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/Mobile-Phones/" title="Mobile Phones -- Motorola Mobility">phones</a>, <a href="http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/Mobile+Phone+Accessories" title="Mobile Phone Accessories -- Motorola Mobility">accessories</a> and the <a href="http://www.motorola.com/Consumers/US-EN/Consumer-Product-and-Services/ch.Mobile-Phones.compare?pMotProductsToCompare=88569_78281_96406&productId=88569&productId=78281&productId=96406" title="DROID 4, DROID RAZR, DROID RAZR MAXX -- Comparison Page">product comparison page</a>. As with any 'finished' work there are some things I would have liked to be able to change or tweak but all things considered I believe these turned out well.</p>
 					</li>
 					<li>
 						<h3><a href="http://bryanjswift.com/projects/bm-extranet/index.html" title="Mockup of Benjamin Moore Extranet Site">Benjamin Moore Extranet</a></h3>
@@ -72,7 +72,7 @@
 					<li>
 						<h3><a href="http://github.com/bryanjswift/vimblog/tree/master" title="Source of Vimblog on GitHub">Vimblog Fork</a></h3>
 						<p>The inclusion of this project is admittedly odd because it is no where near what I would call complete. However it is one of the few projects of mine which has gotten <a href="http://blog.tquadrado.com/?page_id=146">public kudos from another developer</a>. I used this vim plugin as my "I should learn Ruby" project. Prior to working on this I was relatively unfamiliar with Ruby's syntax because I had done nearly no development in the langage.</p>
-						<p>I originally started work on this after discovering TextMate's blogging plugin which I found to be useful for interacting with Wordpress but I was (and continue to) using MacVim as my primary editor so I wanted to be able to replicate the functionality of the TextMate blogging plugin in Vim. I really enjoyed digging into the Ruby language a bit with this project and it served to whet my appetite for more functional languages.</p>
+						<p>I originally started work on this after discovering TextMate's blogging plugin which I found to be useful for interacting with Wordpress but I was (and will continue to be) using MacVim as my primary editor so I wanted to be able to replicate the functionality of the TextMate blogging plugin in Vim. I really enjoyed digging into the Ruby language a bit with this project and it served to whet my appetite for more functional languages.</p>
 					</li>
 				</ol>
 			</div> <!-- end #opensource -->
