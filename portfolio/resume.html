@@ -231,6 +231,9 @@
         var s = d.getElementsByTagName(n)[0];
         s.parentNode.insertBefore(t, s);
       })('script', document);
+      if (typeof Typekit !== 'undefined') {
+        try { Typekit.load(); } catch(e) { }
+      }
     </script>
   </body>
 </html>
