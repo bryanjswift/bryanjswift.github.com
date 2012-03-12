@@ -79,8 +79,18 @@
 		</div> <!-- end #wrap -->
 		<script type="text/javascript" src="http://use.typekit.com/dii7yyf.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js"></script>
-		<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
-		<script type="text/javascript" src="js/tracking.js"></script>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function(n, d) {
+        var t   = d.createElement(n);
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4ef8d83e613f5d3ca2000007');
+        t.src = '//secure.gaug.es/track.js';
+        var s = d.getElementsByTagName(n)[0];
+        s.parentNode.insertBefore(t, s);
+      })('script', document);
+    </script>
 		<script type="text/javascript" src="js/Form.Slider.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
