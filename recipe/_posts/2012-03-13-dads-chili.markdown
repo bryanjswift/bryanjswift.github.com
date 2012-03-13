@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dad's Chili
-date: 2012-03-13 18:19:37
-published: false
+date: 2012-03-13 18:44:54
+published: true
 categories: ["recipe"]
 ---
 
