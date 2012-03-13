@@ -96,7 +96,7 @@ This was a three week gig focused on getting an already implemented site cleaned
 * Took over existing front end code for [vyvansekids.com][11]
 * Cleaned up CSS and JS implementation in order to fix critical IE6 bugs
 
-### Developer [Contract] at [AKQA, Inc [DC]][5]
+### Developer [Contract] at [AKQA, Inc. [DC]][5]
 
 May 2010 to July 2010 -- Washington, D.C.
 
@@ -125,7 +125,7 @@ I was brought on to help revamp the Java platform powering an existing Arc90 cli
 * Set up infrastructure for Selenium unit tests in order to assist with transition of development from Knovel team to Arc90
 * Assisted setting up internal infrastructure for development using distributed version control
 
-### Senior Software Engineer at [AKQA, INC [NY]][14]
+### Senior Software Engineer at [AKQA, Inc. [NY]][5]
 
 November 2006 to February 2010 -- New York, NY
 
@@ -137,7 +137,7 @@ I was the first engineer hired by the New York office and as such wore many diff
 * Created a module to augment the Magnolia CMSâ€™ functionality to fit the specific needs of Smirnoffâ€™s brand team
 * Developed and Managed Java integration points for third-party vendors and internal teams for Aircellâ€™s new product, GoGo
 
-### Systems Analyst at [Devis][15]
+### Systems Analyst at [Devis][14]
 
 June 2004 to November 2006 -- Arlington, VA
 
@@ -148,7 +148,7 @@ The First Gig. An incredible learning experience in a wildly different environme
 
 ## Education
 
-### Bachelor of Science in Physics with Minors in Computer Science and Philosophy from [Juniata College][16]
+### Bachelor of Science in Physics with Minors in Computer Science and Philosophy from [Juniata College][15]
 
 August 2001 to May 2004 -- Huntingdon, Pennsylvania
 
@@ -165,6 +165,5 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [11]: http://www.vyvansekids.com/
 [12]: http://www.nomimes.com/
 [13]: http://arc90.com
-[14]: htt://akqa.com
-[15]: http://devis.com
-[16]: http://juniata.edu
+[14]: http://devis.com
+[15]: http://juniata.edu
