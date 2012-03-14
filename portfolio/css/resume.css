@@ -34,6 +34,7 @@ div.vcard span { padding: 0 0.2em; }
 .responsibilities { margin-top: 0.1em; margin-right: 20%; }
 .responsibilities li { margin: 0; }
 #experience h2 { width: 56.4%; }
+#experience p, #experience li { max-width: 650px; }
 @media print {
   body { margin: 0; max-width: 8in; font-size: 70%; }
   img { display: none !important; }
