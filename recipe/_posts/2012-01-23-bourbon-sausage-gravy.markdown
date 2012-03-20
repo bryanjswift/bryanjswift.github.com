@@ -8,10 +8,10 @@ categories: ["recipe"]
 
 ## Ingredients
 
-* &#189; med. onion diced
-* &#189; tablespoon olive oil
+* &frac12; med. onion diced
+* &frac12; tablespoon olive oil
 * pinch of salt
-* &#190; lb of ground sausage
+* &frac34; lb of ground sausage
 * 4 oz of bourbon
 * 5 tablespoons all purpose flour
 * 3 cups whole milk

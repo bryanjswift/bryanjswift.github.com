@@ -16,16 +16,16 @@ My Dad makes some of the most wonderful chili I've ever had, and I love chili. T
 * 1 medium bell pepper (orange, yellow, red)
 * 1 tablespoon (T) chili powder
 * 1 teaspoon (t) salt
-* 1/4 teaspoon (t) garlic powder
-* 1 1/2 teaspoon (t) parsley
-* 1 1/2 teaspoon (t) oregano or sage
-* 1/2 teaspoon (t) thyme
+* &frac14; teaspoon (t) garlic powder
+* 1 &frac12; teaspoon (t) parsley
+* 1 &frac12; teaspoon (t) oregano or sage
+* &frac12; teaspoon (t) thyme
 * 1 bay leaf
 * 2 teaspoons (t) cumin
-* 1/4 cup vinegar
+* &frac14; cup vinegar
 * 16 oz tomato sauce
 * 16 oz stewed tomatoes
-* 1/2 cup corn
+* &frac12; cup corn
 
 ## Instructions
 

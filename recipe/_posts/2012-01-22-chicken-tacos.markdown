@@ -11,10 +11,10 @@ categories: ["recipe"]
 * 2 - 8 oz. cans tomato sauce
 * 2 t. white distilled vinegar
 * 2 t. minced garlic
-* 3 1/2 t. ancho chile powder
+* 3 &frac12; t. ancho chile powder
 * 1 t. ground cumin
 * 2 t. oregano
-* 1/2 t. sugar 
+* &frac12; t. sugar 
 * 2 T. virgin olive oil
 * 2 lbs. bone-in, skin-on chicken breasts (boneless/skinless is fine too)
 * Adobo to taste
