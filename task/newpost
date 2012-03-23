@@ -76,6 +76,9 @@ elsif categories.include?("journal")
 end
 
 post = "#{blog_dir}/#{post_dir}/#{date_prefix}-#{postname}.#{options[:format]}"
+if options[:draft]
+  post = "#{blog_dir}/#{post_dir}/#{postname}.#{options[:format]}"
+end
  
 header = <<-END
 ---
