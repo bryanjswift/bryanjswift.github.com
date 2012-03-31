@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <title>Bryan Writes</title>
+  <desc>The new logo for http://bryanwrit.es</desc>
+
+  <style type="text/css">
+    .thin { stroke-width: 1; }
+    .medium { stroke-width: 2; }
+    .black { stroke: #000; }
+    .blue { stroke: #06e; }
+    .red { stroke: #ff0000; }
+    .nofill { fill: none; }
+    .blueFill { fill: #4286e0; fill: rgb(66, 134, 224); fill: rgba(3, 93, 214, 0.75); }
+  </style>
+
+  <!--rect class="thin red nofill" x="62" y="49" width="201" height="229" /-->
+  <!-- left ear, left side -->
+  <path class="medium black nofill" d="M 50,10 c -50,50 -40,130 -10,180" />
+  <g>
+    <clipPath id="insideClipper">
+      <rect x="50" y="10" width="125" height="100" />
+    </clipPath>
+    <!-- left ear, right side -->
+    <path class="medium black nofill" d="M 50,10 c 50,50 40,100 10,150" clip-path="url(#insideClipper)" />
+    <!-- right ear, left side -->
+    <path class="medium black nofill" d="M 175,10 c -50,50 -40,100 -10,150" clip-path="url(#insideClipper)" />
+  </g>
+  <!-- right ear, right side -->
+  <path class="medium black nofill" d="M 175,10 c 50,50 40,130 10,180" />
+  <!-- ears, top connector -->
+  <path class="medium black nofill" d="M 84,100 c 18.5,-20 39,-20 57,0" />
+  <!-- ears, bottom connector -->
+  <!--path class="medium black nofill" d="M 90,230 c 48,-30 97,-30 145,0" /-->
+  <!-- chin -->
+  <!--path class="medium black nofill" d="M 90,230 c 48,60 97,60 145,0" /-->
+  <path class="medium black blueFill" d="M 40,190 c 48,-30 97,-30 145,0 M 40,190 c 48,60 97,60 145,0" />
+</svg>
