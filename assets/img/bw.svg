@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg viewbox="62 49 263 278" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg width="225" height="245" xmlns="http://www.w3.org/2000/svg" version="1.1">
 
   <title>Bryan Writes</title>
   <desc>The new logo for http://bryanwrit.es</desc>
@@ -16,7 +16,6 @@
     .blueFill { fill: #4286e0; fill: rgb(66, 134, 224); fill: rgba(3, 93, 214, 0.75); }
   </style>
 
-  <!--rect class="thin red nofill" x="62" y="49" width="201" height="229" /-->
   <!-- left ear, left side -->
   <path class="medium black nofill" d="M 50,10 c -50,50 -40,130 -10,180" />
   <g>
