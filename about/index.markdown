@@ -12,4 +12,4 @@ I consider myself a generalist when it comes to my development skills. I have us
 
 For the latter half of 2011 I was "out of the game" because I was doing volunteer work for tsunami victims with my girlfriend in the Tohoku prefecture of Japan. Prior to our month of volunteer work I was "taking time off" to work on my pet project, [Persnicketly](http://persnicketly.com). After the voluneering we spent a little over a month and a half traveling around and then spent the holidays with my parents.
 
-Now I'm back and still working on Persnicketly, but I'm also looking for paying work too. I'm easy to get in touch with via [email](mailto:bryan.j.swift@gmail.com). My work history is also easy to see, just head over to [my resume](/portfolio/resume.html).
+Now I'm back and still working on Persnicketly, but I'm also looking for paying work as long as it starts after June 8th. I'm easy to get in touch with via [email](mailto:bryan.j.swift@gmail.com). My work history is also easy to see, just head over to [my resume](/portfolio/resume.html).
