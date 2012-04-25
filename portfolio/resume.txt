@@ -26,6 +26,15 @@ bryan.j.swift@gmail.com
 
 ## Experience
 
+### Developer [Contract] at [Huge, Inc.][16]
+
+March 2012 to June 2012 -- Brooklyn, NY
+
+Huge brought me in to supplement their front-end engineering team on a long-running project for one of their clients.
+
+* Integrate JSPs with server side services
+* Extend existing JavaScript for more general use cases
+
 ### Developer [Contract] at [Momentum Worldwide][1]
 
 February 2012 to March 2012 -- New York, NY
@@ -167,3 +176,4 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [13]: http://arc90.com
 [14]: http://devis.com
 [15]: http://juniata.edu
+[16]: http://www.hugeinc.com/
