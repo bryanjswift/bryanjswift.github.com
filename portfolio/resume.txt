@@ -34,6 +34,18 @@ Huge brought me in to supplement their front-end engineering team on a long-runn
 
 * Integrate JSPs with server side services
 * Extend existing JavaScript for more general use cases
+* Create custom JSP tags to encapsulate repeated code
+
+### Developer [Contract] at [Wondersauce][17]
+
+March 2012 to June 2012 -- New York, NY
+
+Wondersauce was contracted to create a web site and an accompanying online storefront from which Susan Rockefeller will sell a series jewelry collection she is creating. The jewelry collections are being sold to help benefit select charitable organizations. The site and storefront were designed by the team at Wondersauce and they contracted the development work to me.
+
+* Serve as technical contact for hosting company
+* Configure the CMS (Perch) and construct the custom data types for shop and site content
+* Develop custom Shopify theme template files
+* Write a custom Perch add-on to help with management of Shopify content in CMS
 
 ### Developer [Contract] at [Momentum Worldwide][1]
 
@@ -177,3 +189,4 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [14]: http://devis.com
 [15]: http://juniata.edu
 [16]: http://www.hugeinc.com/
+[17]: http://www.wondersauce.com/
