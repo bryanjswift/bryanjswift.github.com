@@ -43,8 +43,8 @@ div.vcard span { padding: 0 0.2em; }
   #side { float: none; margin: 0; width: auto; }
   #experience h2, #experience p, #experience li { width: auto; max-width: 100%; }
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-  html { font-size: 175%; }
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px) {
+  html { font-size: 200%; }
 }
 /* Cover letter */
 .coverletter { padding: 1em 0 2em; font-size: 150%; page-break-after:always; }
