@@ -9,7 +9,7 @@ bryan.j.swift@gmail.com
 * Creative Problem Resolution
 * Design and Development in Object Oriented Languages
 * Design and Development in Functional Languages
-* Java, Scala, Ruby, PHP
+* Java, Scala, PHP
 * HTML, JavaScript, CSS
 * Team Leadership
 
