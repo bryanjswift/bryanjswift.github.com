@@ -1,0 +1,38 @@
+---
+layout: post
+title: Quote Crate Works!
+---
+
+<p>Seriously, this is a big deal to me. About eight (8) months ago Alex Payne wrote a quick blurb about an idea he had for a site but wasn&#8217;t going to work on. He called it Quotidian with a tagline of &#8220;A place to store and organize quotes&#8221;. The original text of the blurb he wrote is <a href="http://al3x.net/2009/06/15/quotidian.html">on his site as an unfinished idea</a> and when I read this in June of last year I was immediately inspired. I shot him an email that basically said &#8220;I love this idea, I want to work on it&#8221; and promptly got a response of (essentially) &#8220;Have at it.&#8221;</p>
+
+
+
+<p>So I started, thinking I&#8217;d be able to get something up on the relatively (at the time) newly release Google App Engine for Java. This was a little off as it turned out. A key component of Alex&#8217;s idea was being able to search the quotes that were stored by text or author and out of the box Google&#8217;s App Engine has no text tokenizing, full-text search type capabilities. When I realized this I thought, &#8220;no problem, I&#8217;ll use Lucene.&#8221; I&#8217;d used <a href="http://lucene.apache.org/">Lucene</a> before, though a much earlier version of it, and it was pretty dead simple to set up and get things indexed.</p>
+
+
+
+<p>As it turns out, trying to use Lucene on the App Engine does in fact pose a pretty significant problem. Lucene by default is set up to write it&#8217;s indexing data out to the file system, which is simply not possible in the sandboxed version of the App Engine JVM&#8217;s. Since I was somewhat in search of a project at the time anyway I decided to implement the Lucene API to write to the App Engine datastore. I spent a lot of night&#8217;s poring over Lucene API/Javadoc documentation trying to figure out what the expected results were when performing certain operations, trying to piece together the flow through the library and trying to understand exactly how my code was being called by the guts of Lucene.</p>
+
+
+
+<p>For a while this drove me a little crazy but I eventually got something together that passed (slightly) modified versions of Lucene&#8217;s unit tests for <code>IndexInput</code> and <code>IndexOutput</code> implementations. I integrated it with the code to save quotes and threw it up on the App Engine servers. Once it was there I noticed something, it was <em>reaaallllllly</em> slow. Knowing I still had a ways to go with the rest of the application I figured this was ok and I left it alone.</p>
+
+
+
+<p>Then my (former) day job at <a href="http://akqa.com">AKQA New York</a> got crazy, I mean super busy. For months. And I had learned enough Scala (the other motivation for working on this project) that my motivation to work on this simply disappeared. Time passed and I carried on with my life and started a different Scala project. Recently things changed a bit. I saw an opportunity at <a href="http://arc90.com">Arc90</a>, they were looking for a Java engineer. I decided to give it a shot and they brought me in for an interview where they asked me about things I&#8217;d worked on in Java and I showed them Quote Crate without thinking. Fortunately, as I discovered later, it had lain completely dormant since my last batch of testing and one of the guys submitted a quote. It was slow, but I knew it would be. He said &#8220;cool&#8221; and we moved on but the encounter got this project back on my radar.</p>
+
+
+
+<p>A week or two passed, Arc brought me on and I started thinking about this code again and what I had wanted to do with it when I started. So I went back and tested it out again, firing it up in the dev server and adding a bunch of comments to see what happened. <strong>BOOM!!</strong> 500 Error. Stack Trace. Looking at the error I saw it was in the Lucene indexing stuff I wrote and thought, shit. After some investigation I realized it blew up when adding the tenth (10th) quote. Yeah, that&#8217;s not very many, I know.</p>
+
+
+
+<p>So I created a new branch, commented out the part where quotes get added to the Lucene index, called it stable and pushed it up. The stack traces were gone but now I was haunted by what was causing it. I had thought this problem solved and so I started digging again. Foolishly, I waited to create a unit test (or spec) for the situation until recently. Once I did I saw a different problem when I ran my tests something about the thread not having a datastore environment set up. I thought to myself &#8220;Nothing should be creating threads&#8221; and went on a hunt. It turns out, Lucene periodically does merging of index data after you get a sizeable enough in the index and this was spawning a background thread to clean it up in an attempt to not bog down the application. This is generally a good idea except you&#8217;re not supposed to be able to manually spawn threads in the App Engine environment, maybe this was the problem. I changed the <code>MergeScheduler</code> used by the <code>IndexWriter</code> to be serial rather than concurrent and the errors have, so far, disappeared.</p>
+
+
+
+<p>I&#8217;ve pushed up a v2 of the <a href="http://www.quotecrate.com">Quote Crate</a> code and though it&#8217;s still slow it doesn&#8217;t, to my knowledge, throw errors. The best part of this though is I&#8217;m mired in the <a href="http://github.com/bryanjswift/quotidian">quotidian code</a> again and really excited to keep on improving it and adding the missing features to the application.</p>
+
+
+
+<p>Thank you Alex for the inspiration. Thank you Chris Dary and Avi Flax at Arc90 for inspiring me to bring this application back from the dead.</p>

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Task Queue Java API Overview - Google App Engine - Google Code
+---
+
+<a href="http://code.google.com/appengine/docs/java/taskqueue/overview.html">Task Queue Java API Overview - Google App Engine - Google Code</a><br/><p>Today I implemented the <a href="http://code.google.com/appengine/docs/java/taskqueue/overview.html">Task Queue</a> functionality on <a href="http://www.quotecrate.com">Quote Crate</a> in an effort to speed up saving quotes. Basically instead of adding things to the index on save it fires off what is essentially a background task to add the quote to the index. Since it&#8217;s not getting much traffic (or any really) things are added almost immediately and the request to save quotes is sped up a bit.</p>
+
+
+
+<p>Next up, exposing search.</p>

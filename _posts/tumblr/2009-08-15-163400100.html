@@ -1,0 +1,20 @@
+---
+layout: post
+title: Lucene and the App Engine Datastore, They Play Nice After All
+---
+
+<p>As it turns out, most of my troubles to date with getting Lucene to save &#8220;files&#8221; to the datastore have actually not been troubles with the datastore interaction <em>at all</em>. The problem was in fact more basic, I was saving the &#8220;file&#8221; in Lucene&#8217;s pre-commit phase and not in it&#8217;s actual-commit phase. This caused me all kinds of craziness because I could tell the <code>Array</code> of <code>Byte</code>s being written to the &#8220;file&#8221; and then subsequently read from the &#8220;file&#8221; were exactly the same and yet the checksums didn&#8217;t match. Huh? Yeah, I know, So here&#8217;s the skinny.</p>
+
+
+
+<p>Lucene when initializing an <code>IndexWriter</code>, at runtime, tests to make sure it is able write a <code>Long</code> to the <code>IndexOutput</code>. In order to do this it <em>intentionally saves the checksum - 1</em> and then flushes the <code>IndexOutput</code>. I&#8217;m still not totally clear on the intention of <code>IndexOutput::flush</code>, because I thought it was flush to file system which was way off. Changing <code>IndexOutput</code> so the write to file system action happens in close rather than in flush solved this mind bender. The best part of debugging this was definitely finding the line with:</p>
+
+
+
+<pre><code>output.writeLong(checksum - 1);
+
+</code></pre>
+
+
+
+<p>After this I performed a few small refactorings so <code>DatastoreFile</code>s are backed by <code>List</code>s rather than <code>Array</code>s and only send <code>Array</code>s with the datastore <code>Entity</code>s for persisting.</p>

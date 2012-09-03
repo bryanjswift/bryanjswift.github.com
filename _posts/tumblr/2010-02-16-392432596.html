@@ -1,0 +1,14 @@
+---
+layout: post
+title: Concurrency and Me
+---
+
+<p>I got to play with the java.util.concurrent package today and I have to admit that after some of the lessons I&#8217;ve learned in Scala it didn&#8217;t seem nearly as scary as all these people make it out to be. Of course I suppose that part of the danger is exactly that it doesn&#8217;t seem difficult but I&#8217;m optimistic.</p>
+
+
+
+<p>The reason I was playing with it at all is because I&#8217;m trying to export data from Google Sites but the <a href="http://code.google.com/p/google-sites-liberation/">current exporter</a> was producing broken links and a lot of HTML cruft. Admittedly the cruft is most likely from the generated markup and not the export but I wanted to try and clean it up anyway. Since it was open source I pulled it down (and imported it into git from mercurial) and started hacking away.</p>
+
+
+
+<p>The easiest way I could think of to do XML manipulation was to include Scala and use it&#8217;s builtin libraries but after I did that I noticed the export was &#8216;hanging&#8217; so I looked at the processes and saw it was only using the main thread so I hacked in some multi-threaded support with Executors. It isn&#8217;t perfect and I broke some tests but I can export most of my data in a timely fashion now. The work I did on this is visible on <a href="http://github.com/bryanjswift/google-sites-liberation">github</a></p>

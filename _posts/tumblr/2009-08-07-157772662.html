@@ -1,0 +1,10 @@
+---
+layout: post
+title: Lucene Directory Implementation for Google AppEngine in Scala
+---
+
+<p>For the last week and a half or so I&#8217;ve been spending free time working on an App Engine project in Scala. A fairly large portion of the concept is the ability to search through submitted data. The App Engine being a Google product I assumed before I started search would be no big deal. As it turns out there is no good way I can find in the low-level Datastore API to perform a text search on stored Entities. Having worked with Lucene a bit in the past and having heard it called a &#8220;best of breed&#8221; search tool I once again figured it would be no problem to implement. Shortly after catching up on Lucene documentation I realized I had nowhere to store the indexes Lucene creates for searching because I wasn&#8217;t using a traditional database supported out of the box and because there is no file write access on the App Engine.</p>
+
+
+
+<p>This series of realizations got me looking around for an existing implementation of Lucene for GAE. The closest thing I found was a Compass implementation for GAE (Compass sits on top of Lucene) but I didn&#8217;t want to integrate the Compass framework with my project so I was still up the creek. After more searching turned up nothing new I decided to give it a go on my own. As of now I have Directory, IndexInput, and IndexOutput defined and have stared to write specs for them. This tangent of the project has certainly taken longer than expected but it has also been quite educational. I&#8217;m hoping to finish the specs this weekend and get it gully integrated for deployment next week. I&#8217;m also hoping once installed in this project it will prove reasonably performant and useful as a public solution.</p>
