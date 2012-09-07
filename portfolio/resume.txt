@@ -26,6 +26,28 @@ bryan.j.swift@gmail.com
 
 ## Experience
 
+### Developer [Contract] at [IPG / Media Lab](http://www.ipglab.com/)
+
+September 2012 to November 2012 -- New York, NY
+
+The Executive Creative Director at the IPG Media Lab brought me in to do technical development and consulting on R &amp; D projects and to do the technical execution of prototype projects and demos for display in the office.
+
+* Act as a technical manager overseeing process development
+* Fill the role of architect when implementing prototypes and long-lived projects
+* Detail user specifications and flows for prototypes
+* Provide technical insight to brainstorming sessions
+* Create robust prototypes to be featured as demos inside the lab offices
+
+### Developer [Contract] at [Wondersauce][17]
+
+July 2012 to September 2012 -- New York, NY
+
+Wondersauce was contracted to create a web site to re-introduce a video competition for a racing sponsorship by a car parts manufacturer and they reached out to me to do the technical development.
+
+* Serve as technical contact for hosting company
+* Configure the CMS (Perch) and construct the custom data types for site content
+* Manage partner relationship with competition infrastructure provider
+
 ### Developer [Contract] at [Huge, Inc.][16]
 
 March 2012 to June 2012 -- Brooklyn, NY
