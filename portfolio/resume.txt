@@ -26,9 +26,9 @@ bryan.j.swift@gmail.com
 
 ## Experience
 
-### Developer [Contract] at [IPG / Media Lab](http://www.ipglab.com/)
+### Developer [Contract] at [IPG Media Lab](http://www.ipglab.com/)
 
-September 2012 to November 2012 -- New York, NY
+September 2012 to March 2013 -- New York, NY
 
 The Executive Creative Director at the IPG Media Lab brought me in to do technical development and consulting on R &amp; D projects and to do the technical execution of prototype projects and demos for display in the office.
 
@@ -40,7 +40,7 @@ The Executive Creative Director at the IPG Media Lab brought me in to do technic
 
 ### Developer [Contract] at [Wondersauce][17]
 
-July 2012 to September 2012 -- New York, NY
+July 2012 to December 2013 -- New York, NY
 
 Wondersauce was contracted to create a web site to re-introduce a video competition for a racing sponsorship by a car parts manufacturer and they reached out to me to do the technical development.
 
