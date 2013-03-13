@@ -9,7 +9,7 @@ body:after { content: ' '; display: block; height: 0; overflow: hidden; visibili
 a { color: #9c0001; }
 a:hover { color: #e40000; }
 abbr { border: 0; text-decoration: none; }
-h1, h2, h3 { font-family: "museo-slab-1","museo-slab-2", Times, serif; font-weight: 300; }
+h1, h2, h3 { font-family: "museo-slab-1", "museo-slab-2", Times, serif; font-weight: 300; }
 h1 { font-size: 2.5em; line-height: 1.6; font-weight: 800; }
 h2 {
   margin: 1em 0 0; border: solid #e5dabf; border-width: 1px 0; padding: 0.25em 0.5em; font-size: 1.75em; line-height: 1;
