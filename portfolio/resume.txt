@@ -1,6 +1,7 @@
 Bryan J Swift
 
-*Not Currently Seeking Work*
+**Not Currently Seeking Work**
+*as of March 13th, 2013*
 
 +1 (347) 469-1193
 bryan.j.swift@gmail.com
@@ -30,7 +31,7 @@ bryan.j.swift@gmail.com
 
 ### Developer [Contract] at [IPG Media Lab](http://www.ipglab.com/)
 
-September 2012 to March 2013 -- New York, NY
+September 2012 to February 2013 -- New York, NY
 
 The Executive Creative Director at the IPG Media Lab brought me in to do technical development and consulting on R &amp; D projects and to do the technical execution of prototype projects and demos for display in the office.
 
@@ -42,7 +43,7 @@ The Executive Creative Director at the IPG Media Lab brought me in to do technic
 
 ### Developer [Contract] at [Wondersauce][17]
 
-July 2012 to December 2013 -- New York, NY
+July 2012 to April 2013 -- New York, NY
 
 Wondersauce was contracted to create a web site to re-introduce a video competition for a racing sponsorship by a car parts manufacturer and they reached out to me to do the technical development.
 
