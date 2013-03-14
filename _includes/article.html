@@ -1,13 +1,15 @@
 <article class="hentry">
   <header>
     {% if post.link %}
-    <h1 class="entry-title"><a class="external" href="{{ post.link }}">{{ post.title }}</a></h3>
+    <h1 class="entry-title"><a class="external" href="{{ post.link }}">{{ post.title }}</a></h1>
     {% elsif index %}
-    <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h3>
+    <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h1>
     {% else %}
     <h1 class="entry-title">{{ post.title }}</h1>
     {% endif %}
-    <time class= "updated" datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span>, <span class='year'>%Y</span>"}}</time> - by <span class="byline source-org author vcard"><span class="org fn">{{ site.author }}</span></span>
+    {% if post.date %}
+    <time class= "updated" datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%B</span> <span class='day'>%d</span>, <span class='year'>%Y</span>"}}</time> - by <span class="byline source-org author vcard"><span class="org fn">{{ site.author }}</span></span>
+    {% endif %}
   </header>
   <div class="clearfix entry-content">{{ content }}</div>
   {% if index %}
