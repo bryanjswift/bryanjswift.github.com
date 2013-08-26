@@ -37,10 +37,12 @@ div.vcard span { padding: 0 0.2em; }
 #experience p, #experience li { max-width: 650px; }
 @media print {
   body { margin: 0; max-width: 8in; font-size: 70%; }
-  img { display: none !important; }
+  img, .status { display: none !important; }
+  div.vcard .tel { display: inline; }
   h2 { border: 0; }
   a { text-decoration: none; color: #1d1916; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
+  .experience:nth-child(5), .experience:nth-child(11) { page-break-after: always; }
 }
 @media screen and (max-width: 640px), screen and (max-device-width: 480px) {
   #side { float: none; margin: 0; width: auto; }
