@@ -29,7 +29,16 @@ bryan.j.swift@gmail.com
 
 ## Experience
 
-### Developer [Contract] at [IPG Media Lab](http://www.ipglab.com/)
+### Developer [Contract] at [Wondersauce][17]
+
+September 2013 to November 2013 -- New York, NY
+
+Wondersauce was contracted to redesign the website for a company manufacturing windshield wiper blades and I assisted with and then took over the technical development.
+
+* Serve as technical contact for hosting company
+* Configure the CMS (Perch) and construct the custom data types for site content
+
+### Developer [Contract] at [IPG Media Lab][18]
 
 September 2012 to February 2013 -- New York, NY
 
@@ -215,3 +224,4 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [15]: http://juniata.edu
 [16]: http://www.hugeinc.com/
 [17]: http://www.wondersauce.com/
+[18]: http://www.ipglab.com
