@@ -2,7 +2,7 @@
 layout: post
 title: Daily for January 24th, 2012
 date: 2012-01-24 23:58:12
-published: false
+published: true
 categories: ["journal"]
 ---
 I'm falling back into relaxed routine with Mai now that we are "living" somewhere relatively stably. Even though our living arrangement is temporary so have all of our other living arrangements been. Hopefully that is not the source of the comfort. 

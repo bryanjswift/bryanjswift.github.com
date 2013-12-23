@@ -2,7 +2,7 @@
 layout: post
 title: Daily for March 14th, 2012
 date: 2012-03-14 23:51:35
-published: false
+published: true
 categories: ["journal"]
 ---
 
