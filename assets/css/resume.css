@@ -6,8 +6,6 @@
 sup:before { content: ' '; }
 sup:after { content: ''; }
 
-.contact .email:before { content: 'Can be reached at '; }
-
 aside ul, .responsibilities {
   padding-left: 3%; list-style-position: inside; list-style-type: disc; list-style-type: square;
 }
@@ -19,10 +17,13 @@ aside ul, .responsibilities {
 
 @media print {
   body { margin: 0; max-width: 8in; font-size: 70%; }
-  img, .status { display: none !important; }
-  div.vcard .tel { display: inline; }
+  #banner, img, .status { display: none !important; }
+  .vcard h1, .contact, .vcard .location { display: block; }
+  .vcard .tel { display: inline; }
   h2 { border: 0; }
-  a { text-decoration: none; color: #1d1916; }
+  a { text-decoration: none; color: #222; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
-  .experience:nth-child(5), .experience:nth-child(11) { page-break-after: always; }
+  .experience:nth-child(2), .experience:nth-child(7), .experience:nth-child(12) {
+    page-break-after: always;
+  }
 }
