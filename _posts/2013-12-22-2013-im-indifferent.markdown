@@ -4,6 +4,8 @@ title: 2013? I'm Indifferent.
 date: 2013-12-22 23:48:39
 published: true
 categories: []
+tags: ['year in review']
+
 ---
 
 Financially, this past year was a crummy one for me. I invoiced about 1/3 less than I did last year and I did less work on payroll so taxes are likely to hit me harder at the end of it (I paid less into income tax so far).
