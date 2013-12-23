@@ -2,7 +2,7 @@
 layout: post
 title: Daily for January 30th, 2012
 date: 2012-01-30 23:59:59
-published: true
+published: false
 categories: ["journal"]
 ---
  

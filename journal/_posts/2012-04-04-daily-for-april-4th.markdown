@@ -2,7 +2,7 @@
 layout: post
 title: Daily for April 4th, 2012
 date: 2012-04-04 23:59:59
-published: true
+published: false
 categories: ["journal"]
 ---
  

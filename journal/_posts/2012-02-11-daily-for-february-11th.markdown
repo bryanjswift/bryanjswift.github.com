@@ -2,7 +2,7 @@
 layout: post
 title: Daily for February 11th, 2012
 date: 2012-02-11 23:59:59
-published: true
+published: false
 categories: ["journal"]
 ---
  
