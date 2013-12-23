@@ -1,0 +1,28 @@
+.vcard h1, .vcard .type, .vcard .location, .vcard .tel, .contact { display: none; }
+
+.status { margin-top: 1em; border: 0; }
+.working-not-working { display: block; font-weight: 800; text-transform: uppercase; }
+.updated { display: block; font-weight: 300; font-style: italic; }
+sup:before { content: ' '; }
+sup:after { content: ''; }
+
+.contact .email:before { content: 'Can be reached at '; }
+
+aside ul, .responsibilities {
+  padding-left: 3%; list-style-position: inside; list-style-type: disc; list-style-type: square;
+}
+.vcalendar { padding-left: 0; }
+.job { list-style: none; }
+
+@media only screen and (min-width: 700px) {
+}
+
+@media print {
+  body { margin: 0; max-width: 8in; font-size: 70%; }
+  img, .status { display: none !important; }
+  div.vcard .tel { display: inline; }
+  h2 { border: 0; }
+  a { text-decoration: none; color: #1d1916; }
+  .coverletter { padding: 0; margin: 3em 7% 0; }
+  .experience:nth-child(5), .experience:nth-child(11) { page-break-after: always; }
+}
