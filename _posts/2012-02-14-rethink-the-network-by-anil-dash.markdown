@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #Rethink the Network by Anil Dash
+title: "#Rethink the Network by Anil Dash"
 date: 2012-02-14 09:56:37
 published: true
 categories: []
