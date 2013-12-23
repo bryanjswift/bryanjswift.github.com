@@ -23,7 +23,7 @@ exclude: [_assets, _drafts, task, lib, config.ru, CNAME, Gemfile]
 markdown: kramdown
 
 index:
-  count: 3
+  count: 1
 
 # simulate GitHub Pages
 pygments: true
