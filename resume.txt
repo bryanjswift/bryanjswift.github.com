@@ -16,22 +16,17 @@ bryan.j.swift@gmail.com
 * HTML, JavaScript, CSS
 * Team Leadership
 
-## Software
-
-* JavaScript Frameworks: MooTools, jQuery
-* Java Frameworks: Guice, Jersey, Jackrabbit
-* Android SDK
-* iPhone SDK and XCode 4
-* Datastores: MySQL, PostgreSQL, MongoDB, Redis
-* Source Control: Git, Subversion
-* Application Servers: Apache, nginx, Tomcat, Embedded Jetty
-* Linux: Ubuntu, CentOS
-
 ## Experience
+
+### Founder at [Lynr][18]
+
+December 2013 to Current -- Los Angeles, CA
+
+Founded Lynr, LLC to create an inventory and tool and publishing platform for car dealerships.
 
 ### Developer [Contract] at [Wondersauce][17]
 
-September 2013 to November 2013 -- New York, NY
+September 2013 to December 2013 -- New York, NY
 
 Wondersauce was contracted to redesign the website for a company manufacturing windshield wiper blades and I assisted with and then took over the technical development.
 
@@ -225,3 +220,4 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [16]: http://www.hugeinc.com/
 [17]: http://www.wondersauce.com/
 [18]: http://www.ipglab.com
+[19]: http://lynr.co
