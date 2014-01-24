@@ -12,7 +12,7 @@ date_format: "%A %B %o %Y"
 subscribe_rss: http://bryanwrit.es/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email: bryan.j.swift@gmail.com
+email: mail@bryanwrit.es
 
 root: /
 permalink: /here/:year/:title/

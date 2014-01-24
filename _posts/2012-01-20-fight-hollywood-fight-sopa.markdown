@@ -28,5 +28,5 @@ Unfortunately, Obama's reaction may have had [a direct, negative impact on his a
 
 [^1]: via [@joestump](http://twitter.com/joestump/statuses/160107054386782209)
 [^2]: via [@jamespoling](http://twitter.com/jamespoling/statuses/160222834893914112)
-[^3]: I wish I could find the original source of this image. If you have it please let me know - <bryan.j.swift@gmail.com>
+[^3]: I wish I could find the original source of this image. If you have it please let me know - <mail@bryanwrit.es>
 [^4]: via [@cshirky](http://twitter.com/cshirky/statuses/160129411276996608)
