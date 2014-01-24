@@ -23,7 +23,7 @@ aside ul, .responsibilities {
   h2 { border: 0; }
   a { text-decoration: none; color: #222; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
-  .experience:nth-child(2), .experience:nth-child(7), .experience:nth-child(12) {
+  .experience:nth-child(4), .experience:nth-child(9), .experience:nth-child(15) {
     page-break-after: always;
   }
 }
