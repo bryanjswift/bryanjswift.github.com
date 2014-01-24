@@ -19,7 +19,6 @@ aside ul, .responsibilities {
   body { margin: 0; max-width: 8in; font-size: 70%; }
   #banner, img, .status { display: none !important; }
   .vcard h1, .contact, .vcard .location { display: block; }
-  .vcard .tel { display: inline; }
   h2 { border: 0; }
   a { text-decoration: none; color: #222; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
