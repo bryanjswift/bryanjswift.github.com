@@ -12,7 +12,7 @@
 # omit the trailing slash, please
 blog_dir = "/Volumes/Freelance/projects/personal/bryanjswift.github.com"
 # passed to open -a
-editor = "/Applications/iA Writer.app"
+editor = "/Applications/Byword.app"
 
 require 'optparse'
 
@@ -23,7 +23,7 @@ optparse = OptionParser.new do |opts|
   # banner
   opts.banner = "Usage: newpost [options] \"title of post\""
 
-  opts.on('-d', '--draft', 'Create post as a draft') do 
+  opts.on('-d', '--draft', 'Create post as a draft') do
     options[:draft] = true
   end
 
@@ -53,7 +53,7 @@ rescue OptionParser::InvalidOption => e
   puts o
   exit 1
 end
- 
+
 if ARGV[0].nil?
   optparse.display
   exit 1
@@ -79,7 +79,7 @@ post = "#{blog_dir}/#{post_dir}/#{date_prefix}-#{postname}.#{options[:format]}"
 if options[:draft]
   post = "#{blog_dir}/#{post_dir}/#{postname}.#{options[:format]}"
 end
- 
+
 header = <<-END
 ---
 layout: post
@@ -88,13 +88,13 @@ date: #{now.strftime("%Y-%m-%d %H:%M:%S")}
 published: #{published}
 categories: #{categories.to_s}
 ---
- 
+
 END
- 
+
 File.open(post, 'w') do |f|
   f << header
 end
- 
+
 puts "Opening post..."
 system("open", "-a#{editor}", post)
 exit 0
