@@ -37,7 +37,7 @@
       try { Typekit.load(); } catch(e) { }
     </script>
   </head>
-  <body>
+  <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
     <div id="container">
       <header id="banner">
         {% include header.html %}
