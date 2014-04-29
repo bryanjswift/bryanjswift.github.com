@@ -1,7 +1,7 @@
 Bryan J Swift
 
 **Not Currently Seeking Work**
-*as of January 23rd, 2014*
+*as of April 29th, 2014*
 
 +1 (347) 653-7492
 mail@bryanwrit.es
@@ -12,7 +12,7 @@ mail@bryanwrit.es
 * Creative Problem Resolution
 * Design and Development in Object Oriented Languages
 * Design and Development in Functional Languages
-* Java, Scala, PHP
+* Java, Scala, PHP, Ruby
 * HTML, JavaScript, CSS
 * Team Leadership
 
@@ -87,13 +87,13 @@ Momentum was producing a Jay-Z concert sponsored by American Express to be perfo
 * Build and document API for moderating tweets and accessing approved tweets
 * Initialize server environment, including nginx load balancing / proxying and MongoDB
 
-### Sabbatical 
+### Sabbatical
 
 June 2011 to December 2011 -- USA, Japan, Singapore, New Zealand
 
 Since I had taken almost no time off since starting to do freelance work I decided it was time to break from client work and do some other things. I spent the first two months working on a personal project ([Persnicketly][2]) and finishing up the last of my existing client work. Towards the end of those months I was also planning out an international vacation with my girlfriend and learning Japanese. On September 2nd we landed in Japan and headed to Ofunato in the Iwate prefecture to do tsunami relief work until September 30th. Following the relief work we traveled through Japan, visited Singapore and then toured New Zealand before arriving in California to spend the holidays with my parents.
 
-### Developer [Contract] at [RedRover][3] 
+### Developer [Contract] at [RedRover][3]
 
 February 2011 to June 2011 -- New York, NY
 
@@ -105,7 +105,7 @@ RedRover is a social startup focused on enabling people to make plans with frien
 * Took over development of Android client from third-party vendor
 * Mentored a junior developer while doing code reviews and (some) peer programming
 
-### Developer [Contract] at [Appinions][4] 
+### Developer [Contract] at [Appinions][4]
 
 October 2010 to January 2011 -- Yonkers, NY
 
@@ -117,7 +117,7 @@ Appinions (formerly Jodange) had a trio of talented computational linguists work
 * Created custom servlets to display a variety of different widget types
 * Ported existing applications connected directly to Solr to use the Appinions API
 
-### Developer [Contract] at [AKQA, Inc. [DC]][5] 
+### Developer [Contract] at [AKQA, Inc. [DC]][5]
 
 August 2010 to October 2010 -- Washington, D.C.
 
@@ -128,7 +128,7 @@ I was brought on to supplement the team working on a site for the soon to launch
 * Created client side local storage code using the local database APIs provided by Google Chrome
 * Implemented custom JavaScript selects and other styled form controls
 
-### Developer [Contract] at [Luna Design, Inc][7] 
+### Developer [Contract] at [Luna Design, Inc][7]
 
 August 2010 to October 2010 -- New York, NY
 
@@ -137,7 +137,7 @@ Luna Design is a small web design studio where I did some work on small, quick t
 * Developed HTML, CSS and JS for [Vandaag's site][8]
 * Developed HTML, CSS and JS for [Kin Shop's site][9]
 
-### Developer [Contract] at [Euro RSCG][10] 
+### Developer [Contract] at [Euro RSCG][10]
 
 July 2010 to August 2010 -- New York, NY
 
