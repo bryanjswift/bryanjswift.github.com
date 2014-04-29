@@ -19,7 +19,7 @@ permalink: /here/:year/:title/
 source: .
 destination: _site
 
-exclude: [_assets, _drafts, task, lib, config.ru, CNAME, Gemfile]
+exclude: [_assets, _drafts, task, CNAME, Gemfile, Gemfile.lock, vendor]
 markdown: kramdown
 
 index:
