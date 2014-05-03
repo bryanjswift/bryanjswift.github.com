@@ -80,8 +80,8 @@ I've been running this setup for a couple of days and I haven't noticed any degr
 [node.server.listen]: http://nodejs.org/api/http.html#http_server_listen_port_hostname_backlog_callback
 [shotgun]: https://github.com/rtomayko/shotgun
 [unbound]: http://unbound.net
-[unbound.conf]: https://gist.github.com/bryanjswift/2f31ace15bbfffea0ae3#file-unbound-conf
-[unbound.conf.abbr]: https://gist.github.com/bryanjswift/2f31ace15bbfffea0ae3#file-abbreviated-unbound-conf
+[unbound.conf]: /assets/posts/2014-05-03-using-local-dns-server-for-device-testing/unbound.conf
+[unbound.conf.abbr]: /assets/posts/2014-05-03-using-local-dns-server-for-device-testing/abbreviated-unbound.conf
 
 [^1]: Lynr is hosted on Heroku and I didn't want to create a commit and push to staging to test every change. I did this for a couple of changes and it was a pain in the ass.
 [^2]: for the day, because you're never done testing.
