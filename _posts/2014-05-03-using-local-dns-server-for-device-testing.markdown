@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Local DNS Server for Device Testing
-date: 2014-05-03 07:32:36
+date: 2014-05-03 12:29:03
 published: true
 categories: []
 styles: /assets/posts/2014-05-03-using-local-dns-server-for-device-testing/style.css
