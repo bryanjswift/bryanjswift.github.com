@@ -40,7 +40,36 @@ I don't like software always running in the background if it isn't necessary so 
 
 The next thing to do is configure `unbound`. The configuration file, when installed via homebrew, is located at `/usr/local/Cellar/unbound/1.4.22/etc/unbound/unbound.conf`. My [full unbound.conf][unbound.conf] is not embedded because I modified the default file and, including comments, it is 650 lines. The important bits are included below and in this [abbreviated unbound.conf file][unbound.conf.abbr].
 
-<script src="https://gist.github.com/bryanjswift/2f31ace15bbfffea0ae3.js?file=abbreviated-unbound.conf"></script>
+	# The server clause sets the main parameters.
+	server:
+	  # Allow network connections outside
+	  # of localhost
+	  interface: 0.0.0.0
+	  # Don't automatically run in the background
+	  # because I want to be able to kill it without
+	  # hunting a pid
+	  do-daemonize: no
+	  # TODO: Change this to your network range,
+	  # like `192.168.0.0/16 allow`
+	  access-control: 10.0.0.0/16 allow
+	  # TODO: Change this to your username, or
+	  # whatever user you want to run/own the
+	  # `unbound` process
+	  username: "bryanjswift"
+	  # TODO: The DNS records for your local site
+	  local-zone: "lynr.co.bimac." static
+	  local-data: "lynr.co.bimac. 10800 IN NS localhost."
+	  local-data: "lynr.co.bimac. 10800 IN SOA localhost. nobody.invalid. 1 3600 1200 604800 10800"
+	  local-data: "lynr.co.bimac. 10800 IN A 10.0.1.7"
+	# Forward zones
+	forward-zone:
+	  # This forwards all DNS requests not found in
+	  # `local-zone` data to another DNS provider
+	  name: "."
+	  # NOTE: if you don't want to use Google Public
+	  # DNS changes these IP addresses
+	  forward-addr: 8.8.8.8
+	  forward-addr: 8.8.4.4
 
 The things to make sure you change are `access-control:`, `username:` and the `local-zone:`. Search for these properties in `/usr/local/Cellar/unbound/1.4.22/etc/unbound/unbound.conf` and change them. `username:` is the easiest to change, it should be whatever your username is when you are logged in. If you don't know this you can find out by executing the `whoami` command in a Terminal window. Regarding `local-zone:`, during development I run local applications with names like `production.domain.com.local` because it makes both what I'm working on and where it is hosted obvious at a glance. The domain name (lynr.co.bimac from my abbreviated configuration file) in `unbound.conf` can be changed to whatever convention you've adopted for yourself. `access-control:` is an IP mask for your router's internal IP addresses. Internal IPs typically start with `192.168.` or `10.0.`. To find out which your router uses open the Network panel in System Preferences and look for the text 'and has the IP address' under 'Status: Connected' when looking at the Wi-Fi panel. The first two numbers (dots included) should replace the `10.0.` on line 8 of [abbreviated unbound.conf][unbound.conf.abbr]. The whole IP address should replace `10.0.1.7` on line 15.
 
