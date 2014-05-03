@@ -6,6 +6,7 @@ layout: base
 <section class="blog-index">
   {% for post in site.posts limit: site.index.count %}
     {% assign content = post.content %}
+    {% if post.styles %}<link rel="stylesheet" href="{{ post.styles }}" />{% endif %}
     {% include article.html %}
   {% endfor %}
 </section>
