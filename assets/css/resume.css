@@ -12,17 +12,22 @@ aside ul, .responsibilities {
 .vcalendar { padding-left: 0; }
 .job { list-style: none; }
 
+abbr[title] { border: 0; }
+
 @media only screen and (min-width: 700px) {
 }
 
 @media print {
-  body { margin: 0; max-width: 8in; font-size: 70%; }
+  body { margin: 0; max-width: 8in; font-size: 90%; }
   #banner, img, .status { display: none !important; }
   .vcard h1, .contact, .vcard .location { display: block; }
   h2 { border: 0; }
   a { text-decoration: none; color: #222; }
+  a:link:after, a:visited:after { content:" (" attr(href) ") "; font-size: 0.7em; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
-  .experience:nth-child(4), .experience:nth-child(9), .experience:nth-child(15) {
+  .experience:nth-child(3), .experience:nth-child(7), .experience:nth-child(10),
+      .experience:nth-child(14), .experience:nth-child(17) {
     page-break-after: always;
   }
+  #colophon { display: none; }
 }
