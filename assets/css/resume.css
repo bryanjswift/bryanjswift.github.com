@@ -1,4 +1,4 @@
-.vcard h1, .vcard .type, .vcard .location, .vcard .tel, .contact { display: none; }
+.vcard h1, .vcard .type, .vcard .tel { display: none; }
 
 .status { margin-top: 1em; border: 0; }
 .working-not-working { display: block; font-weight: 800; text-transform: uppercase; }
