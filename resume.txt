@@ -2,15 +2,17 @@ Bryan J Swift
 
 +1 (347) 653-7492
 mail@bryanwrit.es
+Los Angeles, CA
 
 ## Skills
 
 * Spoken and Written Communication
 * Creative Problem Resolution
-* Design and Development in Object Oriented Languages
-* Design and Development in Functional Languages
-* Java, Scala, PHP, Ruby
+* System Design in Object Oriented or Functional Languages
+* Unix (Debian/Ubunut) Server administration
+* Ruby, PHP, Node.JS, Java, Scala
 * HTML, JavaScript, CSS
+* Puppet
 * Team Leadership
 
 ## Experience
@@ -20,6 +22,11 @@ mail@bryanwrit.es
 December 2013 to Current -- Los Angeles, CA
 
 Founded Lynr, LLC to create an inventory and tool and publishing platform for car dealerships.
+
+* Maintain Ruby web framework written on top of Rack
+* Devise system architecture in order to optimize for small team
+* Create on boarding documentation for technical resources
+* Solve for future sales team problems by creating a demo version with easy conversion
 
 ### Developer [Contract] at [Wondersauce][17]
 
