@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/bryanjswift
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bryanwrit.es
+  * I am bryanjswift (https://keybase.io/bryanjswift) on keybase.
+  * I have a public key with fingerprint A439 647C C223 4E86 D25D  9449 6FD4 B193 F9A5 6D56
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "a439647cc2234e86d25d94496fd4b193f9a56d56",
+            "host": "keybase.io",
+            "key_id": "6fd4b193f9a56d56",
+            "uid": "5b23b4999f172c599c811c6a36e86000",
+            "username": "bryanjswift"
+        },
+        "service": {
+            "hostname": "bryanwrit.es",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408040874,
+    "expire_in": 157680000,
+    "prev": "e19741e0be7b71b7916d1894244cd7bfe19850e8d75c4e570e68bbc754669490",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtUVtIFFEY3t1aKSvpooEmUpNB0GIzu3M7+6KJZS9lIFk91Dpn5uw6lTPbzOyu
+2yKBS5mEsmI9lAnZXZNinwyJjAylRCo2C8GXlrxkK3SzEi07IwU99HD4Of93+3/+
+2KolFptVfRVvmb1RXWEdfDQDLeWphbsRAqpSmHBHiGNosXhlxYc0vyYrBuEmBNoF
+WJoTRafTRSOelZyMBGgasF6JhhRweYHAsBLDEg6iStVNBbaBgo4KZBX38McjS7j7
+H35gEWCg0wVpAICX4pwiA4DIU5TICi4Wp5EkaRJ1pClCNcJsqIUF5agekr0GUesg
+MBCURWSObab/SwppslGAdCz3a6qhiupxjFQZht9tCo2w32SGEPT88fBAWZHw6lgQ
+RJouqwrhpjBTNGTTlKJJnsSPox0EqvHLGvLIJoPhWB5PSZoxKIgtEQU4mkIkRBzk
+KMgBipUoHtBOmhYlDnoxzjMk4iWOEWnEcCRieQhFjqFZFtDA3FdHJxSVcOMkQ/Bh
+S132KYIR0BBRm95gzV1qsdosaXabeT1L+vLVf286F19maWxPxBll8JSijeZkVFXs
+nA8fYG53Ric9Q4ELv2I/vm3J62xuP7u9aSHSfT/A95d2DZdXrk/v6Lv2uKRPLd67
+/1Zpm7uldWrTM5S/5/LAvdRhYYAcW/FwvkYsHtkVKMyY8sWySXt2wfetlckr78Jn
+kD6RaF13KP9mfXNRq+98GWHYs+xthS+f7iuby3xfGYXxrLUdpUJo/NObHbPRzePD
+Ky+2RLqvJ3PrYw8meFu5g6jb/SQsTyea7vSoJTkz4TXPN25g3zYe6d+WTByMnjTG
+kr4vfS/kS6cjH15f/TqSByZBiVAXjDjK0opmZj+ODvWmesdSyYbMns/npn92/QY=
+=omTh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bryanjswift
+
+==================================================================
+
