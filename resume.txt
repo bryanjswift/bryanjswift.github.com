@@ -28,6 +28,17 @@ Founded Lynr, LLC to create an inventory and tool and publishing platform for ca
 * Create on boarding documentation for technical resources
 * Solve for future sales team problems by creating a demo version with easy conversion
 
+### Principal Developer at Knights Tmp Var, LLC
+
+January 2014 to Current -- Los Angeles, CA
+
+Founded Knights Tmp Var, LLC to encapsulate my contract work.
+
+* PHP website development for [Siberia][20]
+* Drupal 7 site development for [Siberia][20]
+* Android application development for [Siberia][20]
+* Ruby on Rails development for Crowd Cover, LLC
+
 ### Developer [Contract] at [Wondersauce][17]
 
 September 2013 to December 2013 -- New York, NY
@@ -225,3 +236,4 @@ August 2001 to May 2004 -- Huntingdon, Pennsylvania
 [17]: http://www.wondersauce.com/
 [18]: http://www.ipglab.com
 [19]: http://lynr.co
+[20]: http://siberia.io
