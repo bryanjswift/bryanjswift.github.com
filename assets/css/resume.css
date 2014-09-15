@@ -35,7 +35,7 @@ abbr[title] { border: 0; }
   a:link:after, a:visited:after { content:" (" attr(href) ") "; font-size: 0.7em; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
   .experience:nth-child(2), .experience:nth-child(6), .experience:nth-child(9),
-      .experience:nth-child(13), .experience:nth-child(16) {
+      .experience:nth-child(12), .experience:nth-child(16) {
     page-break-after: always;
   }
   #colophon { display: none; }
