@@ -12,7 +12,7 @@
 # omit the trailing slash, please
 blog_dir = "/Users/bryanjswift/Work/bryanjswift.github.com"
 # passed to open -a
-editor = "/Applications/iA Writer.app"
+editor = "/Applications/Byword.app"
 
 require 'optparse'
 
@@ -28,7 +28,7 @@ optparse = OptionParser.new do |opts|
     exit
   end
 
-  opts.on('-d', '--draft', 'Keep post as a draft') do 
+  opts.on('-d', '--draft', 'Keep post as a draft') do
     options[:draft] = true
   end
 
