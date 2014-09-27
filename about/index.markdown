@@ -1,4 +1,4 @@
---- 
+---
 layout: page
 title: About Bryan
 published: true
@@ -34,6 +34,7 @@ around and then spent the holidays with my parents.
 Most recently I've been working on [Lynr](https://www.lynr.co) and while
 I'm super proud to have launched it, my business partner [Darrell](http://darrellwhitelaw.com)
 and I haven't been overwhelmed by the number of people flocking to use
-our product and it isn't quite paying the bills yet so I'm looking for
-paying work. I'm easy to get in touch with via [email](mailto:mail@bryanwrit.es).
-My work history is also easy to see, just head over to [my resume](/resume).
+our product and it isn't quite paying the bills yet so I'm occaisionally
+taking on contract work. If you're interested I'm easy to get in touch
+with via [email](mailto:mail@bryanwrit.es). My work history is also easy
+to see, just head over to [my resume](/resume/).
