@@ -4,6 +4,7 @@ title: Crafting Commits and the Importance of Commit Messages
 date: 2014-09-26 17:05:03
 published: true
 categories: []
+styles: /assets/posts/2014-05-03-using-local-dns-server-for-device-testing/style.css
 ---
 
 The tricky thing about commit messages is they seem unimportant when you are writing them because you know what changes you just made and why you made them and the code is right there so it is obvious. Those are incorrect assumptions.
