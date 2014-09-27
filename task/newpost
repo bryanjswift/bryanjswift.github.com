@@ -10,7 +10,7 @@
 ###
 
 # omit the trailing slash, please
-blog_dir = "/Users/bryanjswift/Work/projects/personal/bryanjswift.github.com"
+blog_dir = "/Users/bryanjswift/Work/bryanjswift.github.com"
 # passed to open -a
 editor = "/Applications/Byword.app"
 
