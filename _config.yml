@@ -26,5 +26,4 @@ index:
   count: 1
 
 # simulate GitHub Pages
-pygments: true
 safe: true
