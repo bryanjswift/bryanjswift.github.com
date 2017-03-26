@@ -23,6 +23,10 @@ aside ul, .responsibilities {
 
 abbr[title] { border: 0; }
 
+dl.responsibilities p {
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 700px) {
 }
 
@@ -34,8 +38,7 @@ abbr[title] { border: 0; }
   a { text-decoration: none; color: #222; }
   a:link:after, a:visited:after { content:" (" attr(href) ") "; font-size: 0.7em; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
-  .experience:nth-child(2), .experience:nth-child(6), .experience:nth-child(9),
-      .experience:nth-child(12), .experience:nth-child(16), .experience:nth-child(19) {
+  .experience:nth-child(3) dd:nth-child(2), .experience:nth-child(4) {
     page-break-after: always;
   }
   #colophon { display: none; }
