@@ -31,15 +31,17 @@ dl.responsibilities p {
 }
 
 @media print {
-  body { margin: 0; max-width: 8in; font-size: 90%; }
+  @page {
+    size: auto;
+    margin: 0.5in;
+  }
+  body { margin: 0; font-size: 90%; }
   #banner, img, .status { display: none !important; }
+  .vcard h1 { margin-top: 0; }
   .vcard h1, .contact, .vcard .location { display: block; }
   h2 { border: 0; }
   a { text-decoration: none; color: #222; }
   a:link:after, a:visited:after { content:" (" attr(href) ") "; font-size: 0.7em; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
-  .experience:nth-child(3) dd:nth-child(2), .experience:nth-child(4) {
-    page-break-after: always;
-  }
   #colophon { display: none; }
 }
