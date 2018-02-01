@@ -1,8 +1,0 @@
-Dear NYPL,
-
-I have recently gotten more interested in data discovery and ways to make the discovery easier for information consumers and the Archival Web Developer role sounds it will be a great opportunity to explore this interest further while at the same time helping to make the lives of researchers easier. The prospect of doing work which may change the way libraries work and the way researchers interact with the materials archived there makes this opportunity even more appealing to me. Since getting back from doing relief work in Japan I have been searching for work I find meaningful to take on and once again this position at the NYPL appeals to me. 
-
-I've been doing web application development since shortly after graduating college in 2004. I started off doing server side development in Java but have since expanded my horizons considerbaly in terms of both server side and client side languages. I proudly consider myself a generalist developer with experience in a number of languages and platforms. This breadth of experience has served me well in picking the best tools to solve the problems at hand and I would love to bring this experience to bear in the Archival Web Developer role.
-
-Thank you for your consideration.
-Bryan J Swift

@@ -1,9 +1,0 @@
-/* Basic Layout */
-.section { position: relative; padding: 0.5em 0 0.9em; }
-.section-title { clear: both; }
-.section-projects { overflow: hidden; }
-.section ol { position: relative; list-style: none; padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; }
-.section li { float: left; position: relative; margin: 0 3%; width: 44%; }
-.section h3 { margin-left: 0; }
-.section li img { max-width: 100%; text-align: center; }
-.section li p { margin: 0.5em 0; }
