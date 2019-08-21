@@ -1,3 +1,7 @@
+.lede { margin-bottom: 3em; }
+p { margin-top: 1em; margin-bottom: 1em; line-height: 1.25; }
+
+/* Copied from resume.css */
 .entry-title { display: none; }
 
 .vcard h1, .vcard .type, .vcard .tel { display: none; }
@@ -44,5 +48,4 @@ dl.responsibilities p {
   a:link:after, a:visited:after { content:" (" attr(href) ") "; font-size: 0.7em; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
   #colophon { display: none; }
-  #akqa { page-break-before: always; }
 }
