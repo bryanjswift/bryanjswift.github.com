@@ -26,7 +26,7 @@ Brooklyn, NY
 
 ### Rust
 
-* Exploratory coding and learning exploring WebAssembly as a way to deliver a smaller web payload for end users
+* Self-directed Learning because it has the best tooling for WebAssembly which allows the smallest payload to users
 
 ## Recent Job History
 
