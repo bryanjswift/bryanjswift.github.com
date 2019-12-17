@@ -28,7 +28,7 @@ h3 { font-size: 1.7em; }
 h4 { font-size: 1.55em; }
 h5 { font-size: 1.40em; }
 h6 { font-size: 1.25em; }
-p { margin: 0.5em 3vw; }
+p { margin: 0.5em 3%; }
 a[rev=footnote] { padding-left: 2px; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
@@ -77,37 +77,37 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 /*** <Primary Styles> ***/
 /** Layout **/
-h1, h2, h3, h4, h5, h6 { margin: 0.75em 3vw; }
+h1, h2, h3, h4, h5, h6 { margin: 0.75em 3%; }
 #container { padding-bottom: 2em; }
 .divider { border-style: solid; border-width: 2px 0; }
 .links, .gist { position: relative; }
 .links { display: flex; justify-content: space-around; }
 .links li { display: inline-block; padding: 0.5em 0; text-align: center; }
 pre { margin: 0; border: 1px solid; padding: 0.25em 0.5em 0.5em; }
-.entry-content { margin: 0 3vw; }
+.entry-content { margin: 0 3%; }
 .entry-content p, .entry-content h1, .entry-content h2, .entry-content h3 {
   margin-right: 0; margin-left: 0;
 }
 /* Pagination */
-.pages { margin: 0 3vw; }
+.pages { margin: 0 3%; }
 /** Typography **/
 h1 a, .links a { text-decoration: none; }
 /** Modules **/
 /* Article */
 article header { margin-bottom: 0.6em; }
 article h1 { margin-bottom: 0.15em; }
-article header time { margin: 0 0 0 3vw; }
+article header time { margin: 0 0 0 3%; }
 .external:after { content: ' \27ab'; font-size: 0.75em; }
-article img { float: right; margin: 0 0 0.1em 2vw; max-width: 38vw; }
+article img { float: right; margin: 0 0 0.1em 2%; max-width: 38%; }
 article > footer { margin: -0.4em 0 0; padding: 0; text-align: left; }
-.callout { margin: 0.5em 0; border: 2px solid; padding: 0 3vw; }
+.callout { margin: 0.5em 0; border: 2px solid; padding: 0 3%; }
 .next { text-align: right; }
 .next a:after { content: '\bb'; padding-left: 5px; }
 .prev a:before { content: '\ab'; padding-right: 5px; }
 /* Archives */
 #blog-archives h3 { margin-bottom: 0; }
 #blog-archives h2 { margin-bottom: 0.375em; }
-.archived h4 { margin: 0.25em 3vw; }
+.archived h4 { margin: 0.25em 3%; }
 .archived time { position: relative; font-size: 0.75em; color: #333; }
 /* Footer */
 footer { padding: 1em 0 0; text-align: center; }
@@ -117,7 +117,7 @@ footer a { text-decoration: none; }
 .decorated a { text-decoration: none; }
 /* Footnotes */
 .footnotes { border-style: dashed; border-width: 1px 0 0; padding: 0.5em 0 0.25em; }
-.footnotes p { margin: 0.15em 1vw; }
+.footnotes p { margin: 0.15em 1%; }
 /** Colors **/
 h1 a, h1 a:visited, h2 a, h2 a:visited { color: #000; }
 h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus { color: #d60000; }
