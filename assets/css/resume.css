@@ -11,14 +11,14 @@
 .skills-human {
   grid-area: hskills;
 }
-.skills-primary {
-  grid-area: tskills1;
+.skills-technical {
+  grid-area: tskills;
 }
-.skills-secondary {
-  grid-area: tskills2;
+.experience-list {
+  grid-area: experience;
 }
-.skills-tertiary {
-  grid-area: tskills3;
+.education-list {
+  grid-area: education;
 }
 
 aside ul {
@@ -31,7 +31,8 @@ aside ul {
 .vcalendar {
   padding-left: 0;
 }
-.job {
+.job,
+.education {
   list-style: none;
 }
 .jobtitle {
@@ -44,16 +45,30 @@ abbr[title] {
 }
 
 @media (min-width: 800px) {
-  .skills {
+  h2,
+  h3,
+  p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  aside ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #main {
+    margin: 0 3%;
     display: grid;
-    grid-column-gap: 5vw;
+    grid-column-gap: 5%;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      'tskills1 hskills'
-      'tskills2 tskills3'
+      'tskills hskills'
+      'tskills hskills'
+      'experience experience'
+      'education education';
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen {
   #main > .vcard {
     display: none;
   }
@@ -84,11 +99,16 @@ abbr[title] {
   .coverletter { padding: 0; margin: 3em 7% 0; }
   #colophon { display: none; }
   #contractor { page-break-before: always; }
-  .skills {
+  #main {
     display: grid;
     grid-column-gap: 5vw;
     grid-template-areas:
-      'tskills1 hskills'
-      'tskills2 tskills3'
+      'contact tskills'
+      'hskills tskills'
+      'experience experience'
+      'education education';
+  }
+  .skills h2 {
+    margin-top: 0;
   }
 }
