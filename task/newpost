@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 ###
 # newpost -- creates a new Jekyll post
@@ -10,28 +11,25 @@
 ###
 
 # omit the trailing slash, please
-blog_dir = "/Users/bryanjswift/Work/bryanjswift.github.com"
-# passed to open -a
-editor = "/Applications/Byword.app"
+blog_dir = '/Users/bryanjswift/Documents/code/bryanjswift.com/jekyll-site'
 
 require 'optparse'
 
 options = { draft: false, format: :markdown, categories: [] }
 
 optparse = OptionParser.new do |opts|
-
   # banner
-  opts.banner = "Usage: newpost [options] \"title of post\""
+  opts.banner = 'Usage: newpost [options] "title of post"'
 
   opts.on('-d', '--draft', 'Create post as a draft') do
     options[:draft] = true
   end
 
-  opts.on('-f', '--format FORMAT', [:markdown, :textile], 'Post is in [markdown|textile] (default markdown)') do |format|
+  opts.on('-f', '--format FORMAT', %i[markdown textile], 'Post is in [markdown|textile] (default markdown)') do |format|
     options[:format] = format
   end
 
-  opts.on('-c', '--categories a[,b[,c]]', Array, 'List of categories') do|cats|
+  opts.on('-c', '--categories a[,b[,c]]', Array, 'List of categories') do |cats|
     options[:categories] = cats
   end
 
@@ -39,11 +37,10 @@ optparse = OptionParser.new do |opts|
     options[:categories] << 'journal'
   end
 
-  opts.on( '-h', '--help', 'Display this screen' ) do
+  opts.on('-h', '--help', 'Display this screen') do
     puts opts
     exit
   end
-
 end
 
 begin
@@ -59,19 +56,19 @@ if ARGV[0].nil?
   exit 1
 end
 
-puts "Generating post..."
+puts 'Generating post...'
 
 now = Time.now
-date_prefix = now.strftime("%Y-%m-%d")
+date_prefix = now.strftime('%Y-%m-%d')
 postname = ARGV[0].strip.downcase.gsub(/[^a-zA-Z0-9 ]/, '').gsub(/ /, '-')
 categories = options[:categories]
 published = false
-published = !options[:draft] unless categories.include?("journal")
+published = !options[:draft] unless categories.include?('journal')
 
 post_dir = '_posts'
 if options[:draft]
   post_dir = '_drafts'
-elsif categories.include?("journal")
+elsif categories.include?('journal')
   post_dir = 'journal/_posts'
 end
 
@@ -80,21 +77,21 @@ if options[:draft]
   post = "#{blog_dir}/#{post_dir}/#{postname}.#{options[:format]}"
 end
 
-header = <<-END
----
-layout: post
-title: #{ARGV[0]}
-date: #{now.strftime("%Y-%m-%d %H:%M:%S")}
-published: #{published}
-categories: #{categories.to_s}
----
+header = <<~HEADER
+  ---
+  layout: post
+  title: #{ARGV[0]}
+  date: #{now.strftime('%Y-%m-%d %H:%M:%S')}
+  published: #{published}
+  categories: #{categories}
+  ---
 
-END
+HEADER
 
 File.open(post, 'w') do |f|
   f << header
 end
 
-puts "Opening post..."
-system("open", "-a#{editor}", post)
+puts 'Opening post...'
+system('mvim', post)
 exit 0
