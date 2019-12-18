@@ -16,6 +16,8 @@
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-plugin-typescript": "^2.1.23",
+    "gatsby-source-filesystem": "^2.1.42",
+    "gatsby-transformer-remark": "^2.6.43",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
