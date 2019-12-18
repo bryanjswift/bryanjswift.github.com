@@ -1,4 +1,6 @@
 /_site/
+/node_modules/
 /vendor/
+.DS_Store
 .jekyll-metadata
 .ruby-version
