@@ -1,5 +1,7 @@
+/.cache/
 /_site/
 /node_modules/
+/public/
 /vendor/
 .DS_Store
 .jekyll-metadata
