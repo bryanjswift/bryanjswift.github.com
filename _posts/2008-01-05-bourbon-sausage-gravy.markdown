@@ -1,15 +1,11 @@
---- 
+---
 layout: post
 title: Bourbon Sausage Gravy
-tags: 
-- etc.
-- recipe
 status: publish
 type: post
 published: true
-meta: 
-  _edit_lock: "1220282032"
-  _edit_last: "2"
+date: 2008-01-05
+categories: ["recipe"]
 ---
 <p>Summarized from <a href="http://www.accidentalhedonist.com/index.php/2007/09/24/bourbon_sausage_gravy_and_biscuits" title="Accidental Hedonist">Accidental Hedonist</a>...</p>
 <div class="ingredients">
