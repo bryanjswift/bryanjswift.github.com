@@ -6,6 +6,7 @@
     <meta name="author" content="{{ site.author }}" />
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml" />
+    <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}" />
   </head>
   <body>
     {{ content }}

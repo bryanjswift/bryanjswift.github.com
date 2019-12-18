@@ -14,7 +14,7 @@
     <!-- Facebook stuff -->
     {% if page.ogtitle %}<meta property="og:title" content="{{ page.ogtitle }}" />{% endif %}
     {% if page.ogdesc %}<meta property="og:description" content="{{ page.ogdesc }}" />{% endif %}
-    <meta property="og:image" content="https://bryanwrit.es/assets/img/open-graph-icon.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/img/open-graph-icon.png" />
     <meta property="og:site_name" content="{{ site.title }}" />
     {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}" />{% endif %}
     {% if page.ogtitle %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
@@ -30,6 +30,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}" />
   </head>
   <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
     <div id="container">
