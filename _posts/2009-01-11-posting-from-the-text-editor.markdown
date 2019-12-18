@@ -9,9 +9,7 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_lock: "2009-01-10T23:45:33Z"
-  _edit_last: "2"
+date: 2009-01-10T23:45:33Z
 ---
 As much as I like Wordpress because of how easy it is to install and configure I really dislike composing posts in the textarea provided; even in Safari where the textarea can be expanded. I think it's mostly a mental block, inside a web browser does not seem the proper place to compose. In fact the browser writing is a significant contributor to why I haven't written for a while. Then fairly recently I stumbled upon the blogging bundle for TextMate.
 
