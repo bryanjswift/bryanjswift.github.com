@@ -20,8 +20,8 @@ a:hover, a:focus { color: #d60000; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 /* Typography */
-body { font-family: elena-web-basic, serif; }
-h1, h2, h3, h4, h5, h6 { font-family: proxima-nova-alt-condensed, "Helvetica Neue", Helvetica, sans-serif; font-weight: normal; }
+body { font-family: serif; }
+h1, h2, h3, h4, h5, h6 { font-family: sans-serif; font-weight: normal; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.85em; }
 h3 { font-size: 1.7em; }

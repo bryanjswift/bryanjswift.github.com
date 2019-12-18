@@ -3,8 +3,8 @@
 
 /* TEAM */
   Writer: Bryan J Swift
-  Site: http://bryanwrit.es
-  Twitter: http://twitter.com/bryanjswift
+  Site: https://bryanwrit.es
+  Twitter: https://twitter.com/bryanjswift
   Location: New York, NY
 
 /* THANKS */

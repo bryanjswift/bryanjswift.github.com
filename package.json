@@ -2,10 +2,5 @@
   "private": true,
   "scripts": {
     "build": "jekyll build && mv _site public"
-  },
-  "devDependencies": {
-    "@types/node": "^12.12.20",
-    "gray-matter": "^4.0.2",
-    "typescript": "^3.7.3"
   }
 }
