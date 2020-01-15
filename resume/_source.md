@@ -30,6 +30,10 @@ Brooklyn, NY
 
 ## Recent Job History
 
+### Ticket Evolution as Consultant from January 2020
+
+I joined Ticket Evolution as a technical project manager where my day to day work consists of facilitating communication across teams, planning and tracking the ongoing efforts across multiple initiatives.
+
 ### Siberia, LLC from November 2014 until December 2019
 
 Siberia is a product design focused consultancy, as such the specifics of the role shifted from client to client and project to project. Broadly speaking, as a director of engineering at Siberia my role was part consultant, part craftsperson, part educator and coach. My day to day responsibilities involved heads down implementation work, leading the team of engineers on my project (or projects) and staying in touch with the client contacts while mentoring and coaching the members of the wider Siberia engineering organization.
