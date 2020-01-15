@@ -98,7 +98,7 @@ abbr[title] {
   a:link:after, a:visited:after, abbr[title]:after { content: ""; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
   #colophon { display: none; }
-  #contractor { page-break-before: always; }
+  #siberia { margin-bottom: 5em; }
   #main {
     display: grid;
     grid-column-gap: 5vw;
