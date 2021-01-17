@@ -16,7 +16,7 @@ Brooklyn, NY
 ### JavaScript & TypeScript
 
 * ReactJS, NextJS or Svelte for building server side rendered responsive web applications
-* Express for building REST APIs
+* Express or Nest for building REST APIs
 * Apollo for building GraphQL based APIs
 
 ### Kotlin & Java
@@ -26,13 +26,19 @@ Brooklyn, NY
 
 ### Rust
 
-* Self-directed Learning because it has the best tooling for WebAssembly which allows the smallest payload to users
+* Self-directed learning because it has the best tooling for WebAssembly which allows the shortest time to interactive for users
 
 ## Recent Job History
 
-### Ticket Evolution as Consultant from January 2020
+### United Income by Capital One from May 2020
 
-I joined Ticket Evolution as a technical project manager where my day to day work consists of facilitating communication across teams, planning and tracking the ongoing efforts across multiple initiatives.
+United Income is a registered investment advisor and was acquired by Capital One in mid-2019. United Income combines financial planning software with experienced wealth advisors in order to provide nuanced personalizedfinancial planning services to help their customers confidently achieve their goals. I joined United Income as an engineering manager to help mentor and grow the team.
+
+In my time with United Income I have established a forum for the team to share their in progress work in order to receive feedback from their peers. I have also been collaborating with the enterprise identity teams to define how United Income will integrate with Capital One's digital identity system to use a customer's Capital One credentials for authentication.
+
+### Ticket Evolution as Consultant from January 2020 until May 2020
+
+Ticket Evolution is primarily a broker to broker marketplace or ticket exchange where brokers to list their secondary market ticket inventory for multiple sellers. I joined Ticket Evolution as a technical project manager where my day to day work consisted of facilitating communication across teams, planning and tracking the ongoing efforts across multiple initiatives. Once the COVID-19 pandemic began a cascade of postponed and cancelled events I shifted responsibilities to help out with development of their full stack JavaScript applications with a focus on ensuring they were maintainable by the next developers who would join.
 
 ### Siberia, LLC from November 2014 until December 2019
 
