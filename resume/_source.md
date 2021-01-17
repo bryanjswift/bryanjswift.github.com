@@ -32,9 +32,9 @@ Brooklyn, NY
 
 ### United Income by Capital One from May 2020
 
-United Income is a registered investment advisor and was acquired by Capital One in mid-2019. United Income combines financial planning software with experienced wealth advisors in order to provide nuanced personalizedfinancial planning services to help their customers confidently achieve their goals. I joined United Income as an engineering manager to help mentor and grow the team.
+United Income is a registered investment advisor and was acquired by Capital One in mid-2019. United Income combines financial planning software with experienced wealth advisors in order to provide nuanced and personalized financial planning services to help customers confidently achieve their goals. I joined United Income as an engineering manager to help mentor and grow the team.
 
-In my time with United Income I have established a forum for the team to share their in progress work in order to receive feedback from their peers. I have also been collaborating with the enterprise identity teams to define how United Income will integrate with Capital One's digital identity system to use a customer's Capital One credentials for authentication.
+In my time with United Income I have established a forum for the engineering team to share their in progress work in order to receive feedback from their peers. I have also been collaborating with the enterprise identity teams to define how United Income will integrate with Capital One's digital identity system to use a customer's Capital One credentials for authentication.
 
 ### Ticket Evolution as Consultant from January 2020 until May 2020
 
