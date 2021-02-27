@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 ###
 # editpost -- edit an existing post
@@ -10,20 +11,19 @@
 ###
 
 # omit the trailing slash, please
-blog_dir = "/Users/bryanjswift/Work/bryanjswift.github.com"
+blog_dir = '/Users/bryanjswift/Work/bryanjswift.github.com'
 # passed to open -a
-editor = "/Applications/Byword.app"
+editor = '/Applications/Byword.app'
 
 require 'optparse'
 
 options = { draft: false, publish: false, format: :markdown, categories: [] }
 
 optparse = OptionParser.new do |opts|
-
   # banner
-  opts.banner = "Usage: editpost relative/path/to/YYYY-MM-DD-post.format"
+  opts.banner = 'Usage: editpost relative/path/to/YYYY-MM-DD-post.format'
 
-  opts.on( '-h', '--help', 'Display this screen' ) do
+  opts.on('-h', '--help', 'Display this screen') do
     puts opts
     exit
   end
@@ -36,15 +36,20 @@ optparse = OptionParser.new do |opts|
     options[:publish] = true
   end
 
-  opts.on('-f', '--format FORMAT', [:markdown, :textile], 'Post is in [markdown|textile] (default markdown)') do |format|
+  opts.on(
+    '-f',
+    '--format FORMAT',
+    %i[markdown textile],
+    'Post is in [markdown|textile] (default markdown)'
+  ) do |format|
     options[:format] = format
   end
 
-  # Would be nice to have an option to leave a post as draft
-  # If not leaving as draft move it to the appropriate directory (_posts or journal/_posts)
-  # Need an option for a journal entry
-  # Should also change file name if the date is different (it probably is)
-
+  # - Would be nice to have an option to leave a post as draft
+  # - If not leaving as draft move it to the appropriate directory (_posts or
+  #   journal/_posts)
+  # - Need an option for a journal entry
+  # - Should also change file name if the date is different (it probably is)
 end
 
 begin
@@ -63,17 +68,19 @@ end
 file = ARGV[0]
 
 now = Time.now
-current_time = "date: #{now.strftime("%Y-%m-%d %H:%M:%S")}"
-date_prefix = now.strftime("%Y-%m-%d")
+current_time = "date: #{now.strftime('%Y-%m-%d %H:%M:%S')}"
+date_prefix = now.strftime('%Y-%m-%d')
 
 puts "Updating date to #{current_time}"
 
 # Read post information
-post = "#{file}"
+post = file
 text = File.read(post)
-published = !options[:draft] || options[:publish] || text.match(/published: true/)
+published = !options[:draft] ||
+            options[:publish] ||
+            text.match(/published: true/)
 
-postname = post.match(/^.*\/([^\/]*)\.(md|markdown|textile)$/)[1]
+postname = post.match(%r{^.*/([^/]*)\.(md|markdown|textile)$})[1]
 if postname.match(/\d{4}-\d{2}-\d{2}/)
   postname = postname.gsub(/\d{4}-\d{2}-\d{2}/, date_prefix)
 elsif published
@@ -98,6 +105,6 @@ File.open(new_post, 'w') do |f|
   f << text
 end
 
-puts "Opening post..."
-system("open", "-a#{editor}", new_post)
+puts 'Opening post...'
+system('open', "-a#{editor}", new_post)
 exit 0
