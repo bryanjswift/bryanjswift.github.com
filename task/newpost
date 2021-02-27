@@ -25,7 +25,12 @@ optparse = OptionParser.new do |opts|
     options[:draft] = true
   end
 
-  opts.on('-f', '--format FORMAT', %i[markdown textile], 'Post is in [markdown|textile] (default markdown)') do |format|
+  opts.on(
+    '-f',
+    '--format FORMAT',
+    %i[markdown textile],
+    'Post is in [markdown|textile] (default markdown)'
+  ) do |format|
     options[:format] = format
   end
 
