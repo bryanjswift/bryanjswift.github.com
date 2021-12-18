@@ -103,8 +103,9 @@ abbr[title] {
     display: grid;
     grid-column-gap: 5vw;
     grid-template-areas:
-      'contact tskills'
-      'hskills tskills'
+      'contact empty'
+      'tskills hskills'
+      'tskills hskills'
       'experience experience'
       'education education';
   }
