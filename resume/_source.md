@@ -35,7 +35,11 @@ Washington, D.C.
 
 ## Recent Job History
 
-### United Income by Capital One from May 2020
+### Little Cinema Digital from May 2021
+
+Watch this space
+
+### United Income by Capital One from May 2020 until May 2021
 
 United Income is a registered investment advisor and was acquired by Capital
 One in mid-2019. United Income combines financial planning software with
