@@ -15,7 +15,7 @@ blog_dir = '/Users/bryanjswift/Documents/code/bryanjswift.com/jekyll-site'
 
 require 'optparse'
 
-options = { draft: false, format: :markdown, categories: [] }
+options = { draft: false, format: :md, categories: [] }
 
 optparse = OptionParser.new do |opts|
   # banner
@@ -25,21 +25,12 @@ optparse = OptionParser.new do |opts|
     options[:draft] = true
   end
 
-  opts.on(
-    '-f',
-    '--format FORMAT',
-    %i[markdown textile],
-    'Post is in [markdown|textile] (default markdown)'
-  ) do |format|
-    options[:format] = format
-  end
-
   opts.on('-c', '--categories a[,b[,c]]', Array, 'List of categories') do |cats|
     options[:categories] = cats
   end
 
   opts.on('-j', '--journal', 'Make it a Journal entry') do
-    options[:categories] << 'journal'
+    options[:categories].push('journal')
   end
 
   opts.on('-h', '--help', 'Display this screen') do
@@ -94,7 +85,7 @@ header = <<~HEADER
 HEADER
 
 File.open(post, 'w') do |f|
-  f << header
+  f.write(header)
 end
 
 puts 'Opening post...'
