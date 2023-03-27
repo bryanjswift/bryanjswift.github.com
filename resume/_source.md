@@ -18,20 +18,17 @@ Washington, D.C.
 
 ### JavaScript & TypeScript
 
-* ReactJS, NextJS or Svelte to build server side rendered responsive web
-  applications
-* Express or Nest to create REST APIs
-* Apollo to build GraphQL based APIs
-
-### Kotlin & Java
-
-* Kotlin & Android to build prototypes and proofs of concept
-* Java & Android to build consumer applications launched in the Play store
+* Remix or Svelte for building server side rendered, responsive,
+  progressive web applications
+* AWS CDK for managing infrastructure as code
+* Nest for building REST APIs
+* Envelop and Nexus for building GraphQL based APIs
 
 ### Rust
 
-* Self-directed learning because it has the best tooling for WebAssembly which
-  allows the shortest time to interactive for users
+* Lambdas with provided runtime to dramatically reduce cold start time
+* Self-directed learning because it has the best tooling for WebAssembly
+  which allows the shortest time to interactive for users
 
 ## Recent Job History
 
