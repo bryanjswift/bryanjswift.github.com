@@ -8,6 +8,9 @@
 .vcard {
   grid-area: contact;
 }
+.summary-section {
+  grid-area: summary;
+}
 .skills-human {
   grid-area: hskills;
 }
@@ -35,8 +38,12 @@ aside ul {
 .education {
   list-style: none;
 }
-.jobtitle {
-  display: none;
+.earlier-list {
+  padding-left: 0;
+  list-style: none;
+}
+.earlier-list li {
+  margin-bottom: 0.5em;
 }
 
 abbr[title] {
@@ -61,6 +68,7 @@ abbr[title] {
     grid-column-gap: 5%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
+      'summary summary'
       'tskills hskills'
       'tskills hskills'
       'experience experience'
@@ -77,9 +85,10 @@ abbr[title] {
 @media print {
   @page {
     size: auto;
-    margin: 0.5in;
+    margin: 0.4in 0.5in;
   }
-  body { margin: 0; font-size: 90%; }
+  body { margin: 0; font-size: 84%; line-height: 1.2; }
+  p { margin: 0.4em 0; }
   #banner, img, .status { display: none !important; }
   .vcard h1 { margin-top: 0; }
   .vcard h1, .contact, .vcard .tel, .vcard .location { display: block; }
@@ -98,12 +107,12 @@ abbr[title] {
   a:link:after, a:visited:after, abbr[title]:after { content: ""; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
   #colophon { display: none; }
-  #tevo { margin-bottom: 2em; }
   #main {
     display: grid;
     grid-column-gap: 5vw;
     grid-template-areas:
       'contact empty'
+      'summary summary'
       'tskills hskills'
       'tskills hskills'
       'experience experience'
@@ -112,4 +121,11 @@ abbr[title] {
   .skills h2 {
     margin-top: 0;
   }
+  h2 { font-size: 1.4em; margin: 0.6em 0 0.3em; }
+  h3 { font-size: 1.15em; margin: 0.6em 0 0.2em; }
+  .vcard h1 { font-size: 1.6em; }
+  aside ul { margin: 0.3em 0; }
+  h2, h3 { break-after: avoid; }
+  .job p { orphans: 3; widows: 3; }
+  .earlier-heading, .earlier-list { break-inside: avoid; }
 }

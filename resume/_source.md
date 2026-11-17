@@ -2,116 +2,163 @@
 
 mobile: +1-347-653-7492
 email: bryan@bryanjswift.com
-Washington, D.C.
+Washington, D.C. — open to remote, hybrid, on-site, or relocation
+
+## Summary
+
+Engineering leader with over twenty years of experience building software
+across government contracting, global agencies, product design consultancies,
+fintech, and live digital events. For the last five years I have architected
+and built Little Cinema Digital's live events platform, powering sites for
+clients including Netflix, Disney Entertainment, and Amazon. Along the way I
+set the engineering practices for the organization and kept executive
+leadership up to date on where projects stood and what needed to change. I have
+led and mentored teams as an engineering manager and a director of engineering,
+and I want to bring that experience, along with recent deep hands-on work, back
+into engineering leadership.
 
 ## Human Skills
 
 * Articulate technical problems and solutions to non-technical members of the
-  team and out to the organization
+  team, business partners, and executive leadership
 * Plot a course from current to desired state through creative solutions to
   achieve objectives on deadline
-* Lead small teams of designers and developers on goal oriented projects
-  from start to finish
-* Self-direct within a team to work towards common goals
+* Raise the bar for engineering practice across an organization, with or
+  without formal authority
+* Lead teams of designers and developers on outcome oriented projects from
+  start to finish
+* Mentor and coach engineers to grow their craft and their careers
 
 ## Technical Skills
 
-### JavaScript & TypeScript
+### Platform & Infrastructure
 
-* Remix or Svelte for building server side rendered, responsive,
-  progressive web applications
-* AWS CDK for managing infrastructure as code
-* Nest for building REST APIs
-* Envelop and Nexus for building GraphQL based APIs
+* AWS serverless architecture using Lambda Functions and other managed services
+* AWS CDK and CloudFormation for managing infrastructure as code
+* GitHub Actions for continuous deployment, where every commit to `main` ships
+  to production
+* AWS X-Ray with custom span handling for observability
 
-### Rust
+### Applications
 
-* Lambdas with provided runtime to dramatically reduce cold start time
-* Self-directed learning because it has the best tooling for WebAssembly
-  which allows the shortest time to interactive for users
+* TypeScript and Remix for building fast, server side rendered web
+  applications
+* TypeScript GraphQL APIs, using Envelop and Nexus
+* Rust Lambdas for performance sensitive workloads and fast cold start times
+* PostgreSQL and DynamoDB for relational and key-value storage
+
+### Video
+
+* AWS MediaConvert and MediaPackage for processing and streaming high quality
+  video to live event audiences
 
 ## Recent Job History
 
-### Little Cinema Digital from May 2021
+### Lead Software Engineer at Little Cinema Digital from May 2021
 
-Watch this space
+Little Cinema Digital is a digital agency that partners with brands to produce
+live digital events built around interactivity and high quality video. Its
+clients include Netflix, Disney Entertainment, and Amazon. LCD has twice been
+chosen to produce Netflix's Upfronts, where Netflix previews its upcoming slate
+to win over advertisers, and a critically important event on Netflix's business
+calendar.
 
-### United Income by Capital One from May 2020 until May 2021
+I joined to support client projects and went on to architect and build the
+platform LCD now uses to create and run every site it produces. When I arrived,
+each new client meant a new site cloned from a rigid template system. Those
+sites were unreliable, struggled under the traffic spikes that come with
+successful events, and the business had to turn away clients whose ideas didn't
+fit the templates. I helped design and build a flexible content management
+system tailored to LCD's business to enable the team to assemble reliable sites
+with custom behavior without opening a code editor. Every event now runs on
+proven, reusable components, which let LCD serve its existing clients with
+confidence and expand into new markets. Each guest site is served in isolation,
+so one event's traffic can never affect another's, and the platform has handled
+events with as many as 150,000 concurrent guests, against a typical event of
+around 1,000.
 
-United Income is a registered investment advisor and was acquired by Capital
-One in mid-2019. United Income combines financial planning software with
-experienced wealth advisors in order to provide nuanced and personalized
-financial planning services to help customers confidently achieve their goals.
-I joined United Income as an engineering manager to help mentor and grow the
-team.
+An event site's biggest moment is when a marketing push sends an audience to
+it, and those were exactly the sites where we saw high bounce rates. We traced
+much of the problem to initial load times of three to five seconds, well above
+industry norms. I reworked how our sites were delivered, cut the initial
+JavaScript payload and reduced the work done in the browser from that initial
+payload, bringing initial load times under one second.
 
-In my time with United Income I have established a forum for the engineering
-team to share their in progress work in order to receive feedback from their
-peers. I have also been collaborating with the enterprise identity teams to
-define how United Income will integrate with Capital One's digital identity
-system to use a customer's Capital One credentials for authentication.
+The platform is a Remix front end and a TypeScript GraphQL API running on AWS
+Lambda, with Rust for the most performance sensitive paths. Data lives in
+PostgreSQL and DynamoDB, and video is processed and streamed through AWS
+MediaConvert and MediaPackage. Infrastructure is defined with CDK. Every commit
+to `main` deploys to production through GitHub Actions, and AWS X-Ray with
+custom spans shows us what is happening after deploy.
 
-### Ticket Evolution as Consultant from January 2020 until May 2020
+Beyond the code, I established development practices that brought a level of
+rigor and discipline to software engineering at LCD that hadn't existed before.
+I introduced TypeScript and taught the team to design systems around types,
+which let us build faster with fewer defects. I also introduced Architecture
+Decision Records, so every major platform change has a record of what we chose,
+why, and which alternatives we considered and rejected. ADRs moved the team
+from jumping straight into implementation to researching and discussing changes
+first.
 
-Ticket Evolution is primarily a broker to broker marketplace or ticket exchange
-where brokers to list their secondary market ticket inventory for multiple
-sellers. I joined Ticket Evolution as a technical project manager where my day
-to day work consisted of facilitating communication across teams, planning and
-tracking the ongoing efforts across multiple initiatives. Once the COVID-19
-pandemic began a cascade of postponed and cancelled events I shifted
-responsibilities to help out with development of their full stack JavaScript
-applications with a focus on ensuring they were maintainable by the next
-developers who would join.
+The engineering organization has ranged from fifteen people at its peak to
+three today. As part of my responsibilities with the larger team, I onboarded
+new engineers and mentored and coached the more junior of them. Throughout, I
+have kept the CEO and CTO informed on where projects stand and what needs to
+change, and worked closely with account, design, and executive stakeholders to
+turn client ambitions into plans we can ship.
 
-### Siberia, LLC from November 2014 until December 2019
+### Senior Manager, Engineering at United Income by Capital One from May 2020 until May 2021
 
-Siberia is a product design focused consultancy, as such the specifics of the
-role shifted from client to client and project to project. Broadly speaking, as
-a director of engineering at Siberia my role was part consultant, part
-craftsperson, part educator and coach. My day to day responsibilities involved
-heads down implementation work, leading the team of engineers on my project (or
-projects) and staying in touch with the client contacts while mentoring and
-coaching the members of the wider Siberia engineering organization.
+United Income was a registered investment advisor, acquired by Capital One in
+2019, that combined financial planning software with experienced wealth
+advisors to provide personalized financial planning. I joined to lead,
+mentor, and grow the engineering team.
 
-Directors at Siberia get involved at each step of the lifetime of a client
-engagement — from the identification of an opportunity and pitch, through
-project execution and delivery and on to relationship growth and afterwork.
-Because of this directors must be multi-functional, while skillfully executing
-in their primary vertical they must also be able to understand and lead during
-any step of the product design and implementation process.
+I established a forum where engineers shared work in progress and got feedback
+from their peers. I also worked with Capital One's enterprise identity teams to
+design how United Income would integrate with Capital One's digital identity
+system, so customers could sign in with their Capital One credentials.
 
-During my tenure at Siberia I led teams on a variety of ventures for clients
-ranging from startups to Fortune 500 companies with a focus on craft and
-meticulous execution. My work on these projects has helped some of the worlds
-most beloved brands more efficiently achieve their business goals and bring
-delight to customers through user experience focused and technology solutions.
+### Technical Project Manager (Consultant) at Ticket Evolution from January 2020 until May 2020
 
-### Independent Contractor from February 2010 until December 2016
+Ticket Evolution (now part of Victory Live) is a broker to broker marketplace
+where ticket brokers list their secondary market inventory. I joined as a
+technical project manager, facilitating communication across teams and planning
+and tracking work across multiple initiatives. When the COVID-19 pandemic set
+off a cascade of postponed and cancelled events, I shifted to developing their
+full stack JavaScript applications, focusing on keeping them maintainable for
+the developers who would join next.
 
-As an independent contractor my role was either sole developer for a project or
-staff augmentation for a client's development team. My clients ranged from
-individuals in need of a personal site to local restaurants opening their doors
-for the first time through to international agencies working on long term,
-large scale rewrites of legacy code bases.
+### Director of Engineering at Siberia, LLC from November 2014 until December 2019
 
-Due to the contracts I accepted the role on each project varied from creating
-and consuming REST APIs in Scala, creating Android applications in Java,
-integrating with and building on top of PHP CMS frameworks and contributing to
-sprawling JavaScript and CSS front end code bases.
+Siberia is a product design consultancy. As a director of engineering, my role
+was part consultant, part craftsperson, and part educator and coach. Day to
+day, I did heads down implementation work, led the engineers on my projects,
+stayed in touch with client contacts, and mentored and coached members of the
+wider Siberia engineering organization.
 
-### Software Engineer at AKQA, Inc from November 2006 until February 2010
+Directors at Siberia take part in every stage of a client engagement, from
+spotting an opportunity and pitching it, through execution and delivery, to
+growing the relationship afterward. That meant executing skillfully as an
+engineer while also understanding, and when needed leading, every step of the
+product design and implementation process.
 
-Working at AKQA taught me the importance of design and user experience in
-building customer facing applications. AKQA transformed me from a Java
-developer to a generalist/polyglot developer transforming the trajectory of my
-career.
+I led teams for clients ranging from startups to Fortune 500 companies,
+including Google, Intel, Avis, Supreme, Playboy, and Buscemi, with a focus on
+craft and meticulous execution. My work helped some of the world's most beloved
+brands achieve their business goals and delight their customers.
 
-### Systems Analyst at Devis from June 2004 until November 2006
+### Earlier Experience
 
-The First Gig. An incredible learning experience in a wildly different
-environment than everything that has come after. The folks at Devis shaped me
-from an individual contributor into a team member while leveling up my ability
-to think about software systems.
+* **Independent Contractor**, February 2010 until December 2016: sole
+  developer and staff augmentation for clients ranging from local restaurants
+  to international agencies, working in Scala, Java (Android), PHP, and
+  JavaScript
+* **Senior Software Engineer at AKQA, Inc**, November 2006 until February 2010: grew
+  from a Java developer into a polyglot developer with a deep appreciation for
+  design and user experience
+* **Systems Analyst at Devis**, June 2004 until November 2006: first role in
+  software, where I grew from an individual contributor into a team member
 
 ## Education
 
