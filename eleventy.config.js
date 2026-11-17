@@ -45,7 +45,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("*.{asc,pdf}");
-  eleventyConfig.addPassthroughCopy({ "humans.txt": "humans.txt", "keybase.txt": "keybase.txt" });
+  eleventyConfig.addPassthroughCopy("keybase.txt");
 
   eleventyConfig.ignores.add(".claude/**");
   eleventyConfig.ignores.add("_drafts/**");
