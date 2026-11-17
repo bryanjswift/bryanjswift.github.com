@@ -1,5 +1,6 @@
 ---
-layout: blank
+permalink: /atom.xml
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -14,12 +15,14 @@ layout: blank
     {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
   </author>
 
-  {% for post in site.posts limit: 20 %}
+  {% assign posts = collections.posts | reverse %}
+  {% for post in posts limit: 20 %}
   <entry>
-    <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
+    <title type="html"><![CDATA[{{ post.data.title | cdata_escape }}]]></title>
     <link href="{{ site.url }}{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
+    {% comment %}Jekyll built ids from the raw filename slug; keep them stable for feed readers.{% endcomment %}
+    <id>{{ site.url }}/here/{{ post.date | date: "%Y" }}/{{ post.fileSlug }}</id>
     <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content>
   </entry>
   {% endfor %}

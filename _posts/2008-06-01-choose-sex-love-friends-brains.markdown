@@ -24,6 +24,7 @@ I'm kind of in a weird place right now and the mood struck me to sign up and giv
 <li>Have great ideas</li>
 </ul>
 </blockquote>
+
 .. and I was completely taken aback. I immediately started to check off friends and be on with it and then I realized / remembered how much gratification and personal satisfaction I get from thinking about a problem, having a great idea, and coming up with a solution. Needless to say I was now stuck between friends and ideas. Then I started thinking about what great love would mean. I know some couples in real life who are incredibly happy and seem quite capable of subsisting on their feelings for one another without a real need or longing for the companionship of others. So now I'm thinking harder about it, I don't think I've ever experienced great love. At this point it starts to really eat at me, what is great love? Is great love what those super happy couples in sitcoms like <a href="http://en.wikipedia.org/wiki/How_i_met_your_mother" title="How I Met Your Mother - Wikipedia">How I Met Your Mother</a> (Marshall and Lily) or is sitcom / television / movie love truly so far idealized it is never really attainable?
 
 I ended up, as you can tell, way over-thinking this particular entreaty into my psyche and as a result I ended up not being able to answer and had to skip it. I do believe it is an important question and the answer tells you more about who people are than a number of other questions more easily answered.

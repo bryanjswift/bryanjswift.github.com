@@ -3,5 +3,10 @@ layout: base
 ogtype: article
 ---
 
-{% assign post = page %}
-{% include article.html %}
+{% assign post_title = title %}
+{% assign post_url = page.url %}
+{% assign post_date = page.date %}
+{% assign post_link = link %}
+{% assign previous_post = collections.posts | getPreviousCollectionItem: page %}
+{% assign next_post = collections.posts | getNextCollectionItem: page %}
+{% include "article.html" %}

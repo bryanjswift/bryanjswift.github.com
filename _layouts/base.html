@@ -6,22 +6,22 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="" />
-    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+    {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <!-- Facebook stuff -->
-    {% if page.ogtitle %}<meta property="og:title" content="{{ page.ogtitle }}" />{% endif %}
-    {% if page.ogdesc %}<meta property="og:description" content="{{ page.ogdesc }}" />{% endif %}
+    {% if ogtitle %}<meta property="og:title" content="{{ ogtitle }}" />{% endif %}
+    {% if ogdesc %}<meta property="og:description" content="{{ ogdesc }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/assets/img/icon.png" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    {% if page.ogtype %}<meta property="og:type" content="{{ page.ogtype }}" />{% endif %}
-    {% if page.ogtitle %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
-    {% if page.ogtitle %}<meta property="fb:admins" content="678400723" />{% endif %}
+    {% if ogtype %}<meta property="og:type" content="{{ ogtype }}" />{% endif %}
+    {% if ogtitle %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
+    {% if ogtitle %}<meta property="fb:admins" content="678400723" />{% endif %}
 
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    {% if page.styles %}<link rel="stylesheet" href="{{ page.styles }}" />{% endif %}
+    {% if styles %}<link rel="stylesheet" href="{{ styles }}" />{% endif %}
     <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link rel="author" href="/humans.txt" />
@@ -29,16 +29,16 @@
     <link rel="shortcut icon" href="/assets/img/icon.png" />
     <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}" />
   </head>
-  <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
+  <body {% if body_class %}class="{{ body_class }}"{% endif %}>
     <div id="container">
       <header id="banner">
-        {% include header.html %}
+        {% include "header.html" %}
       </header>
       <div id="main" role="main">
         {{ content }}
       </div>
       <footer id="colophon">
-        {% include footer.html %}
+        {% include "footer.html" %}
       </footer>
     </div> <!--! end of #container -->
 

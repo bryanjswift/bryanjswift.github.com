@@ -3,22 +3,27 @@ layout: base
 ---
 
 {% assign index = true %}
+{% assign posts = collections.posts | reverse %}
 <section class="blog-index">
-  {% for post in site.posts limit: site.index.count %}
+  {% for post in posts limit: site.index.count %}
     {% assign content = post.content %}
-    {% if post.styles %}<link rel="stylesheet" href="{{ post.styles }}" />{% endif %}
-    {% include article.html %}
+    {% assign post_title = post.data.title %}
+    {% assign post_url = post.url %}
+    {% assign post_date = post.date %}
+    {% assign post_link = post.data.link %}
+    {% if post.data.styles %}<link rel="stylesheet" href="{{ post.data.styles }}" />{% endif %}
+    {% include "article.html" %}
   {% endfor %}
 </section>
 <section id="blog-archives">
   <h2 class="divider decorated"><a href="/archives/">Archives</a></h2>
-  {% for post in site.posts offset: site.index.count %}
+  {% for post in posts offset: site.index.count %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
       {% assign year = this_year %}
       <h3>{{ year }}</h3>
     {% endunless %}
-    {% unless post.categories.first == "journal" %}{% include archive_article.html %}{% endunless %}
+    {% unless post.data.categories.first == "journal" %}{% include "archive_article.html" %}{% endunless %}
   {% endfor %}
 </section>
 

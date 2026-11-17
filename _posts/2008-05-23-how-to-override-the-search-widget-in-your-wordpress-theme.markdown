@@ -16,6 +16,7 @@ meta:
 As I've mentioned previously I've been developing my own Wordpress theme. During the course of this I found, as many others have, the 'Search' widget available in the Wordpress sidebar does not use the <code>searchform.php</code> file which template developers can provide. This irritated me and I was pretty sure the behavior of the 'Search' widget could be overridden in <code>functions.php</code>. I was right...
 I found the beginning of the answer in the <a href="http://automattic.com/code/widgets/api/" title="Widgets API &laquo; Automattic">Wordpress Widget API</a> but to me the language of 
 <blockquote>It is possible for theme authors to define replacement widgets within functions.php. Replace an existing widget by registering its name with a new callback. An empty callback will unregister a widget.</blockquote>
+
 was a little convoluted. As it turns out you need to do two things.
 
 First, define a new function to use as the 'widget callback' or the function that is called when the widget is included in the page.

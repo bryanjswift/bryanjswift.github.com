@@ -4,12 +4,13 @@ subtitle: Archives
 ---
 
 <section id="blog-archives">
-  {% for post in site.posts %}
+  {% assign posts = collections.posts | reverse %}
+  {% for post in posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
       {% assign year = this_year %}
       <h3>{{ year }}</h3>
     {% endunless %}
-    {% unless post.categories.first == "journal" %}{% include archive_article.html %}{% endunless %}
+    {% unless post.data.categories.first == "journal" %}{% include "archive_article.html" %}{% endunless %}
   {% endfor %}
 </section>
