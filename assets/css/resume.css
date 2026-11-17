@@ -90,7 +90,8 @@ abbr[title] {
   body { margin: 0; font-size: 84%; line-height: 1.2; }
   p { margin: 0.4em 0; }
   #banner, img, .status { display: none !important; }
-  .vcard h1 { margin-top: 0; }
+  /* Line the name up with the headings below it. */
+  .vcard h1 { margin: 0 0 0.2em; }
   .vcard h1, .contact, .vcard .tel, .vcard .location { display: block; }
   .contact {
     margin-top: 0;
@@ -107,16 +108,24 @@ abbr[title] {
   a:link:after, a:visited:after, abbr[title]:after { content: ""; }
   .coverletter { padding: 0; margin: 3em 7% 0; }
   #colophon { display: none; }
+  /*
+   * Plain block layout rather than the screen's grid: Firefox won't split a
+   * tall grid item across pages, so it pushed Experience onto a new page.
+   * Only the two skills columns sit side by side, as floats.
+   */
   #main {
-    display: grid;
-    grid-column-gap: 5vw;
-    grid-template-areas:
-      'contact empty'
-      'summary summary'
-      'tskills hskills'
-      'tskills hskills'
-      'experience experience'
-      'education education';
+    display: flow-root;
+  }
+  .skills-technical {
+    float: left;
+    width: 47.5%;
+  }
+  .skills-human {
+    float: right;
+    width: 47.5%;
+  }
+  .experience-list {
+    clear: both;
   }
   .skills h2 {
     margin-top: 0;
