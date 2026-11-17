@@ -7,10 +7,13 @@ published: true
 Hi there. I'm Bryan. Nice to meet you. No the pleasure is all mine.
 What's that? You want to know more about me? Well, ok.
 
-After leaving my role as a Director at [Siberia][siberia] I consulted as a
-Technical Product Manager for [Ticket Evolution][tevo] before joining [United
-Income][united-income] in May of 2020. I am currently based in Washington,
-D.C.
+Since May of 2021 I've been a Lead Software Engineer at [Little Cinema
+Digital][lcd], where I architected and built the platform behind live digital
+events for clients like Netflix, Disney Entertainment, and Amazon. Before that
+I led an engineering team at United Income by Capital One (now shuttered),
+consulted as a Technical Project Manager for [Ticket Evolution][tevo] (now part
+of Victory Live), and spent five years as a Director at [Siberia][siberia]. I
+am currently based in Washington, D.C.
 
 For a long time I did freelance software development as an independent
 contractor. Sometimes freelance meant contract work, where I'm essentially a
@@ -22,20 +25,21 @@ Siberia where I did similar work but as a full-time employee with a talented
 team of colleagues rather than as a one man band.
 
 I consider myself a generalist when it comes to software development. I have
-used and am comfortable using a five or six different server-side languages and
-I have spent several years doing front-end development in HTML, CSS and
-JavaScript. While I was doing contract work I would frequently get asked in
+used and am comfortable using five or six different server-side languages and I
+have spent several years doing front-end development in HTML, CSS and
+TypeScript. While I was doing contract work I would frequently get asked in
 interviews whether I prefer server-side or client-side development and I never
 had an answer because I enjoy doing both. Both "sides" of web development have
 unique and thought provoking challenges to overcome and I enjoy the challenges
 of both. Additionally, I have experience doing mobile development for Android
-and some limited experience on the iOS platform though my knowledge of iOS is
-out of date.
+and some limited experience on the iOS platform though my knowledge of both
+mobile platforms is wildly out of date. These days most of my work is in
+TypeScript on AWS, with Rust for the parts that need to be fast.
 
 For the latter half of 2011 I was "out of the game" because I was doing
-volunteer work for tsunami victims with my partner in the Tohoku prefecture of
+volunteer work for tsunami victims with my partner in the Tohoku region of
 Japan. Prior to our month of volunteer work I was "taking time off" to work on
-my pet project, [Persnicketly][persnicketly]. After the voluneering we spent a
+my pet project, [Persnicketly][persnicketly]. After the volunteering we spent a
 little over a month and a half traveling around and then spent the holidays
 with my parents.
 
@@ -44,8 +48,8 @@ If you're interested in talking I'm easy to get in touch with via
 resume][resume].
 
 [email]: mailto:bryan@bryanjswift.com
+[lcd]: https://littlecinema.net
 [persnicketly]: https://github.com/bryanjswift/persnicketly
 [resume]: /resume/
-[siberia]: http://siberia.io
-[tevo]: https://www.ticketevolution.com
-[united-income]: https://unitedincome.capitalone.com
+[siberia]: https://siberia.io
+[tevo]: https://www.victorylive.com
