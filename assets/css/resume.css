@@ -128,4 +128,6 @@ abbr[title] {
   h2, h3 { break-after: avoid; }
   .job p { orphans: 3; widows: 3; }
   .earlier-heading, .earlier-list { break-inside: avoid; }
+  /* Keep the trailing margin after Education from spilling onto a blank page. */
+  .education-list ol, .education-list li > :last-child { margin-bottom: 0; }
 }

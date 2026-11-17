@@ -1,3 +1,23 @@
+---
+# Exact dates for the resume page's date tags, keyed by company or school.
+# The build checks each one against the month and year in its heading.
+dates:
+  Little Cinema Digital:
+    start: "2021-05-14"
+  United Income by Capital One:
+    start: "2020-05-11"
+    end: "2021-05-14"
+  Ticket Evolution:
+    start: "2020-01-06"
+    end: "2020-05-08"
+  Siberia, LLC:
+    start: "2014-11-01"
+    end: "2019-12-31"
+  Juniata College:
+    start: "2001-08-01"
+    end: "2004-05-01"
+---
+
 # Bryan J Swift
 
 mobile: +1-347-653-7492
@@ -47,14 +67,9 @@ into engineering leadership.
 * Rust Lambdas for performance sensitive workloads and fast cold start times
 * PostgreSQL and DynamoDB for relational and key-value storage
 
-### Video
-
-* AWS MediaConvert and MediaPackage for processing and streaming high quality
-  video to live event audiences
-
 ## Recent Job History
 
-### Lead Software Engineer at Little Cinema Digital from May 2021
+### Lead Software Engineer at [Little Cinema Digital](https://littlecinema.net) from May 2021
 
 Little Cinema Digital is a digital agency that partners with brands to produce
 live digital events built around interactivity and high quality video. Its
@@ -119,7 +134,7 @@ from their peers. I also worked with Capital One's enterprise identity teams to
 design how United Income would integrate with Capital One's digital identity
 system, so customers could sign in with their Capital One credentials.
 
-### Technical Project Manager (Consultant) at Ticket Evolution from January 2020 until May 2020
+### Technical Project Manager (Consultant) at [Ticket Evolution](https://www.victorylive.com) from January 2020 until May 2020
 
 Ticket Evolution (now part of Victory Live) is a broker to broker marketplace
 where ticket brokers list their secondary market inventory. I joined as a
@@ -129,7 +144,7 @@ off a cascade of postponed and cancelled events, I shifted to developing their
 full stack JavaScript applications, focusing on keeping them maintainable for
 the developers who would join next.
 
-### Director of Engineering at Siberia, LLC from November 2014 until December 2019
+### Director of Engineering at [Siberia, LLC](https://siberia.io) from November 2014 until December 2019
 
 Siberia is a product design consultancy. As a director of engineering, my role
 was part consultant, part craftsperson, and part educator and coach. Day to
@@ -154,10 +169,10 @@ brands achieve their business goals and delight their customers.
   developer and staff augmentation for clients ranging from local restaurants
   to international agencies, working in Scala, Java (Android), PHP, and
   JavaScript
-* **Senior Software Engineer at AKQA, Inc**, November 2006 until February 2010: grew
+* **Senior Software Engineer at [AKQA, Inc](https://akqa.com)**, November 2006 until February 2010: grew
   from a Java developer into a polyglot developer with a deep appreciation for
   design and user experience
-* **Systems Analyst at Devis**, June 2004 until November 2006: first role in
+* **Systems Analyst at [Devis](https://devis.com)**, June 2004 until November 2006: first role in
   software, where I grew from an individual contributor into a team member
 
 ## Education

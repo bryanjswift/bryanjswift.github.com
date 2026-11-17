@@ -1,0 +1,97 @@
+---
+layout: base
+title: Resume
+subtitle: Resume
+body_class: resume
+styles: ["/assets/css/resume.css"]
+---
+{% comment %}
+  Generated from resume/_source.md by _data/resume.js. Edit the Markdown, not
+  this template, to change what the resume says.
+{% endcomment %}
+<div class="vcard">
+  <!-- fn, n for vcard -->
+  <h1><span class="fn">{{ resume.name.first }}</span>{% if resume.name.middle != "" %} {{ resume.name.middle }}{% endif %} <span class="n">{{ resume.name.last }}</span></h1>
+  <p class="contact">
+    <!-- tel, type, value for vcard -->
+    <span class="tel">
+      <span class="type">mobile</span>
+      <a href="{{ resume.contact.phone.href }}" class="value">{{ resume.contact.phone.display }}</a>
+    </span>
+    <!-- email, type, value for vcard -->
+    <span class="email">
+      <span class="type">work</span>
+      <a href="mailto:{{ resume.contact.email }}" class="value">{{ resume.contact.email }}</a>
+    </span>
+  </p>
+  <!-- location for vcard -->
+  <p class="location location-contact">
+    {{ resume.contact.location }}
+  </p>
+</div>
+<section class="summary-section">
+  <h2>{{ resume.headings.summary }}</h2>
+  {{ resume.summary }}
+</section>
+<aside class="skills skills-human">
+  <h2>{{ resume.headings.humanSkills }}</h2>
+  <ul>
+    {%- for skill in resume.humanSkills %}
+    <li>{{ skill }}</li>
+    {%- endfor %}
+  </ul>
+</aside>
+<aside class="skills skills-technical">
+  <h2>{{ resume.headings.technicalSkills }}</h2>
+  {%- for group in resume.technicalSkills %}
+  <h3>{{ group.title }}</h3>
+  <ul>
+    {%- for skill in group.items %}
+    <li>{{ skill }}</li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</aside>
+<section class="experience-list">
+  <h2>{{ resume.headings.jobs }}</h2>
+  <ol class="vcalendar">
+    {%- for job in resume.jobs %}
+    <li class="experience vcard vevent job" id="{{ job.org | slugify }}">
+      <h3 class="position summary">
+        <span class="fn jobtitle title">{{ job.title }}</span> at
+        {% if job.url %}<a class="n company org" href="{{ job.url }}">{{ job.org }}</a>{% else %}<span class="n company org">{{ job.org }}</span>{% endif %} from
+        <abbr class="dtstart" title="{{ job.startIso }}">{{ job.start }}</abbr>
+        {%- if job.end %} until
+        <abbr class="dtend" title="{{ job.endIso }}">{{ job.end }}</abbr>
+        {%- endif %}
+      </h3>
+      {{ job.html }}
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- if resume.earlier %}
+  <h3 class="earlier-heading">{{ resume.earlier.title }}</h3>
+  <ul class="earlier-list">
+    {%- for item in resume.earlier.items %}
+    <li>{{ item }}</li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</section>
+<section id="education" class="education-list">
+  <h2>{{ resume.headings.education }}</h2>
+  <ol class="vcalendar">
+    {%- for school in resume.education %}
+    <li class="education vevent">
+      <h3 class="summary">
+        {{ school.title }} at {% if school.url %}<a href="{{ school.url }}">{{ school.org }}</a>{% else %}{{ school.org }}{% endif %} from
+        <abbr class="dtstart" title="{{ school.startIso }}">{{ school.start }}</abbr>
+        {%- if school.end %} until
+        <abbr class="dtend" title="{{ school.endIso }}">{{ school.end }}</abbr>
+        {%- endif %}
+      </h3>
+      {{ school.html }}
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
