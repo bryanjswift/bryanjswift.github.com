@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 372" width="300" height="372">
+  <title>Show runner, to Flux API, to EventBridge, to delivery Lambda (TypeScript), to Pusher (WebSockets), to guests</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#666"/>
+    </marker>
+  </defs>
+  <g fill="#f8f8ff" stroke="#999">
+    <rect x="30" y="1" width="240" height="40" rx="6"/>
+    <rect x="30" y="67" width="240" height="40" rx="6"/>
+    <rect x="30" y="133" width="240" height="40" rx="6"/>
+    <rect x="30" y="199" width="240" height="40" rx="6"/>
+    <rect x="30" y="265" width="240" height="40" rx="6"/>
+    <rect x="30" y="331" width="240" height="40" rx="6"/>
+  </g>
+  <g stroke="#666" stroke-width="1.5" marker-end="url(#arrow)">
+    <line x1="150" y1="41" x2="150" y2="65"/>
+    <line x1="150" y1="107" x2="150" y2="131"/>
+    <line x1="150" y1="173" x2="150" y2="197"/>
+    <line x1="150" y1="239" x2="150" y2="263"/>
+    <line x1="150" y1="305" x2="150" y2="329"/>
+  </g>
+  <g fill="#222" font-family="serif" font-size="15" text-anchor="middle">
+    <text x="150" y="26">Show runner</text>
+    <text x="150" y="92">Flux API</text>
+    <text x="150" y="158">EventBridge</text>
+    <text x="150" y="224">Delivery Lambda (TypeScript)</text>
+    <text x="150" y="290">Pusher (WebSockets)</text>
+    <text x="150" y="356">Guests</text>
+  </g>
+</svg>

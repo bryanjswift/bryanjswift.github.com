@@ -88,6 +88,9 @@ pre { margin: 0; border: 1px solid; padding: 0.25em 0.5em 0.5em; }
 .entry-content p, .entry-content h1, .entry-content h2, .entry-content h3 {
   margin-right: 0; margin-left: 0;
 }
+.entry-content figure.diagram { margin: 1.5em 0; text-align: center; }
+.diagram img { float: none; margin: 0; max-width: 100%; height: auto; }
+.diagram figcaption { margin-top: 0.5em; font-style: italic; }
 /* Pagination */
 .pages { margin: 0 3%; }
 /** Typography **/
