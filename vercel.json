@@ -5,6 +5,6 @@
   "outputDirectory": "_site",
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "status": 404, "dest": "/404/index.html" }
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
 }
