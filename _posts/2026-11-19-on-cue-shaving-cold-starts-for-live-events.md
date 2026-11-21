@@ -14,8 +14,8 @@ reason to know about Flux; it's just another website. Authors use Flux to build
 a site's content and define its behavior. Authors can also define behavior to
 occur on the site in response to custom instructions from the platform to be
 triggered during a live event; you may recall I said _interactive_ live events.
-An instruction might reveal a poll the moment a host asks the audience a
-question, or swap the background when the headliner takes the stage. Show
+An instruction could reveal a poll when the host poses a
+question, or change the background color as the headliner takes the stage. Show
 runners are the lucky friends who decide when to trigger the defined
 instructions during the live event to cause the scripted behavior for guests.
 
